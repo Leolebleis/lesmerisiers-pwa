@@ -1,16 +1,17 @@
 import React from "react";
-import "./App.css";
 import Header from "./components/Header";
-import Container from "react-bootstrap/Container"
+import PetitFute from "./components/PetitFute";
+import Footer from "./components/Footer";
+import Layout from "./components/Layout"
+import Table from "./components/Table"
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <Layout>
       <Header />
-      <Container><p>Hello</p></Container>
-
-    </div >
+      <Table />
+      <PetitFute />
+      <Footer />
+    </Layout>
   );
 }
-
-export default App;
