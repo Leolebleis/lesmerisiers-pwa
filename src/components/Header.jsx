@@ -68,7 +68,7 @@ export default class Header extends React.Component {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <p className="lead">Gîtes haut-de-gamme au cœur du vignoble Alsacien.</p>
+                <p className="lead">Gîtes haut-de-gamme au cœur du vignoble Alsacien</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -78,7 +78,7 @@ export default class Header extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="lead">Un intérieur d'exception dans un cadre d'exception.</p>
+                <p className="lead">Un intérieur d'exception dans un cadre d'exception</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -88,7 +88,7 @@ export default class Header extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="lead">Offrez-vous les vacances que vous méritez.</p>
+                <p className="lead">Offrez-vous les vacances que vous méritez</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
