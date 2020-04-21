@@ -25,8 +25,16 @@ const Styles = styled.div`
     left: 50px;
   }
 
+  .block {
+    width: 50%;
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+
   a:hover,
-  .div:hover {
+  .div:hover,
+  .p:hover {
     text-decoration: none;
     color: black;
   }
@@ -36,18 +44,18 @@ export default class PetitFute extends React.Component {
   render() {
     return (
       <Styles>
-        <Jumbotron className="p-5 m-0">
+        <Jumbotron>
           <Container>
             <Row className="justify-content-center">
-              <div className="w-50">
+              <div className="block shadowOnHover">
                 <a
                   href="https://www.petitfute.com/v862-turckheim-68230/c1166-hebergement/c153-gite/1714469-residence-les-merisiers.html"
                   title="Petit Futé"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                    <div class="blockquote-custom-icon bg-info shadow-sm noHover">
+                  <blockquote className="blockquote blockquote-custom bg-white p-5 m-0 shadow rounded">
+                    <div className="blockquote-custom-icon bg-info shadow-sm noHover">
                       <IconContext.Provider
                         value={{
                           color: "white",
@@ -57,13 +65,13 @@ export default class PetitFute extends React.Component {
                         <FaQuoteLeft />
                       </IconContext.Provider>
                     </div>
-                    <p class="mb-0 mt-2 font-italic" style={{ color: "black" }}>
+                    <p className="mb-0 mt-2 font-italic" style={{ color: "black" }}>
                       Matériaux haut de gamme, mobilier design, chambres hyper
                       cosy, équipements de cuisine et sanitaires flambant neufs,
                       spa extérieur : la Résidence Les Merisiers tutoie
                       l'exception sans aucune faute de goût !
                     </p>
-                    <footer class="blockquote-footer pt-4 mt-4 border-top">
+                    <footer className="blockquote-footer pt-4 mt-4 border-top">
                       <img
                         src={petitFuteImage}
                         className="pl-3"

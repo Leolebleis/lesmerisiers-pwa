@@ -1,18 +1,17 @@
 import React from "react";
-import "./App.css";
 import Header from "./components/Header";
 import PetitFute from "./components/PetitFute";
 import Footer from "./components/Footer";
+import Layout from "./components/Layout"
+import Table from "./components/Table"
 
-function App() {
+export default function App() {
   return (
-    <React.Fragment>
+    <Layout>
       <Header />
+      <Table />
       <PetitFute />
-
       <Footer />
-    </React.Fragment >
+    </Layout>
   );
 }
-
-export default App;
