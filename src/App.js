@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Container from "react-bootstrap/Container"
+import PetitFute from "./components/PetitFute"
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <Header />
-      <Container><p>Hello</p></Container>
+        <PetitFute />
 
-    </div >
+    </React.Fragment >
   );
 }
 
