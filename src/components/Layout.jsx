@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledLayout = styled.div`
-  .shadowOnHover {
+// We use this to set global styling.
+const Styles = styled.div`
+  .shadow-on-hover {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
     transition: all 0.3s ease-in-out;
     &:hover {
@@ -10,10 +11,15 @@ const StyledLayout = styled.div`
       transform: translate3d(-3px, -3px, 0px);
     }
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 `;
 
 export default class Layout extends React.Component {
-  render(props) {
-    return <StyledLayout>{this.props.children}</StyledLayout>;
+  render() {
+    return <Styles>{this.props.children}</Styles>;
   }
 }
