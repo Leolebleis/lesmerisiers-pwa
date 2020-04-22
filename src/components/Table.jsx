@@ -13,6 +13,14 @@ const Button = styled.button`
   padding: 10px;
   margin: 10px;
   width: 20%;
+
+  @media (max-width: 576px) {
+    padding: 2px;
+    margin: 2px;
+    width: 23%;
+  }
+
+  background-color: transparent;
   border-radius: 5px;
 `;
 
@@ -59,9 +67,12 @@ export default class Table extends React.Component {
           onClick={this.handleClick}
           id={element.id}
         >
-          <IconContext.Provider value={{ size: "2em" }}>
-            <CustomIcon />
-          </IconContext.Provider>
+          <div>
+            {/* !!! Having icons in buttons can make them bug when you use event.currentTarget in the onClick function !!! */}
+            <IconContext.Provider value={{ size: "2em" }}>
+              <CustomIcon />
+            </IconContext.Provider>
+          </div>
           {element.name}
         </Button>
       );
@@ -71,19 +82,19 @@ export default class Table extends React.Component {
   };
 
   handleClick = (event) => {
-    console.log("hey")
-    if (event.target.id === "any") {
-      console.log("hey")
+    console.log("hey");
+    if (event.currentTarget.id === "any") {
+      console.log("hey");
       this.setState({
-        filter: event.target.id,
+        filter: event.currentTarget.id,
         filteredList: data.places,
       });
     } else {
       let filteredList = data.places.filter((element) => {
-        return element.category === event.target.id;
+        return element.category === event.currentTarget.id;
       });
       this.setState({
-        filter: event.target.id,
+        filter: event.currentTarget.id,
         filteredList: filteredList,
       });
     }
