@@ -26,7 +26,6 @@ const Styles = styled.div`
   }
 `;
 
-
 export const Line = styled.div`
   border-left: 1px solid lightgray;
   @media (max-width: 576px) {
