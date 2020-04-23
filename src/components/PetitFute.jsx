@@ -8,11 +8,6 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 const Styles = styled.div`
-  .blockquote-custom {
-    position: relative;
-    font-size: 1.1rem;
-  }
-
   .blockquote-custom-icon {
     width: 50px;
     height: 50px;
@@ -24,14 +19,6 @@ const Styles = styled.div`
     top: -25px;
     left: 50px;
   }
-
-  .block {
-    width: 50%;
-    @media (max-width: 576px) {
-      width: 100%;
-    }
-  }
-
 `;
 
 export default class PetitFute extends React.Component {
@@ -41,13 +28,13 @@ export default class PetitFute extends React.Component {
         <Jumbotron>
           <Container>
             <Row className="justify-content-center">
-              <div className="block shadow-on-hover">
+              <div className="col-12 col-md-6 p-0 shadow-on-hover">
                 <a
                   href="https://www.petitfute.com/v862-turckheim-68230/c1166-hebergement/c153-gite/1714469-residence-les-merisiers.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <blockquote className="blockquote-custom bg-white p-5 m-0 shadow rounded">
+                  <blockquote className="card bg-white p-5 m-0 shadow rounded">
                     <div className="blockquote-custom-icon bg-info shadow-sm">
                       <IconContext.Provider
                         value={{

@@ -55,7 +55,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <Styles>
-        <Jumbotron className="mb-5">
+        <Jumbotron className="mb-4">
           <div className="overlay" />
           <div className="position-absolute h-100 w-100 d-flex align-items-center">
             <img className="lesmerisiers" src={banner} alt="Les Merisiers" />

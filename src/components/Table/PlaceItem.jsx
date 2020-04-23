@@ -2,43 +2,32 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { IconContext } from "react-icons";
 import { FiExternalLink } from "react-icons/fi";
 import { FiMapPin } from "react-icons/fi";
-import { IconContext } from "react-icons";
-import styled from "styled-components";
-
-const Line = styled.div`
-  border-left: 1px solid lightgray;
-  @media (max-width: 576px) {
-    border-left: none;
-    border-top: 1px dashed grey;
-    width: 100%;
-  }
-`;
+import { Line } from "../Layout";
 
 export default class PlaceItem extends React.Component {
   render() {
     return (
       <React.Fragment>
         <hr />
-        <Card body className="pl-0 shadow-on-hover h-100">
+        <Card body className="pl-0 shadow-on-hover">
           <Row className="no-gutters h-100">
             <Col className="col-12 col-md-10 pr-5">
-              <div className="pl-3 d-flex font-weight-bold">
+              <div className="d-flex font-weight-bold">
                 <a
                   href={this.props.listItem.website}
                   rel="noopener noreferrer"
                   target="_blank"
                   className="text-info"
                 >
-                  <Row>
-                    {this.props.listItem.name}
-                    <div className="ml-2">
-                      <IconContext.Provider value={{ size: "1em" }}>
-                        <FiExternalLink />
-                      </IconContext.Provider>
-                    </div>
-                  </Row>
+                  {this.props.listItem.name}
+                  <span className="ml-2">
+                    <IconContext.Provider value={{ size: "1em" }}>
+                      <FiExternalLink />
+                    </IconContext.Provider>
+                  </span>
                 </a>
               </div>
               <p>{this.props.listItem.description}</p>
@@ -47,8 +36,7 @@ export default class PlaceItem extends React.Component {
             <Col className="d-flex justify-content-center align-items-center">
               <a
                 href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURI(
-                  // We're redirecting to the Google Maps direction shortcut... embedding a map looked like unecessary bloat on the page
-                  this.props.listItem.name
+                  `${this.props.listItem.name} ${this.props.listItem.address}`
                 )}`}
                 rel="noopener noreferrer"
                 target="_blank"

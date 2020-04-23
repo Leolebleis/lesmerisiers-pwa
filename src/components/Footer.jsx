@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
             </a>
           </div>
 
-          <div align="right" className="w-50 align-content-right pr-3">
+          <div className="w-50 align-content-right pr-3 text-right">
             <a
               href="https://www.facebook.com/lesmerisiers"
               target="_blank"
