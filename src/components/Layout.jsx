@@ -12,9 +12,27 @@ const Styles = styled.div`
     }
   }
 
+  .jumbotron {
+    border-radius: 0px;
+  }
+
+  .card {
+    font-size: 1.1rem;
+  }
+
   a {
     text-decoration: none;
     color: black;
+  }
+`;
+
+
+export const Line = styled.div`
+  border-left: 1px solid lightgray;
+  @media (max-width: 576px) {
+    border-left: none;
+    border-top: 1px dashed grey;
+    width: 100%;
   }
 `;
 

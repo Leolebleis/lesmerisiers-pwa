@@ -4,6 +4,7 @@ import PetitFute from "./components/PetitFute";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout"
 import Table from "./components/Table/Table"
+import SocialNetwork from "./components/SocialMedia";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Header />
       <Table />
       <PetitFute />
+      <SocialNetwork />
       <Footer />
     </Layout>
   );

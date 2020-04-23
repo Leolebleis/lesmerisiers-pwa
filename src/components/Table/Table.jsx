@@ -2,13 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import PlaceItem from "./PlaceItem";
 import { IconContext } from "react-icons";
 import { TiInfinity } from "react-icons/ti";
 import { FaLandmark } from "react-icons/fa";
 import { GiPaintBrush } from "react-icons/gi";
 import { TiBeer } from "react-icons/ti";
 import styled from "styled-components";
+import PlaceItem from "./PlaceItem";
+import TableExplanation from "./TableExplanation";
 
 const data = require("../../assets/places.json");
 
@@ -33,16 +34,10 @@ const categories = [
     id: "Bars & Restaurants",
     icon: TiBeer,
   },
-  {
-    name: "Tous",
-    id: "any",
-    icon: TiInfinity,
-  },
 ];
 
 const Button = styled.button`
   padding: 10px;
-  margin: 10px;
 
   @media (max-width: 576px) {
     padding: 2px;
@@ -109,8 +104,8 @@ export default class Table extends React.Component {
   render() {
     return (
       <Container className="mb-5">
-       {this.generateTableHeaders()}
-
+        <TableExplanation />
+        {this.generateTableHeaders()}
         {/* Render all the elements sorted */}
         {this.state.filteredList.map((element) => {
           return <PlaceItem key={element.name} listItem={element} />;
