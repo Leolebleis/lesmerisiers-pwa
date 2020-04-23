@@ -47,8 +47,7 @@ export default class PlaceItem extends React.Component {
             <Col className="d-flex justify-content-center align-items-center">
               <a
                 href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURI(
-                  // We're redirecting to the Google Maps direction shortcut... embedding a map looked like unecessary bloat on the page
-                  this.props.listItem.name
+                  `${this.props.listItem.name} ${this.props.listItem.address}`
                 )}`}
                 rel="noopener noreferrer"
                 target="_blank"

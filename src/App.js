@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import PetitFute from "./components/PetitFute";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout"
-import Table from "./components/Table"
+import Table from "./components/Table/Table"
 
 export default function App() {
   return (
