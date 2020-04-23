@@ -1,7 +1,13 @@
 {
   "name": "lesmerisiers-handbook",
+  "description": "React PWA for a short-term rental company, including guest handbook and general info.",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Leo Le Bleis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leolebleis/lesmerisiers-pwa.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
