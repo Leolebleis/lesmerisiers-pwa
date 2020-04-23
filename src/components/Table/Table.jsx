@@ -15,7 +15,7 @@ const data = require("../../assets/places.json");
 
 const categories = [
   {
-    name: "Tous",
+    name: "Tout",
     id: "any",
     icon: TiInfinity,
   },
