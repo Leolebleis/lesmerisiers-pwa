@@ -2,13 +2,15 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TextField from "@material-ui/core/TextField";
+import { IconContext } from "react-icons";
+import { FiSend } from "react-icons/fi";
 
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
@@ -70,6 +72,15 @@ export default class MyForm extends React.Component {
         ) : (
           <button className="btn btn-large btn-outline-info my-4">
             <span className="align-middle">Envoyer</span>
+            <span className="pl-1">
+              <IconContext.Provider
+                value={{
+                  size: "1em",
+                }}
+              >
+                <FiSend />
+              </IconContext.Provider>
+            </span>
           </button>
         )}
         {status === "ERROR" && (
