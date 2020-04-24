@@ -16,7 +16,7 @@ const Styles = styled.div`
   .jumbotron {
     position: relative;
     padding: 0px;
-    height: 50vh;
+    height: 75vh;
     width: 100%;
   }
 
