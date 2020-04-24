@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
         <Row>
           <div className="w-50 pl-3">
             <p className="m-0">
-              Les photos sont la propriété de la SCI Les Merisiers.
+              &copy; Les photos sont la propriété de la SCI Les Merisiers.
             </p>
             <div>
               <a
