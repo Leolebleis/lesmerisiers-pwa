@@ -14,12 +14,14 @@ const Styles = styled.div`
 
   .gradient-multiline {
     position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: #fff;
     line-height: 1.5em;
     overflow: hidden;
-    text-align: justify;
+  }
+
+  .padding-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   @supports (mix-blend-mode: lighten) {

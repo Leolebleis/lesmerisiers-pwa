@@ -31,7 +31,7 @@ export default class MyForm extends React.Component {
               <div className="input-group">
                 <TextField
                   fullWidth
-                  className="mx-5 mt-2"
+                  className="mx-3 mt-2"
                   id="standard-basic"
                   name="nom et prénom"
                   label="Nom et prénom"
@@ -40,7 +40,7 @@ export default class MyForm extends React.Component {
               <div className="input-group">
                 <TextField
                   fullWidth
-                  className="mx-5 mt-2"
+                  className="mx-3 mt-2"
                   id="standard-basic"
                   name="e-mail"
                   label="E-mail"
@@ -49,7 +49,7 @@ export default class MyForm extends React.Component {
               <div className="input-group">
                 <TextField
                   fullWidth
-                  className="mx-5 mt-2"
+                  className="mx-3 mt-2"
                   id="standard-basic"
                   name="sujet"
                   label="Sujet"
@@ -58,7 +58,7 @@ export default class MyForm extends React.Component {
               <div className="input-group">
                 <TextField
                   fullWidth
-                  className="mx-5 mt-2"
+                  className="mx-3 mt-2"
                   id="standard-basic"
                   name="message"
                   label="Message"
