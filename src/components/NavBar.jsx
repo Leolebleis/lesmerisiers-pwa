@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import styled from "styled-components";
 
 // Image imports
-import logo from "../assets/photos/logo192.png?nf_resize=s=fit&w=100&h=100";
+import logo from "../assets/photos/logo192.png";
 
 const collapseColor = window.innerWidth < 576 ? "white" : "transparent";
 
