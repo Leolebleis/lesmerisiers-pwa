@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useSpring, animated as a } from "react-spring";
-import Card from "react-bootstrap/Card";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -9,7 +8,7 @@ const Styles = styled.div`
     width: 100%;
     max-height: 100%;
     width: 100%;
-    height: 50ch;
+    height: 100%;
     cursor: pointer;
     will-change: transform, opacity;
     border-radius: 5px;
@@ -32,10 +31,7 @@ function FlipCard(props) {
   });
   return (
     <Styles>
-      <Card
-        className="border-light"
-        style={{ height: "200px", borderRadius: "5px" }}
-      >
+
         <div onClick={() => set((state) => !state)}>
           <a.div
             className="c back"
@@ -54,7 +50,6 @@ function FlipCard(props) {
             }}
           />
         </div>
-      </Card>
     </Styles>
   );
 }

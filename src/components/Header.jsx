@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
-import exterieurGite from "../assets/gites-exterieur.jpg";
-import petitGite from "../assets/petit-gite.jpg";
-import grandGite from "../assets/grand-gite.jpg";
+import exterieurGite from "../assets/photos/GG-exterieur.jpg";
+import petitGite from "../assets/photos/PG-salon.jpg";
+import grandGite from "../assets/photos/GG-salon.jpg";
 import banner from "../assets/banner.png";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
@@ -68,7 +68,9 @@ export default class Header extends React.Component {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <p className="lead">Gîtes haut-de-gamme au cœur du vignoble Alsacien</p>
+                <p className="lead">
+                  Gîtes haut-de-gamme au cœur du vignoble Alsacien
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -78,7 +80,9 @@ export default class Header extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="lead">Un intérieur d'exception dans un cadre d'exception</p>
+                <p className="lead">
+                  Un intérieur d'exception dans un cadre d'exception
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -88,7 +92,9 @@ export default class Header extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="lead">Offrez-vous les vacances que vous méritez</p>
+                <p className="lead">
+                  Offrez-vous les vacances que vous méritez
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
