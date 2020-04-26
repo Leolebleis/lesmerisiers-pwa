@@ -12,6 +12,33 @@ const Styles = styled.div`
     }
   }
 
+  .gradient-multiline {
+    position: relative;
+    background-color: #fff;
+    line-height: 1.5em;
+    overflow: hidden;
+  }
+
+  .padding-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  @supports (mix-blend-mode: lighten) {
+    .gradient-multiline::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      background: linear-gradient(60deg, #3629a2, #00ceff);
+
+      mix-blend-mode: lighten;
+    }
+  }
+
   .jumbotron {
     border-radius: 0px;
   }

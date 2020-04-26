@@ -1,11 +1,13 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
-import exterieurGite from "../assets/gites-exterieur.jpg";
-import petitGite from "../assets/petit-gite.jpg";
-import grandGite from "../assets/grand-gite.jpg";
-import banner from "../assets/banner.png";
 import Jumbotron from "react-bootstrap/Jumbotron";
+
+// Image imports
+import GGExterieur from "../assets/photos/GG-exterieur.jpg?nf_resize=smartcrop&w=1500";
+import PGSalon from "../assets/photos/PG-salon.jpg?nf_resize=smartcrop&w=1500";
+import GGSalon from "../assets/photos/GG-salon.jpg?nf_resize=smartcrop&w=1500";
+import banner from "../assets/banner.svg";
 
 const Styles = styled.div`
   .banner {
@@ -16,7 +18,7 @@ const Styles = styled.div`
   .jumbotron {
     position: relative;
     padding: 0px;
-    height: 50vh;
+    height: 75vh;
     width: 100%;
   }
 
@@ -64,31 +66,37 @@ export default class Header extends React.Component {
             <Carousel.Item className="text-center">
               <img
                 className="d-block w-100 banner"
-                src={exterieurGite}
+                src={GGExterieur}
                 alt="First slide"
               />
               <Carousel.Caption>
-                <p className="lead">Gîtes haut-de-gamme au cœur du vignoble Alsacien</p>
+                <p className="lead">
+                  Gîtes haut-de-gamme au cœur du vignoble Alsacien
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 banner"
-                src={grandGite}
+                src={GGSalon}
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="lead">Un intérieur d'exception dans un cadre d'exception</p>
+                <p className="lead">
+                  Un intérieur d'exception dans un cadre d'exception
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 banner"
-                src={petitGite}
+                src={PGSalon}
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="lead">Offrez-vous les vacances que vous méritez</p>
+                <p className="lead">
+                  Offrez-vous les vacances que vous méritez
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
