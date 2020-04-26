@@ -1,11 +1,13 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
-import exterieurGite from "../assets/photos/GG-exterieur.jpg";
-import petitGite from "../assets/photos/PG-salon.jpg";
-import grandGite from "../assets/photos/GG-salon.jpg";
-import banner from "../assets/banner.png";
 import Jumbotron from "react-bootstrap/Jumbotron";
+
+// Image imports
+import GGExterieur from "../assets/photos/GG-exterieur.jpg?nf_resize=smartcrop&w=1500";
+import PGSalon from "../assets/photos/PG-salon.jpg?nf_resize=smartcrop&w=1500";
+import GGSalon from "../assets/photos/GG-salon.jpg?nf_resize=smartcrop&w=1500";
+import banner from "../assets/banner.svg";
 
 const Styles = styled.div`
   .banner {
@@ -64,7 +66,7 @@ export default class Header extends React.Component {
             <Carousel.Item className="text-center">
               <img
                 className="d-block w-100 banner"
-                src={exterieurGite}
+                src={GGExterieur}
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -76,7 +78,7 @@ export default class Header extends React.Component {
             <Carousel.Item>
               <img
                 className="d-block w-100 banner"
-                src={grandGite}
+                src={GGSalon}
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -88,7 +90,7 @@ export default class Header extends React.Component {
             <Carousel.Item>
               <img
                 className="d-block w-100 banner"
-                src={petitGite}
+                src={PGSalon}
                 alt="Third slide"
               />
               <Carousel.Caption>
