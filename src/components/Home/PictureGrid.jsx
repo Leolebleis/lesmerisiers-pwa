@@ -12,7 +12,7 @@ import PGPanorama from "../../assets/photos/PG-salon-panorama.jpg";
 import GGChambreDouble from "../../assets/photos/GG-chambre-double.jpg";
 import PGJardin from "../../assets/photos/PG-jardin.jpg";
 import PGJardin2 from "../../assets/photos/PG-jardin-2.jpg";
-import HautKoenigsbourg from "../../assets/photos/haut-koenigsbourg.jpg"
+import HautKoenigsbourg from "../../assets/photos/haut-koenigsbourg.jpg";
 
 const Styles = styled.div`
   .card-container {
@@ -21,6 +21,12 @@ const Styles = styled.div`
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
+
+    @media (max-width: 576px) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 200px);
+    }
+
     grid-column-gap: 24px;
     grid-row-gap: 24px;
   }
@@ -55,10 +61,17 @@ const Styles = styled.div`
 
   .photo-7 {
     grid-area: 1 / 6 / span 2 / span 1;
+
+    @media (max-width: 576px) {
+      grid-area: 3 / 1 / span 1 / span 1;
+    }
   }
-  
+
   .photo-8 {
     grid-area: 2 / 4 / span 1 / span 2;
+    @media (max-width: 576px) {
+      grid-area: 3 / 2 / span 1 / span 2;
+    }
   }
 `;
 
@@ -68,30 +81,50 @@ export default class PictureGrid extends React.Component {
       <Styles>
         <div className="card-container">
           <Card className="photo-1">
-            <FlipCard recto={GGCuisine} verso="https://images.unsplash.com/photo-1541851642110-681578e1b6d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80" />
+            <FlipCard
+              recto={GGCuisine}
+              verso="https://images.unsplash.com/photo-1541851642110-681578e1b6d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
+            />
           </Card>
           <Card className="photo-2">
             <FlipCard recto={GGJacuzzi} verso={HautKoenigsbourg} />
           </Card>
           <Card className="photo-3">
-            <FlipCard recto={PGChambreDouble} verso="https://images.unsplash.com/photo-1584109504933-b350e47d44d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" />
+            <FlipCard
+              recto={PGChambreDouble}
+              verso="https://images.unsplash.com/photo-1584109504933-b350e47d44d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+            />
           </Card>
           <Card className="photo-4">
-            <FlipCard recto={PGExterieur} verso="https://images.unsplash.com/photo-1563096080-761dbf0020b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80" />
+            <FlipCard
+              recto={PGExterieur}
+              verso="https://images.unsplash.com/photo-1563096080-761dbf0020b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80"
+            />
           </Card>
-          <Card className="photo-5">
-            <FlipCard recto={GGChambreDouble}verso="https://images.unsplash.com/flagged/photo-1557263256-5c1f869cfd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1985&q=80" />
+          <Card className="photo-5 d-none d-md-block">
+            <FlipCard
+              recto={GGChambreDouble}
+              verso="https://images.unsplash.com/flagged/photo-1557263256-5c1f869cfd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1985&q=80"
+            />
           </Card>
-          <Card className="photo-6">
-            <FlipCard recto={PGJardin} verso="https://images.unsplash.com/photo-1584109035548-ae9606fa5322?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" />
+          <Card className="photo-6 d-none d-md-block">
+            <FlipCard
+              recto={PGJardin}
+              verso="https://images.unsplash.com/photo-1584109035548-ae9606fa5322?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+            />
           </Card>
           <Card className="photo-7">
-            <FlipCard recto={PGJardin2} verso="https://images.unsplash.com/photo-1550518624-10221cc3d34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=599&q=80" />
+            <FlipCard
+              recto={PGJardin2}
+              verso="https://images.unsplash.com/photo-1550518624-10221cc3d34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=599&q=80"
+            />
           </Card>
           <Card className="photo-8">
-            <FlipCard recto={PGPanorama} verso="https://images.unsplash.com/photo-1551224366-fe9797bde25d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1993&q=80" />
+            <FlipCard
+              recto={PGPanorama}
+              verso="https://images.unsplash.com/photo-1551224366-fe9797bde25d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1993&q=80"
+            />
           </Card>
-
         </div>
       </Styles>
     );

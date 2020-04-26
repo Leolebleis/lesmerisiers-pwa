@@ -22,6 +22,11 @@ export default class Home extends React.Component {
               </h1>
             </Col>
           </Row>
+        </Container>
+
+        <PetitFute />
+
+        <Container>
           <Row className="my-5 h-100">
             <GiteHomeIntro
               title="Gîte 12 à 16 personnes"
