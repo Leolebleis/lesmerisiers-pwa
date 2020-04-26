@@ -7,7 +7,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 // Image imports
-import petitFuteImage from "../assets/logo-label-petit-fute.png?nf_resize=s=fit&w=400&h=400";
+import petitFuteImage from "../assets/photos/logo-label-petit-fute.png?nf_resize=s=fit&w=400&h=400";
 
 const Styles = styled.div`
   .blockquote-custom-icon {
