@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar"
 import Header from "./components/Header";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Guide from "./components/Guide/Guide";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout"
@@ -17,7 +17,6 @@ export default function App() {
         <Header />
 
         <Switch>
-
           <Route exact path="/">
             <Home />
           </Route>
