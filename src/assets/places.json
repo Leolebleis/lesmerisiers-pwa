@@ -1,3 +1,138 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2621cfc3a19f5c242171a96c57863403f951c4e675d5de8effe32905d435d2fa
-size 7574
+{
+    "places": [
+      {
+        "name": "La Petite Venise",
+        "address": "Quai de la Poissonerie, Colmar",
+        "description": "Situé dans le quartier de la Krutenau à Colmar, ce quartier très connu est organisé autour de ses canaux de la Lauch, lui donnant son nom. Excellent pour des promenades.",
+        "category": "Lieux notoires",
+        "website": "https://www.tourisme-colmar.com/fr/sites-a-visiter-dans-le-grand-pays-de-colmar/F235008803_la-petite-venise-colmar"
+      },
+      {
+        "name": "Veilleur de Nuit",
+        "address": "Office de Tourisme, Turckheim",
+        "description": "Du 1er Mai au 31 Octobre, un authentique veilleur de nuit commence sa ronde à 22h, partant de l’office de tourisme. Il vous présentera la ville de Turckheim avec de nombreuses anecdotes typiquement alsaciennes.",
+        "category": "Lieux notoires",
+        "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+      },
+      {
+        "name": "Volerie des Aigles",
+        "address": "Château de Kintzheim, Kintzheim",
+        "description": "Parc animalier ornithologique avec spectacles de rapaces, initiation au dressage et exposition pédagogique.",
+        "category": "Lieux notoires",
+        "website": "https://www.voleriedesaigles.com"
+      },
+      {
+        "name": "Randonnées aux Trois Epis",
+        "address": "Trois Épis",
+        "description": "Vous trouverez de nombreux sentiers balisés, variant de 30 min jusqu’à plus de 2 heures.",
+        "category": "Lieux notoires",
+        "website": "https://www.france-voyage.com/balades/trois-epis-commune-37183.htm"
+      },
+      {
+        "name": "Montagne des Singes",
+        "address": "La Wick, Kintzheim",
+        "description": "200 macaques de Barbarie vivant en liberté sur 24 ha de forêt, parmi lesquels vous pouvez vous promener.",
+        "category": "Lieux notoires",
+        "website": "https://www.montagnedessinges.com/"
+      },
+      {
+        "name": "Haut-Koenigsbourg",
+        "address": "Orschwiller",
+        "description": "Château fort du 12ème siècle, il s’agit d’un des plus beaux châteaux de France, symbol impérial allemand suite à sa rénovation par Guillaume II pendant le 15ème siècle.",
+        "category": "Lieux notoires",
+        "website": "https://www.haut-koenigsbourg.fr/"
+      },
+      {
+        "name": "Hohlandsbourg",
+        "address": "Route des Cinq Châteaux, Wintzenheim",
+        "description": "Visible depuis les alentours de votre gîte, le Hohlandsbourg a été construit en 1279. De nombreux spectacles sont à votre disposition de Pâques au 11 Novembre.",
+        "category": "Lieux notoires",
+        "website": "http://www.chateau-hohlandsbourg.com/en/"
+      },
+      {
+        "name": "Europa-Park",
+        "address": "Europa-Park-Straße 2, Rust, Allemagne",
+        "description": "Le 2ème parc d’attraction le plus fréquenté d’Europe après Disneyland, à 1h de trajet en voiture. Avec ses 61 attractions, cela en fait le plus grand parc d’Europe.",
+        "category": "Lieux notoires",
+        "website": "https://www.europapark.de/"
+      },
+      {
+        "name": "Strasbourg",
+        "address": "Strasbourg",
+        "description": "La ville de Strasbourg est située à 40 min en train depuis la gare de Colmar, ou à 50min en voiture. De nombreux quartiers et activités sont à découvrir dans cette ville historique.",
+        "category": "Lieux notoires",
+        "website": "https://www.strasbourg.eu/"
+      },
+      {
+        "name": "Musée Unterlinden",
+        "address": "1 rue des Unterlinden, Colmar",
+        "description": "Un des musées des beaux arts les plus visités en France, situé au centre de Colmar. Avec notamment le retable d’Issenheim, mais aussi certaines pièces de Monet, Picasso, et encore Otto Dix, ce musée s’inscrit comme l’un des plus impressionnants de la région.",
+        "category": "Musées",
+        "website": "https://www.musee-unterlinden.com/"
+      },
+      {
+        "name": "La Maison du Fromage",
+        "address": "23 rue de Munster, Gunsbach",
+        "description": "Située plus loin dans la vallée, la Maison du Fromage abrite non seulement une fromagerie, mais aussi une boutique et des expositions.",
+        "category": "Musées",
+        "website": "https://www.maisondufromage-munster.com/"
+      },
+      {
+        "name": "Musée mémorial des combats de la Poche de Colmar",
+        "address": "25 rue du Conseil, Turckheim",
+        "description": "Ouvert du 1er avril au 31 octobre et généralement l’après-midi, ce musée Turckheimois témoigne des combats ayant eu lieu dans la région et notamment à Turckheim, durant la 2ème guerre mondiale.",
+        "category": "Musées",
+        "website": "https://musee.turckheim-alsace.com/"
+      },
+      {
+        "name": "Cité de l’automobile",
+        "address": "15 rue de l’Épée, Mulhouse",
+        "description": "Musée national automobile abritant la plus importante collection de voitures au monde, avec plus de 500 voitures, constituant la collection des frères Schlumpf, notamment une impressionnante collection de Bugatti.",
+        "category": "Musées",
+        "website": "https://www.citedelautomobile.com"
+      },
+      {
+        "name": "L’Auberge du Veilleur",
+        "address": "12 Place Turenne, Turckheim",
+        "description": "Cuisine alsacienne avec ses produits du terroir, et de la viande de boeuf bio. Une ambiance très typique.",
+        "category": "Bars & Restaurants",
+        "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d1833678-Reviews-L_Auberge_du_Veilleur-Turckheim_Haut_Rhin_Grand_Est.html"
+      },
+      {
+        "name": "Restaurant de la Tour",
+        "address": "1 place de la République, Turckheim",
+        "description": "Cuisine alsacienne et typique, proposant de très bonnes tartes flambées ainsi que d’excellents gratins au munster. Tous les plats peuvent aussi être emportés.",
+        "category": "Bars & Restaurants",
+        "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
+      },
+      {
+        "name": "Restaurant le Silex",
+        "address": "9 Route d’Ingersheim, Colmar",
+        "description": "Cuisine traditionnelle française, avec la particularité de servir jusqu’à 1h du matin.",
+        "category": "Bars & Restaurants",
+        "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g187073-d5860990-Reviews-Le_Silex-Colmar_Haut_Rhin_Grand_Est.html"
+      },
+      {
+        "name": "Cave de Turckheim",
+        "address": "16 rue des Tuileries, Turckheim",
+        "description": "Vous pourrez déguster de nombreux vins produits depuis les vignes Turckhemoises appartenant au domaine du Brand, notamment du Riesling ou encore du Gewurztraminer. Activités oenotouristiques le mercredi.",
+        "category": "Bars & Restaurants",
+        "website": "https://www.cave-turckheim.com/"
+      },
+      {
+        "name": "Bar la Scud’",
+        "address": "51 Grand’rue, Turckheim",
+        "description": "Bar local situé au centre de Turckheim, possédant une large carte de bières et des activités régulières.",
+        "category": "Bars & Restaurants",
+        "website": "https://www.facebook.com/ludscud"
+      },
+      {
+        "name": "Bar Les 3 Singes",
+        "address": "70 Grand Rue, Colmar",
+        "description": "Bar à bière situé au centre de Colmar, servant de nombreuses bières provenant de brasseries locales. Il se situe à côté de la Petite Venise.",
+        "category": "Bars & Restaurants",
+        "website": "https://www.tripadvisor.co.uk/Attraction_Review-g187073-d13003427-Reviews-Les_3_Singes_Colmar-Colmar_Haut_Rhin_Grand_Est.html"
+      }
+    ]
+  }
+  
