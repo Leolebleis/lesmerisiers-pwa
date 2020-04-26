@@ -7,7 +7,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 // Image imports
-import GGCuisine from "../../assets/photos/GG-cuisine-ferme.jpg";
+import GGCuisine from "../../assets/photos/GG-cuisine-ferme.jpg?nf_resize=smartcrop&w=400&h=400";
+import GGSalonPanorama from "../../assets/photos/GG-salon-panorama.jpg?nf_resize=smartcrop&w=400&h=400";
+import PGChambreSimple from "../../assets/photos/PG-chambre-simple.jpg?nf_resize=smartcrop&w=400&h=400";
 
 export default class Home extends React.Component {
   render() {
@@ -44,7 +46,7 @@ export default class Home extends React.Component {
             </GiteHomeIntro>
             <GiteHomeIntro
               title="Gîte 8 à 10 personnes"
-              image="https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/23000048_1412989422133193_505403171230576560_o.jpg?_nc_cat=108&_nc_sid=cdbe9c&_nc_ohc=fpfEbjsdYAUAX-_pLwT&_nc_ht=scontent-lht6-1.xx&oh=a316a466384510ad062bd049fcb104ca&oe=5ECB627B"
+              image={GGSalonPanorama}
               link="https://www.airbnb.fr/rooms/20067698"
               isLeft="false"
             >
@@ -57,7 +59,7 @@ export default class Home extends React.Component {
             </GiteHomeIntro>
             <GiteHomeIntro
               title="Gîte 4 à 6 personnes"
-              image="https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/22256542_1393145617450907_2213792447603454679_o.jpg?_nc_cat=106&_nc_sid=cdbe9c&_nc_ohc=h8_OI95eAKsAX_YMq2R&_nc_ht=scontent-lht6-1.xx&oh=4eebea4027e30a4cd679617005100b69&oe=5ECBB44D"
+              image={PGChambreSimple}
               link="https://www.airbnb.fr/rooms/20374593"
               isLeft="true"
             >

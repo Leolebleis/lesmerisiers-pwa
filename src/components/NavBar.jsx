@@ -2,8 +2,10 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../assets/logo192.png";
 import styled from "styled-components";
+
+// Image imports
+import logo from "../assets/logo192.png?nf_resize=s=fit&w=100&h=100";
 
 const collapseColor = window.innerWidth < 576 ? "white" : "transparent";
 

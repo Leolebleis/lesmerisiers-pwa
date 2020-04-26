@@ -1,11 +1,13 @@
 import React from "react";
-import petitFuteImage from "../assets/logo-label-petit-fute.png";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import styled from "styled-components";
 import { FaQuoteLeft } from "react-icons/fa";
 import { IconContext } from "react-icons";
+
+// Image imports
+import petitFuteImage from "../assets/logo-label-petit-fute.png?nf_resize=s=fit&w=400&h=400";
 
 const Styles = styled.div`
   .blockquote-custom-icon {
