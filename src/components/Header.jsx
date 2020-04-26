@@ -7,7 +7,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import GGExterieur from "../assets/photos/GG-exterieur.jpg?nf_resize=smartcrop&w=1500";
 import PGSalon from "../assets/photos/PG-salon.jpg?nf_resize=smartcrop&w=1500";
 import GGSalon from "../assets/photos/GG-salon.jpg?nf_resize=smartcrop&w=1500";
-import banner from "../assets/photos/banner.svg";
+import banner from "../assets/banner.svg";
 
 const Styles = styled.div`
   .banner {
