@@ -8,6 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
 </p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41115def-ff64-4eee-a4fa-928f3d810f13/deploy-status)](https://app.netlify.com/sites/lesmerisiers/deploys)
 
 > React PWA for a short-term rental company, including guest handbook and general info.
 
