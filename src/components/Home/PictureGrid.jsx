@@ -92,31 +92,31 @@ export default class PictureGrid extends React.Component {
           <Card className="photo-3">
             <FlipCard
               recto={PGChambreDouble}
-              verso="https://images.unsplash.com/photo-1584109504933-b350e47d44d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400q=80"
+              verso="https://images.unsplash.com/photo-1584109504933-b350e47d44d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-4">
             <FlipCard
               recto={PGExterieur}
-              verso="https://images.unsplash.com/photo-1563096080-761dbf0020b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400q=80"
+              verso="https://images.unsplash.com/photo-1563096080-761dbf0020b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-5 d-none d-md-block">
             <FlipCard
               recto={GGChambreDouble}
-              verso="https://images.unsplash.com/flagged/photo-1557263256-5c1f869cfd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400q=80"
+              verso="https://images.unsplash.com/flagged/photo-1557263256-5c1f869cfd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-6 d-none d-md-block">
             <FlipCard
               recto={PGJardin}
-              verso="https://images.unsplash.com/photo-1584109035548-ae9606fa5322?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400q=80"
+              verso="https://images.unsplash.com/photo-1584109035548-ae9606fa5322?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-7">
             <FlipCard
               recto={PGJardin2}
-              verso="https://images.unsplash.com/photo-1550518624-10221cc3d34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400q=80"
+              verso="https://images.unsplash.com/photo-1550518624-10221cc3d34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-8">
