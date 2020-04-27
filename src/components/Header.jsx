@@ -4,9 +4,9 @@ import styled from "styled-components";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
 // Image imports
-import GGExterieur from "../assets/photos/GG-exterieur.jpg?nf_resize=smartcrop&w=1500";
-import PGSalon from "../assets/photos/PG-salon.jpg?nf_resize=smartcrop&w=1500";
-import GGSalon from "../assets/photos/GG-salon.jpg?nf_resize=smartcrop&w=1500";
+import GGExterieur from "../assets/photos/GG-exterieur.jpg";
+import PGSalon from "../assets/photos/PG-salon.jpg";
+import GGSalon from "../assets/photos/GG-salon.jpg";
 import banner from "../assets/banner.svg";
 
 const Styles = styled.div`

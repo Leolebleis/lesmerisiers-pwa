@@ -4,15 +4,15 @@ import Card from "react-bootstrap/Card";
 import styled from "styled-components";
 
 // Photo imports
-import GGJacuzzi from "../../assets/photos/GG-jacuzzi.jpg?nf_resize=fit&w=400";
-import GGCuisine from "../../assets/photos/GG-cuisine.jpg?nf_resize=fit&w=400";
-import PGExterieur from "../../assets/photos/PG-exterieur.jpg?nf_resize=fit&w=400";
-import PGChambreDouble from "../../assets/photos/PG-chambre-double.jpg?nf_resize=fit&w=400";
-import PGPanorama from "../../assets/photos/PG-salon-panorama.jpg?nf_resize=fit&w=400";
-import GGChambreDouble from "../../assets/photos/GG-chambre-double.jpg?nf_resize=fit&w=400";
-import PGJardin from "../../assets/photos/PG-jardin.jpg?nf_resize=fit&w=400";
-import PGJardin2 from "../../assets/photos/PG-jardin-2.jpg?nf_resize=fit&w=400";
-import HautKoenigsbourg from "../../assets/photos/haut-koenigsbourg.jpg?nf_resize=fit&w=400";
+import GGJacuzzi from "../../assets/photos/GG-jacuzzi-500px.jpg";
+import GGCuisine from "../../assets/photos/GG-cuisine-400px.jpg";
+import PGExterieur from "../../assets/photos/PG-exterieur-400px.jpg";
+import PGChambreDouble from "../../assets/photos/PG-chambre-double-400px.jpg";
+import PGPanorama from "../../assets/photos/PG-salon-panorama-400px.jpg";
+import GGChambreDouble from "../../assets/photos/GG-chambre-double-400px.jpg";
+import PGJardin from "../../assets/photos/PG-jardin-400px.jpg";
+import PGJardin2 from "../../assets/photos/PG-jardin-2-800px.jpg";
+import HautKoenigsbourg from "../../assets/photos/haut-koenigsbourg-400px.jpg";
 
 const Styles = styled.div`
   .card-container {
