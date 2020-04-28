@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaGithub } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { AiFillHeart } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
@@ -16,6 +16,21 @@ export default class Footer extends React.Component {
             <p className="m-0">
               &copy; Les photos sont la propriété de la SCI Les Merisiers.
             </p>
+            <div>
+              <a
+                href="https://www.lbf-paysagiste.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-info"
+              >
+                <span>En partenariat avec LBF Paysagisme.</span>
+                <span className="ml-2">
+                  <IconContext.Provider value={{ size: "1em" }}>
+                    <FiExternalLink />
+                  </IconContext.Provider>
+                </span>
+              </a>
+            </div>
             <div>
               <a
                 href="https://leolebleis.com/"
@@ -35,32 +50,29 @@ export default class Footer extends React.Component {
                 </span>
               </a>
             </div>
-            <div>
+          </div>
+
+          <div className="w-50 pr-3 text-right">
+            <div className="pb-2">
               <a
-                href="https://www.lbf-paysagiste.com/"
+                href="https://www.facebook.com/lesmerisiers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-info"
               >
-                <span>En partenariat avec LBF Paysagisme.</span>
-                <span className="ml-2">
-                  <IconContext.Provider value={{ size: "1em" }}>
-                    <FiExternalLink />
-                  </IconContext.Provider>
-                </span>
+                <IconContext.Provider value={{ size: "2em" }}>
+                  <FaFacebook />
+                </IconContext.Provider>
               </a>
             </div>
-          </div>
-
-          <div className="w-50 align-content-right pr-3 text-right">
             <a
-              href="https://www.facebook.com/lesmerisiers"
+              href="https://github.com/Leolebleis/lesmerisiers-pwa/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-info"
             >
               <IconContext.Provider value={{ size: "2em" }}>
-                <FaFacebook />
+                <FaGithub />
               </IconContext.Provider>
             </a>
           </div>
