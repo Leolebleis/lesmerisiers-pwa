@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import styled from "styled-components";
 
 // Image imports
@@ -92,7 +91,7 @@ export default class DenseAppBar extends React.Component {
               >
                 Guide de séjour
               </Nav.Link>
-              <NavDropdown
+              {/* <NavDropdown
                 title={
                   <span style={{ color: `${this.state.textColor}` }}>
                     Nos Gîtes
@@ -110,7 +109,7 @@ export default class DenseAppBar extends React.Component {
                   12 à 16 personnes
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-              </NavDropdown>
+              </NavDropdown> */}
               <Nav.Link
                 eventKey="4"
                 href="construction"

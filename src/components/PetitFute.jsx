@@ -37,7 +37,7 @@ export default class PetitFute extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <blockquote className="card bg-white p-5 m-0 shadow rounded">
-                    <div className="blockquote-custom-icon bg-info shadow-sm">
+                    <div className="blockquote-custom-icon btn-info shadow-sm">
                       <IconContext.Provider
                         value={{
                           color: "white",
