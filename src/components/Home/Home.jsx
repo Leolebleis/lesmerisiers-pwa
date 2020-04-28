@@ -25,9 +25,6 @@ export default class Home extends React.Component {
             </Col>
           </Row>
         </Container>
-
-        <PetitFute />
-
         <Container>
           <Row className="my-5 h-100">
             <GiteHomeIntro
@@ -72,6 +69,9 @@ export default class Home extends React.Component {
             </GiteHomeIntro>
           </Row>
         </Container>
+
+        <PetitFute />
+        
         <PictureGrid />
       </React.Fragment>
     );

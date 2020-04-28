@@ -1,0 +1,12 @@
+{
+    "photos": [
+        {
+            "title": "Salon",
+            "photo": "GG-salon.jpg"
+        },
+        {
+            "title": "Cuisine",
+            "photo": "GG-cuisine.jpg"
+        }
+    ]
+}

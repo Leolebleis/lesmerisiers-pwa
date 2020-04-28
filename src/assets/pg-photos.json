@@ -1,0 +1,24 @@
+{
+    "photos": [
+        {
+            "title": "Salon",
+            "photo": "PG-salon.jpg"
+        },
+        {
+            "title": "Chambre double",
+            "photo": "PG-chambre-double.jpg"
+        },
+        {
+            "title": "Chambre simple",
+            "photo": "PG-chambre-simple.jpg"
+        },
+        {
+            "title": "Salon et terrasse",
+            "photo": "PG-salon-panorama.jpg"
+        },
+        {
+            "title": "Jardin",
+            "photo": "PG-jardin.jpg"
+        }
+    ]
+}
