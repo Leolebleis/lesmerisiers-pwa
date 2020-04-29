@@ -107,7 +107,7 @@ export default class GiteHomeIntro extends React.Component {
                     show={this.state.show}
                     onHide={this.handleClose}
                   >
-                    <GiteDetails title={this.props.title} />
+                    <GiteDetails title={this.props.title} link={this.props.link} />
                   </Modal>
                 </div>
               </Card.Body>
