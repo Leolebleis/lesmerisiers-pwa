@@ -7,9 +7,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 // Image imports
-import GGCuisine from "../../assets/photos/GG-cuisine-ferme-900px.jpg";
-import GGSalonPanorama from "../../assets/photos/GG-salon-panorama-cropped.jpg";
-import PGChambreSimple from "../../assets/photos/PG-chambre-simple.jpg";
+import GGCuisine from "../../assets/photos/GG/GG-cuisine-ferme-900px.jpg";
+import GGSalonPanorama from "../../assets/photos/GG/GG-salon-panorama-cropped.jpg";
+import PGChambreSimple from "../../assets/photos/PG/PG-chambre-simple.jpg";
 
 export default class Home extends React.Component {
   render() {
@@ -33,6 +33,11 @@ export default class Home extends React.Component {
               alt="Photos de la salle à manger du gîte"
               link="https://www.airbnb.fr/rooms/21053292"
               isLeft="true"
+              bathrooms="3"
+              bedrooms="6"
+              jacuzzi="yes"
+              garden="290"
+              interior="200"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               ornare, nibh et dapibus consequat, mauris nibh mattis lectus, a
@@ -46,6 +51,11 @@ export default class Home extends React.Component {
               image={GGSalonPanorama}
               link="https://www.airbnb.fr/rooms/20067698"
               isLeft="false"
+              bathrooms="2"
+              bedrooms="4"
+              garden="136"
+              interior="132"
+              jacuzzi="yes"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               ornare, nibh et dapibus consequat, mauris nibh mattis lectus, a
@@ -59,6 +69,10 @@ export default class Home extends React.Component {
               image={PGChambreSimple}
               link="https://www.airbnb.fr/rooms/20374593"
               isLeft="true"
+              bathrooms="1"
+              bedrooms="2"
+              garden="155"
+              interior="61"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               ornare, nibh et dapibus consequat, mauris nibh mattis lectus, a
@@ -69,10 +83,9 @@ export default class Home extends React.Component {
             </GiteHomeIntro>
           </Row>
         </Container>
+        <PictureGrid />
 
         <PetitFute />
-        
-        <PictureGrid />
       </React.Fragment>
     );
   }

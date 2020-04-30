@@ -2,6 +2,16 @@ import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import styled from "styled-components";
+
+const Image = styled.img`
+  object-fit: cover;
+  width: 100%;
+  height: 530px;
+  @media(max-width: 576px) {
+    height: 33vh;
+  }
+`;
 
 export default class GiteDetails extends React.Component {
   render() {
@@ -24,11 +34,10 @@ export default class GiteDetails extends React.Component {
             return (
               <Row className="mb-3">
                 <Col className="col-12 col-md-5">
-                  <p className="text-right lead mr-3">{photo.title}</p>
+                  <p className="text-right lead pt-3 sticky-top">{photo.title}</p>
                 </Col>
                 <Col className="col-12 col-md-7">
-                  <img
-                    style={{ width: "100%" }}
+                  <Image
                     src={require(`../../assets/photos/${photo.photo}`)}
                     alt={`${photo.photo}`}
                   />

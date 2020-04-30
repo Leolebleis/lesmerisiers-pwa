@@ -5,8 +5,9 @@ import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 import styled from "styled-components";
 import GiteDetails from "./GiteDetails";
-import { AiOutlineFullscreen } from "react-icons/ai";
 import { IconContext } from "react-icons";
+import { AiOutlineFullscreen } from "react-icons/ai";
+import { FaSwimmingPool, FaBath, FaBed, FaTree, FaHome } from "react-icons/fa";
 
 // I'm using this since styled-components is hard to work with for Modals
 import "./modal.css";
@@ -40,6 +41,14 @@ const Styles = styled.div`
   .image {
     cursor: pointer;
   }
+
+  .label {
+    color: darkgray;
+    font-size: 0.9em;
+    &:hover {
+      color: gray;
+    }
+  }
 `;
 
 export default class GiteHomeIntro extends React.Component {
@@ -62,6 +71,32 @@ export default class GiteHomeIntro extends React.Component {
   render() {
     const isLeft = this.props.isLeft === "true" ? true : false;
 
+    let metrics = [
+      {
+        icon: FaBath,
+        label: `${this.props.bathrooms} sdb`,
+      },
+      {
+        icon: FaBed,
+        label: `${this.props.bedrooms} chambres`,
+      },
+      {
+        icon: FaTree,
+        label: `${this.props.garden}m\u00b2`,
+      },
+      {
+        icon: FaHome,
+        label: `${this.props.interior}m\u00b2`,
+      },
+    ];
+
+    if (this.props.jacuzzi) {
+      metrics.push({
+        icon: FaSwimmingPool,
+        label: "Jacuzzi",
+      });
+    }
+
     return (
       <Styles>
         <Col className="col-12">
@@ -69,7 +104,7 @@ export default class GiteHomeIntro extends React.Component {
             <Row className="h-100">
               <Col
                 className={`col-12 col-md-4 ${
-                  isLeft ? "order-md-1" : "order-md-2"
+                  isLeft ? "order-md-1 pr-0" : "order-md-2 pl-0"
                 }`}
               >
                 <div className="w-100 h-100 image" onClick={this.handleOpen}>
@@ -91,6 +126,21 @@ export default class GiteHomeIntro extends React.Component {
               >
                 <h2 className="gradient-multiline mt-2">{this.props.title}</h2>
                 <p className="text-justify">{this.props.children}</p>
+                <Row className="justify-content-center">
+                  {metrics.map((metric) => {
+                    let CustomIcon = metric.icon;
+                    return (
+                      <Col className="col-auto">
+                        <div className="label d-inline-flex">
+                          <IconContext.Provider value={{ size: "1.5em" }}>
+                            <CustomIcon />
+                          </IconContext.Provider>
+                          <span className="pl-2">{metric.label}</span>
+                        </div>
+                      </Col>
+                    );
+                  })}
+                </Row>
                 <div className="text-center">
                   <a
                     href={this.props.link}
@@ -107,7 +157,10 @@ export default class GiteHomeIntro extends React.Component {
                     show={this.state.show}
                     onHide={this.handleClose}
                   >
-                    <GiteDetails title={this.props.title} />
+                    <GiteDetails
+                      title={this.props.title}
+                      link={this.props.link}
+                    />
                   </Modal>
                 </div>
               </Card.Body>
