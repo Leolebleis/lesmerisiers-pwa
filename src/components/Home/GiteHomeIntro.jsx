@@ -104,7 +104,7 @@ export default class GiteHomeIntro extends React.Component {
             <Row className="h-100">
               <Col
                 className={`col-12 col-md-4 ${
-                  isLeft ? "order-md-1 pr-0" : "order-md-2 pl-0"
+                  isLeft ? "order-md-1" : "order-md-2"
                 }`}
               >
                 <div className="w-100 h-100 image" onClick={this.handleOpen}>
@@ -121,7 +121,7 @@ export default class GiteHomeIntro extends React.Component {
               </Col>
               <Card.Body
                 className={`col-12 col-md-8 px-5 ${
-                  isLeft ? "order-md-2" : "order-md-1"
+                  isLeft ? "order-md-2 pl-md-3" : "order-md-1 pr-md-3"
                 }`}
               >
                 <h2 className="gradient-multiline mt-2">{this.props.title}</h2>
