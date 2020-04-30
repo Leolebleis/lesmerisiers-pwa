@@ -1,12 +1,40 @@
 {
-    "photos": [
-        {
-            "title": "Salon",
-            "photo": "GG-salon.jpg"
-        },
-        {
-            "title": "Cuisine",
-            "photo": "GG-cuisine.jpg"
-        }
-    ]
+  "photos": [
+    {
+      "title": "Salon",
+      "photo": "GG/GG-salon.jpg"
+    },
+    {
+      "title": "Salon",
+      "photo": "GG/GG-salon-panorama-cropped.jpg"
+    },
+    {
+      "title": "Cuisine",
+      "photo": "GG/GG-cuisine.jpg"
+    },
+    {
+      "title": "Cuisine",
+      "photo": "GG/GG-cuisine-ferme.jpg"
+    },
+    {
+      "title": "Jacuzzi",
+      "photo": "GG/GG-jacuzzi-2.jpg"
+    },
+    {
+      "title": "Jardin",
+      "photo": "GG/GG-exterieur.jpg"
+    },
+    {
+      "title": "Chambre double",
+      "photo": "GG/GG-chambre-double-2.jpg"
+    },
+    {
+      "title": "Chambre simple",
+      "photo": "GG/GG-chambre-simple.jpg"
+    },
+    {
+      "title": "Salle de bain",
+      "photo": "GG/GG-sdb.jpg"
+    }
+  ]
 }

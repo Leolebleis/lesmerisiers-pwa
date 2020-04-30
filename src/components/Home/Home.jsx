@@ -7,9 +7,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 // Image imports
-import GGCuisine from "../../assets/photos/GG-cuisine-ferme-900px.jpg";
-import GGSalonPanorama from "../../assets/photos/GG-salon-panorama-cropped.jpg";
-import PGChambreSimple from "../../assets/photos/PG-chambre-simple.jpg";
+import GGCuisine from "../../assets/photos/GG/GG-cuisine-ferme-900px.jpg";
+import GGSalonPanorama from "../../assets/photos/GG/GG-salon-panorama-cropped.jpg";
+import PGChambreSimple from "../../assets/photos/PG/PG-chambre-simple.jpg";
 
 export default class Home extends React.Component {
   render() {
