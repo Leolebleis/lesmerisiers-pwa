@@ -28,20 +28,21 @@
       "title": "Jacuzzi",
       "photo": "GG/GG-jacuzzi-2.jpg"
     },
-    {
-      "title": "Jardin 1",
-      "photo": "GG/GG-exterieur.jpg"
-    },
+
     {
       "title": "Exterieur",
       "photo": "PG/PG-exterieur-large.jpg"
     },
     {
       "title": "Jardin 1",
+      "photo": "GG/GG-exterieur.jpg"
+    },
+    {
+      "title": "Jardin 2",
       "photo": "PG/PG-jardin.jpg"
     },
     {
-      "title": "Jardin 1",
+      "title": "Jardin 2",
       "photo": "PG/PG-jardin-2.jpg"
     },
     {
