@@ -79,7 +79,7 @@ export default class PictureGrid extends React.Component {
   render() {
     return (
       <Styles>
-        <div className="card-container">
+        <div className="card-container py-5">
           <Card className="photo-1">
             <FlipCard
               recto={GGCuisine}
