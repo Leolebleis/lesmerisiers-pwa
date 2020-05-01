@@ -1,32 +1,90 @@
 import React from "react";
 import GiteHomeIntro from "./GiteHomeIntro";
-import PetitFute from "../PetitFute";
+import PetitFute from "./PetitFute";
 import PictureGrid from "./PictureGrid";
+import Map from "./Map";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { IconContext } from "react-icons";
+import { AiOutlineWifi } from "react-icons/ai";
+import { GoScreenFull } from "react-icons/go";
+import { FaParking } from "react-icons/fa";
+import { MdLocalLaundryService, MdKitchen } from "react-icons/md";
 
 // Image imports
 import GGCuisine from "../../assets/photos/GG/GG-cuisine-ferme-900px.jpg";
 import GGSalonPanorama from "../../assets/photos/GG/GG-salon-panorama-cropped.jpg";
 import PGChambreSimple from "../../assets/photos/PG/PG-chambre-simple.jpg";
 
+const metrics = [
+  {
+    label: "Wifi 200mb/s",
+    icon: AiOutlineWifi,
+  },
+  {
+    label: "Télévision câblée",
+    icon: GoScreenFull,
+  },
+  {
+    label: "Parking privé",
+    icon: FaParking,
+  },
+  {
+    label: "Machine à laver",
+    icon: MdLocalLaundryService,
+  },
+  {
+    label: "Cuisine équipée",
+    icon: MdKitchen,
+  },
+];
+
 export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Container>
-          <Row>
+          <Row className="h-100 py-5">
+            <Col className="mb-4">
+              <h2 className="gradient-multiline">
+                Passez un séjour inoubliable dans un gîte élégant et savourez
+                vos vacances au cœur de l'Alsace
+              </h2>
+              <p className="text-justify">
+                Avec <i>trois gîtes familiaux adaptés à tous les groupes</i>,
+                nous vous proposons un cadre agréable, tranquille, et haut de
+                gamme, entouré du vignoble, où{" "}
+                <i>
+                  vous pourrez profiter du patrimoine Alsacien et de sa
+                  gastronomie.
+                </i>{" "}
+                Situés à Turckheim, à côté de Colmar, nos gîtes sont
+                tout-équipés et prêts à vous accueillir.
+              </p>
+              <Row className="justify-content-center">
+                {metrics.map((metric) => {
+                  let CustomIcon = metric.icon;
+                  return (
+                    <Col key={metric.label} className="col-auto">
+                      <div className="label d-inline-flex align-items-center">
+                        <IconContext.Provider value={{ size: "2em" }}>
+                          <CustomIcon />
+                        </IconContext.Provider>
+                        <span className="pl-2">{metric.label}</span>
+                      </div>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </Col>
             <Col className="col-12 col-md-6">
-              <h1 className="gradient-multiline">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
-              </h1>
+              <Map height="400px" />
             </Col>
           </Row>
         </Container>
         <Container>
-          <Row className="my-5 h-100">
+          <Row className="pb-5 h-100">
             <GiteHomeIntro
               title="Gîte 12 à 16 personnes"
               image={GGCuisine}
@@ -39,12 +97,13 @@ export default class Home extends React.Component {
               garden="290"
               interior="200"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              ornare, nibh et dapibus consequat, mauris nibh mattis lectus, a
-              dignissim sem ligula eu dui. Nam eget ligula non diam facilisis
-              consectetur eget placerat velit. Morbi quis dictum enim. Ut
-              lacinia a libero nec ultrices. In ut ornare dolor, ac ultricies
-              odio. Mauris facilisis mi lacus, ac efficitur metus
+              Le gîte le plus grand est en fait une combinaison des deux gîtes
+              précédents, puisqu'ils peuvent être communicants, et donc recevoir
+              des groupes de taille très conséquente. Les dimensions sont donc
+              combinées, ainsi que le nombre de pièces et les espaces
+              extérieurs. C'est donc 200m² de surface intérieure, ainsi que
+              240m² de jardins privatifs et 50m² de terrasse qui seront à votre
+              disposition ! De quoi rendre vos vacances inoubliables.
             </GiteHomeIntro>
             <GiteHomeIntro
               title="Gîte 8 à 10 personnes"
@@ -57,12 +116,12 @@ export default class Home extends React.Component {
               interior="132"
               jacuzzi="yes"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              ornare, nibh et dapibus consequat, mauris nibh mattis lectus, a
-              dignissim sem ligula eu dui. Nam eget ligula non diam facilisis
-              consectetur eget placerat velit. Morbi quis dictum enim. Ut
-              lacinia a libero nec ultrices. In ut ornare dolor, ac ultricies
-              odio. Mauris facilisis mi lacus, ac efficitur metus
+              Une surface de 132m² avec 2 lits Queen Size, 4 lits simples, et un
+              canapé-lit, pour une capacité totale de 10 personnes. A cela
+              s’ajoute 100m² de jardin privé à votre disposition, et 36m² de
+              terrasse avec vue sur le vignoble Haut-Rhinois et le massif
+              Vosgien que vous aurez le loisir de contempler depuis votre spa
+              extérieur !
             </GiteHomeIntro>
             <GiteHomeIntro
               title="Gîte 4 à 6 personnes"
@@ -74,15 +133,15 @@ export default class Home extends React.Component {
               garden="155"
               interior="61"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              ornare, nibh et dapibus consequat, mauris nibh mattis lectus, a
-              dignissim sem ligula eu dui. Nam eget ligula non diam facilisis
-              consectetur eget placerat velit. Morbi quis dictum enim. Ut
-              lacinia a libero nec ultrices. In ut ornare dolor, ac ultricies
-              odio. Mauris facilisis mi lacus, ac efficitur metus
+              Une surface de 61m² avec un lit Queen Size, 2 lits simples, et un
+              canapé-lit, pour une capacité totale de 6 personnes. A cela
+              s’ajoute 15m² de terrasse à votre disposition et 140m² de jardin
+              privatif avec vue sur le vignoble Haut-Rhinois que vous aurez le
+              loisir de contempler lors de vos barbecues !
             </GiteHomeIntro>
           </Row>
         </Container>
+
         <PictureGrid />
 
         <PetitFute />

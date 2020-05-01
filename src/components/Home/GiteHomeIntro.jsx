@@ -41,14 +41,6 @@ const Styles = styled.div`
   .image {
     cursor: pointer;
   }
-
-  .label {
-    color: darkgray;
-    font-size: 0.9em;
-    &:hover {
-      color: gray;
-    }
-  }
 `;
 
 export default class GiteHomeIntro extends React.Component {
@@ -100,7 +92,7 @@ export default class GiteHomeIntro extends React.Component {
     return (
       <Styles>
         <Col className="col-12">
-          <Card className="bg-white shadow mt-3">
+          <Card className="bg-white shadow mt-4">
             <Row className="h-100">
               <Col
                 className={`col-12 col-md-4 ${
@@ -130,8 +122,8 @@ export default class GiteHomeIntro extends React.Component {
                   {metrics.map((metric) => {
                     let CustomIcon = metric.icon;
                     return (
-                      <Col className="col-auto">
-                        <div className="label d-inline-flex">
+                      <Col key={metric.label} className="col-auto">
+                        <div className="label d-inline-flex align-items-center">
                           <IconContext.Provider value={{ size: "1.5em" }}>
                             <CustomIcon />
                           </IconContext.Provider>

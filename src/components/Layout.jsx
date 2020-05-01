@@ -24,6 +24,14 @@ const Styles = styled.div`
     padding-right: 0px;
   }
 
+  .label {
+    color: darkgray;
+    font-size: 0.9em;
+    &:hover {
+      color: gray;
+    }
+  }
+
   @supports (mix-blend-mode: lighten) {
     .gradient-multiline::after {
       position: absolute;
