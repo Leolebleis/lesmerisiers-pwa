@@ -26,7 +26,7 @@ export default function App() {
             <Table />
           </Route >
 
-          <Route path="/sejour">
+          <Route path="/guide">
             <Guide />
           </Route>
 

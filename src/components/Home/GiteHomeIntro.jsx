@@ -3,14 +3,18 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import GiteDetails from "./GiteDetails";
 import { IconContext } from "react-icons";
 import { AiOutlineFullscreen } from "react-icons/ai";
 import { FaSwimmingPool, FaBath, FaBed, FaTree, FaHome } from "react-icons/fa";
 
-// I'm using this since styled-components is hard to work with for Modals
-import "./modal.css";
+const Global = createGlobalStyle`
+  .modal-90w {
+    width: 95%;
+    max-width: 100%;
+  }
+`;
 
 const Image = styled.div`
   width: 100%;
@@ -91,6 +95,7 @@ export default class GiteHomeIntro extends React.Component {
 
     return (
       <Styles>
+        <Global />
         <Col className="col-12">
           <Card className="bg-white shadow mt-4">
             <Row className="h-100">

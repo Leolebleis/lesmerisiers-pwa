@@ -1,0 +1,176 @@
+{
+  "description": "",
+  "equipments": {
+    "title": "La vie dans le logements",
+    "description": "",
+    "categories": [
+      {
+        "category": "Liste des équipements",
+        "appliances": [
+          {
+            "title": "Cuisine",
+            "items": [
+              "Micro-onde",
+              "Cafetière",
+              "Grille-pain",
+              "Bouilloire",
+              "Four",
+              "Lave-vaisselle",
+              "Casseroles",
+              "Petit électroménager",
+              "Vaisselle"
+            ]
+          },
+          {
+            "category": "Salon",
+            "appliances": ["Téléviseur", "Canapé-lit 140cm", "Poêle à bois"]
+          },
+          {
+            "category": "Salle d'eau 1",
+            "appliances": ["Sèche-cheveux", "Linge de toilette"]
+          },
+          {
+            "category": "Salle d'eau 2",
+            "appliances": ["Sèche-cheveux", "Linge de toilette"]
+          },
+          {
+            "category": "Chambre 1",
+            "appliances": [
+              "Téléviseur",
+              "1 lit 160cm",
+              "Oreillers",
+              "Couette",
+              "Cintres",
+              "2 peignoirs"
+            ]
+          },
+          {
+            "category": "Chambre 2",
+            "appliances": [
+              "Téléviseur",
+              "1 lit 160cm",
+              "Oreillers",
+              "Couette",
+              "Cintres",
+              "2 peignoirs"
+            ]
+          },
+          {
+            "category": "Chambre 3",
+            "appliances": [
+              "Téléviseur",
+              "2 lit 80cm",
+              "Oreillers",
+              "Couette",
+              "Cintres",
+              "2 peignoirs"
+            ]
+          },
+          {
+            "category": "Chambre 4",
+            "appliances": [
+              "Téléviseur",
+              "2 lit 80cm",
+              "Oreillers",
+              "Couette",
+              "Cintres",
+              "2 peignoirs"
+            ]
+          },
+          {
+            "category": "Buanderie",
+            "appliances": [
+              "Lavante/Séchante",
+              "Aspirateur",
+              "Fer et planche à repasser",
+              "Produits de nettoyage"
+            ]
+          },
+          {
+            "category": "Extérieur",
+            "appliances": [
+              "Table et chaises de jardin",
+              "Chaises longues",
+              "Barbecue",
+              "Parasol",
+              "SPA"
+            ]
+          },
+          {
+            "category": "Disponible en option sur demande",
+            "appliances": [
+              "Equipement bébé",
+              "Chaise-haute",
+              "Lit parapluie",
+              "Étendoir à linge"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Utilisation des équipements",
+        "description": "Les notices des appareils sont disponibles en annexe (Lave-vaisselle, four, table de cuisson, lavante-séchante).",
+        "guidelines": [
+          {
+            "title": "Lave-vaisselle",
+            "steps": [
+              "Ouvrir la porte",
+              "Allumer le lave-vaisselle",
+              "Le programme ECO 50° clignote d’office",
+              "Choisir un programme",
+              "Placer la dosette",
+              "Appuyer sur la touche START",
+              "Fermer la porte",
+              "Le déroulement du programme commence"
+            ]
+          },
+          {
+            "title": "Four",
+            "steps": [
+              "Allumer le four",
+              "Effleurer le champ X pour sélectionner le mode de cuisson",
+              "Régler le mode de cuisson avec la bague de commande",
+              "Effleurer le champ régler la température avec la bague de commande",
+              "Démarrer à l’aide de la touche start/stop",
+              "L’appareil commence à chauffer, une fois la température atteinte le four émet un signal"
+            ],
+            "warning": "Le nettoyage du four se fait par pyrolyse, ne pas employer de produits récurants"
+          },
+          {
+            "title": "Table de cuisson",
+            "steps": [
+              "Allumer la plaque",
+              "Sélectionner le niveau de puissance de la zone de cuisson souhaité"
+            ],
+            "warning": "Sécurité enfants: Activer : Appuyer sur le symbole clef pendant 5 secondes environ (plaque éteinte). Désactiver : Appuyer sur le symbole clef pendant 5 secondes environ. Le blocage a été désactivé"
+          },
+          {
+            "title": "Lavante",
+            "steps": [
+              "Ouvrir la porte et charger le linge",
+              "Appuyer sur la touche Marche/Arrêt",
+              "Sélectionner un programme",
+              "Sélectionner les options (Température, vitesse d’essorage, etc.)",
+              "Ajouter la lessive",
+              "Appuyer sur Départ/Pause"
+            ]
+          },
+          {
+            "title": "Séchante",
+            "steps": [
+              "Ouvrir la porte et charger le linge mouillé (pas plus de 5kg)",
+              "Appuyer sur la touche Marche/Arrêt",
+              "Ne pas toucher au bouton central de sélection des programmes",
+              "Sélectionner le mode de séchage désiré dans les options",
+              "Appuyer sur la touche Départ/Pause"
+            ],
+            "warning": "Il est normal que la diode « coton » reste allumée par défaut. Cela n’est pas lié au type de vêtement. Il se peut que la durée réelle de séchage diffère de la durée annoncée, selon le poids de la charge, l’humidité, etc."
+          }
+        ]
+      },
+      {
+        "title": "Règles de vie"
+      }
+    ]
+  }
+}
