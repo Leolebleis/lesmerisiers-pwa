@@ -1,0 +1,22 @@
+{
+    "informations": {
+      "title": "Informations pratiques",
+      "categories": [
+        {
+          "title": "Où faire ses courses"
+        },
+        {
+          "title": "Où faire le plein"
+        },
+        {
+          "title": "Moyens de transport"
+        },
+        {
+          "title": "Premiers secours"
+        },
+        {
+          "title": "Numéros utiles"
+        }
+      ]
+    }
+  }
