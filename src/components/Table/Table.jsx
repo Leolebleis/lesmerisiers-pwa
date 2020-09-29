@@ -57,7 +57,6 @@ export default class Table extends React.Component {
 
   generateTableHeaders = () => {
     const headerItems = categories.map((element) => {
-      console.log(`Element: ${element.name}`);
       const CustomIcon = element.icon;
       return (
         <Col className="col-6 col-md-3 h-100">
@@ -83,9 +82,7 @@ export default class Table extends React.Component {
   };
 
   handleClick = (event) => {
-    console.log("hey");
     if (event.currentTarget.id === "any") {
-      console.log("hey");
       this.setState({
         filter: event.currentTarget.id,
         filteredList: data.places,

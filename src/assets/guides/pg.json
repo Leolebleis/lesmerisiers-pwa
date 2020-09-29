@@ -1,0 +1,25 @@
+{
+  "description": "Description pour PG",
+  "content": [
+    {
+      "title": "La vie dans le logement",
+      "key": "default",
+      "content": "default"
+    },
+    {
+      "title": "Informations pratiques",
+      "key": "infos",
+      "content": "infos"
+    },
+    {
+      "title": "Votre départ",
+      "key": "depart",
+      "content": "depart"
+    },
+    {
+      "title": "Equipements",
+      "key": "equipment",
+      "content": "equipments"
+    }
+  ]
+}

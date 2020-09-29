@@ -1,36 +1,87 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import styled from "styled-components";
+import { IconContext } from "react-icons";
+import { BiBuildings as GrandGite } from "react-icons/bi";
+import { BiBuilding as PetitGite } from "react-icons/bi";
+import { FaHotTub as Spa } from "react-icons/fa";
 
-import Sidebar from "../react-springs/TreeList/Sidebar";
+import GuideTabs from "./GuideTabs";
+
+const Button = styled.button`
+  padding: 10px;
+
+  @media (max-width: 576px) {
+    padding: 2px;
+    margin: 2px;
+  }
+
+  background-color: transparent;
+  border-radius: 5px;
+`;
+
+const categories = [
+  {
+    name: "Petit Gîte",
+    id: "pg",
+    icon: PetitGite,
+  },
+  {
+    name: "Grand Gîte",
+    id: "gg",
+    icon: GrandGite,
+  },
+  {
+    name: "SPA",
+    id: "spa",
+    icon: Spa,
+  },
+];
 
 export default class Guide extends React.Component {
   state = {
-    active: "main",
+    active: "default",
   };
 
-  changeContent = (props) => {
-    console.log(this.props.name);
-    console.log("hello");
+  handleClick = (event) => {
+    this.setState({
+      active: event.currentTarget.id,
+    });
   };
 
   render() {
     return (
       <Container>
+        {/* put the headers for GG/PG/SPA */}
+
         <Row>
-          <Col className="text-right col-auto">
-            <Card className="p-4 align-content-end d-inline-flex text-left border-0">
-              <Sidebar changeContent={this.changeContent} />
-            </Card>
-          </Col>
-          <Col className="col-auto">
-            <Card className="p-4 align-content-end d-inline-flex text-left border-0">
-              <p>Text</p>
-            </Card>
-          </Col>
+          {categories.map((category) => {
+            const CustomIcon = category.icon;
+            return (
+              <Col className="h-100" key={category.id}>
+                <Button
+                  key={category.id}
+                  className="btn-outline-info w-100 h-100"
+                  onClick={this.handleClick}
+                  id={category.id}
+                >
+                  <div>
+                    {/* !!! Having icons in buttons can make them bug if you don't use event.currentTarget in the onClick function !!! */}
+                    <IconContext.Provider value={{ size: "2em" }}>
+                      <CustomIcon />
+                    </IconContext.Provider>
+                  </div>
+                  {category.name}
+                </Button>
+              </Col>
+            );
+          })}
         </Row>
+        <hr />
+
+        <GuideTabs active={this.state.active} />
       </Container>
     );
   }

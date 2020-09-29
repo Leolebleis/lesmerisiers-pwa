@@ -19,9 +19,6 @@ const position = {
 };
 
 export default class Map extends React.Component {
-  componentDidMount() {
-    console.log(process.env.REACT_APP_GOOGLE_API_KEY);
-  }
 
   render() {
     return (
