@@ -12,14 +12,13 @@ import GuideTabs from "./GuideTabs";
 
 const Button = styled.button`
   padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
 
   @media (max-width: 576px) {
     padding: 2px;
     margin: 2px;
   }
-
-  background-color: transparent;
-  border-radius: 5px;
 `;
 
 const categories = [
@@ -51,11 +50,16 @@ export default class Guide extends React.Component {
     });
   };
 
+  // getStyling = (stuff) => {
+  //   console.log(stuff);
+  //   if (this.state.active === stuff) return "btn-info";
+  //   else return "btn-outline-info";
+  // };
+
   render() {
     return (
       <Container>
         {/* put the headers for GG/PG/SPA */}
-
         <Row>
           {categories.map((category) => {
             const CustomIcon = category.icon;
@@ -63,7 +67,7 @@ export default class Guide extends React.Component {
               <Col className="h-100" key={category.id}>
                 <Button
                   key={category.id}
-                  className="btn-outline-info w-100 h-100"
+                  className={`w-100 h-100 btn-outline-info`}
                   onClick={this.handleClick}
                   id={category.id}
                 >

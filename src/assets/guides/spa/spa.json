@@ -1,15 +1,16 @@
 {
   "description": "Description pour SPA",
+  "id": "spa",
   "content": [
     {
       "title": "Entretien",
       "key": "default",
-      "content": "entretien"
+      "content": "content"
     },
     {
       "title": "Utilisation",
       "key": "utilisation",
-      "content": "utilisation"
+      "content": "content"
     }
   ]
 }

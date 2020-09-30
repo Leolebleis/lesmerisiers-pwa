@@ -1,10 +1,16 @@
 {
   "description": "Description pour GG",
+  "id": "gg",
   "content": [
     {
       "title": "La vie dans le logement",
       "key": "default",
-      "content": "default"
+      "content": "vie"
+    },
+    {
+      "title": "Equipements",
+      "key": "equipment",
+      "content": "content"
     },
     {
       "title": "Informations pratiques",
@@ -15,11 +21,6 @@
       "title": "Votre départ",
       "key": "depart",
       "content": "depart"
-    },
-    {
-      "title": "Equipements",
-      "key": "equipment",
-      "content": "equipments"
     }
   ]
 }

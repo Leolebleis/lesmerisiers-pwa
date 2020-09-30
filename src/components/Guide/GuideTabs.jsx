@@ -3,10 +3,13 @@ import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Line } from "../Layout";
 
-import GrandGite from "../../assets/guides/gg.json";
-import PetitGite from "../../assets/guides/pg.json";
-import Spa from "../../assets/guides/spa.json";
+import MarkdownViewer from "./MarkdownViewer";
+
+import GrandGite from "../../assets/guides/gg/gg.json";
+import PetitGite from "../../assets/guides/pg/pg.json";
+import Spa from "../../assets/guides/spa/spa.json";
 import Default from "../../assets/guides/default.json";
 
 export default (props) => {
@@ -29,8 +32,6 @@ export default (props) => {
       activeKey={activeKey}
       defaultActiveKey="default"
     >
-      {console.log(data)}
-
       <Row>
         <Col>
           <span>{data.description}</span>
@@ -42,6 +43,7 @@ export default (props) => {
             {data.content.map((category) => (
               <Nav.Item className="py-1" key={category.key}>
                 <Nav.Link
+                  className="btn-outline-info"
                   onSelect={() => setActiveKey(category.key)}
                   eventKey={category.key}
                 >
@@ -51,13 +53,17 @@ export default (props) => {
             ))}
           </Nav>
         </Col>
+        <Line className="px-2" />
         <Col className="col">
           <Tab.Content>
-            {data.content.map((category) => (
-              <Tab.Pane key={category.key} eventKey={category.key}>
-                {category.content}
-              </Tab.Pane>
-            ))}
+            {data.content.map((category) => {
+              const fileName = `${data.id}/${category.content}`
+              return (
+                <Tab.Pane key={category.key} eventKey={category.key}>
+                  <MarkdownViewer fileName={fileName} />
+                </Tab.Pane>
+              );
+            })}
           </Tab.Content>
         </Col>
       </Row>
