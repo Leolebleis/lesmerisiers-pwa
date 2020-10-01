@@ -37,8 +37,8 @@ export default (props) => {
           <span>{data.description}</span>
         </Col>
       </Row>
-      <Row>
-        <Col className="col-3">
+      <Row className="mb-5">
+        <Col className="col-12 col-md-3">
           <Nav variant="pills" className="flex-column">
             {data.content.map((category) => (
               <Nav.Item className="py-1" key={category.key}>
@@ -53,14 +53,13 @@ export default (props) => {
             ))}
           </Nav>
         </Col>
-        <Line className="px-2" />
+        <Line className="px-2 my-3" />
         <Col className="col">
           <Tab.Content>
             {data.content.map((category) => {
-              const fileName = `${data.id}/${category.content}`
               return (
                 <Tab.Pane key={category.key} eventKey={category.key}>
-                  <MarkdownViewer fileName={fileName} />
+                  <MarkdownViewer fileName={`${data.id}/${category.content}`} />
                 </Tab.Pane>
               );
             })}

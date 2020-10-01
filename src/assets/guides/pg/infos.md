@@ -1,3 +1,5 @@
+### Informations pratiques
+
 <details>
 <summary>Où faire ses courses?</summary>
 

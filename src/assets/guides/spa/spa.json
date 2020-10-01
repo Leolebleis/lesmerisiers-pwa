@@ -3,14 +3,14 @@
   "id": "spa",
   "content": [
     {
-      "title": "Entretien",
+      "title": "Utilisation du SPA",
       "key": "default",
-      "content": "content"
+      "content": "utilisation"
     },
     {
-      "title": "Utilisation",
-      "key": "utilisation",
-      "content": "content"
+      "title": "Consignes de sécurité",
+      "key": "consignes",
+      "content": "consignes"
     }
   ]
 }

@@ -50,12 +50,6 @@ export default class Guide extends React.Component {
     });
   };
 
-  // getStyling = (stuff) => {
-  //   console.log(stuff);
-  //   if (this.state.active === stuff) return "btn-info";
-  //   else return "btn-outline-info";
-  // };
-
   render() {
     return (
       <Container>
@@ -67,7 +61,7 @@ export default class Guide extends React.Component {
               <Col className="h-100" key={category.id}>
                 <Button
                   key={category.id}
-                  className={`w-100 h-100 btn-outline-info`}
+                  className="w-100 h-100 btn-outline-info"
                   onClick={this.handleClick}
                   id={category.id}
                 >

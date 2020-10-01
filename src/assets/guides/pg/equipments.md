@@ -29,7 +29,7 @@
 <br />
 
 <details>
-<summary>Salle d'eau 1 & 2</summary>
+<summary>Salle d'eau 1</summary>
 <ul>
 <li>Sèche-cheveux</li>
 <li>Linge de toilette</li>
@@ -39,7 +39,7 @@
 <br />
 
 <details>
-<summary>Chambre 1 & 2</summary>
+<summary>Chambre 1</summary>
 <ul>
 <li>Téléviseur</li>
 <li>Lit 160cm</li>
@@ -53,7 +53,7 @@
 <br/>
 
 <details>
-<summary>Chambre 3 & 4</summary>
+<summary>Chambre 2</summary>
 <ul>
 <li>Téléviseur</li>
 <li>2 Lits 80cm</li>
@@ -65,16 +65,15 @@
 </details>
 
 <br />
+
 <details>
 <summary>Buanderie</summary>
-
 <ul>
 <li>Lavante/Séchante</li>
 <li>Aspirateur</li>
 <li>Fer et planche à repasser</li>
 <li>Produits de nettoyage</li>
 </ul>
-
 </details>
 
 <br />
@@ -86,8 +85,6 @@
 <li>Chaises longues</li>
 <li>Barbecue</li>
 <li>Parasol</li>
-<li>SPA</li>
-
 </details>
 
 <br />
