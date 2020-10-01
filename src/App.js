@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar"
 import Header from "./components/Header";
 import Home from "./components/Home/Home";
 import Guide from "./components/Guide/Guide";
+import Construction from "./components/Construction/Construction"
 import Footer from "./components/Footer";
 import Layout from "./components/Layout"
 import Table from "./components/Table/Table";
@@ -31,7 +32,7 @@ export default function App() {
           </Route>
 
           <Route path="/construction">
-            <div />
+            <Construction />
           </Route>
 
         </Switch>
