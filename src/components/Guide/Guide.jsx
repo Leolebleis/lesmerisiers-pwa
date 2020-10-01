@@ -71,7 +71,7 @@ export default class Guide extends React.Component {
                       <CustomIcon />
                     </IconContext.Provider>
                   </div>
-                  {category.name}
+                  <p className="lead m-0">{category.name}</p>
                 </Button>
               </Col>
             );

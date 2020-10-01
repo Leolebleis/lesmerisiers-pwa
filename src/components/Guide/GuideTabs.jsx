@@ -33,7 +33,7 @@ export default (props) => {
       defaultActiveKey="default"
     >
       <Row>
-        <Col>
+        <Col className="mb-3 lead">
           <span>{data.description}</span>
         </Col>
       </Row>
