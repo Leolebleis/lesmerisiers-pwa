@@ -12,6 +12,8 @@ import { GoScreenFull } from "react-icons/go";
 import { FaParking } from "react-icons/fa";
 import { MdLocalLaundryService, MdKitchen } from "react-icons/md";
 
+import { withTranslation } from "react-i18next";
+
 // Image imports
 import GGCuisine from "../../assets/photos/GG/GG-cuisine-ferme-900px.jpg";
 import GGSalonPanorama from "../../assets/photos/GG/GG-salon-panorama-cropped.jpg";
@@ -40,17 +42,14 @@ const metrics = [
   },
 ];
 
-export default class Home extends React.Component {
+class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Container>
           <Row className="h-100 py-5">
             <Col className="mb-4">
-              <h2 className="gradient-multiline">
-                Passez un séjour inoubliable dans un gîte élégant et savourez
-                vos vacances au cœur de l'Alsace
-              </h2>
+              <h2 className="gradient-multiline">{this.props.t("gradient title")}</h2>
               <p className="text-justify">
                 Avec <i>trois gîtes familiaux adaptés à tous les groupes</i>,
                 nous vous proposons un cadre agréable, tranquille, et haut de
@@ -149,3 +148,5 @@ export default class Home extends React.Component {
     );
   }
 }
+
+export default withTranslation("home")(Home);
