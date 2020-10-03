@@ -32,7 +32,7 @@ export default () => {
       icon: PetitGite,
     },
     {
-      name: t("labels.pg"),
+      name: t("labels.gg"),
       id: "gg",
       icon: GrandGite,
     },

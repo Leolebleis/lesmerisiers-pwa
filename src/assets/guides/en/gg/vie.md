@@ -1,14 +1,14 @@
-### Règles de vie  
+### General rules  
 
-- _Le tri des déchets_ implique chaque personne individuellement et repose sur son implication : c’est pourquoi nous vous demandons de le respecter.
+- _Selective sorting of the household waste_ involves every individual and relies on involvement: that is why we ask you to respect it.
 
-- Le local extérieur des poubelles dispose de containers pour _le VERRE, le PLASTIQUE et le PAPIER_.
+- The exterior bins location has _GLASS, PLASTIC and PAPER containers_.
 
-- _Le gîte est non-fumeur_.
+- _The residence is a non-smoking area_.
 
-- _Merci de ne pas jeter les mégots sur les pelouses_. Une coupelle à cendres est à votre disposition sur le parking.
+- _We ask you not to throw cigarette ends on the lawn._ An ashtray is at your disposal on the car park.
 
-- _L’intégrité du site doit être préservée._
-Même si le ménage est inclus dans le prix, nous vous demandons de bien vouloir rendre le gîte dans un état de propreté adéquat.
+- _The integrity of the site must be preserved._
+Although the cleaning is included in the price, we ask you to leave the accommodation in a reasonable state of cleanliness.
 
-- Nous disposons de 6 places de parking, _merci de vous assurer que tous y ont accès_ lorsque les deux gîtes sont occupés.
+- The car park has 6 parking spots, _we ask you to make sure everyone has access to them_ when both lodges are occupied.

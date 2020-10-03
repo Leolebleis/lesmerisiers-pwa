@@ -96,7 +96,7 @@
 <summary>Disponible en option sur demande</summary>
 <ul>
 <li>Equipement bébé</li>
-<li>Chause-haute</li>
+<li>Chaise-haute</li>
 <li>Lit parapluie</li>
 <li>Étendoir à linge</li>
 </ul>
@@ -125,9 +125,9 @@
 <summary>Four</summary>  
 <ol>
 <li>Allumer le four</li>
-<li>Effleurer le champ X pour sélectionner le mode de cuisson</li>
+<li>Effleurer le champ en forme de four pour sélectionner le mode de cuisson</li>
 <li>Régler le mode de cuisson avec la bague de commande</li>
-<li>Effleurer le champ régler la température avec la bague de commande</li>
+<li>Effleurer le champ en forme de thermomètre régler la température avec la bague de commande</li>
 <li>Démarrer à l’aide de la touche start/stop</li>
 <li>L’appareil commence à chauffer, une fois la température atteinte le four émet un signal</li>
 </ol>

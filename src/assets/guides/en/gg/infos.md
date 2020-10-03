@@ -1,45 +1,46 @@
 ### Informations pratiques
 
 <details>
-<summary>Où faire ses courses?</summary>
+<summary>Where to shop?</summary>
 
-- **CASINO shop (10min à pied)**  
+- **Casino Shop (10min by foot)**  
 2, grand rue
 68230 TURCKHEIM  
-_Horaires : Du Lundi au vendredi : 07:00 - 12:30 / 14:30 - 19:00 Samedi : 08:00 - 18:00_
+_Opening hours: Monday-Friday: 7am - 12:30pm / 2:30pm – 7pm, Saturday: 8am – 6pm_
 
 - **SIMPLY Market**  
 1, Faubourg des Vosges 68920 WINTZENHEIM  
-_Horaires : Du Lundi au Samedi : 08h00 - 20h30_
+_Opening hours: Monday-Saturday: 8am – 8:30pm_
 
-- **E.LECLERC**  
+- **E.Leclerc**  
 12, rue Hertzog
 68124 LOGELBACH/WINTZENHEIM  
-_Horaires : Du Lundi au vendredi: 08h30 - 20h30 Samedi: 08h30 - 20h00_
+_Opening hours: Monday-Friday: 8:30am – 8:30pm, Saturday: 8 :30am – 8pm_
 
-- **CORA**  
+- **Cora**  
 Zone commerciale du Buhlfeld Houssen 68125 HOUSSEN COLMAR  
-_Horaires : Du Lundi au vendredi: 08h30 - 21h00 Samedi: 08h30 - 20h00_
+_Opening hours: Monday-Friday: 8:30am – 9pm, Saturday: 8:30am – 8pm_
 
-- **UNIS VERS BIO magasin BIOCOOP**  
+- **UNIS VERS BIO BIOCOOP shop**  
 36, route d’EGUISHEIM
 68040 INGERSHEIM  
-_Horaires : Du Lundi au samedi: 09h00 - 19h00_
+_Opening hours: Monday-Saturday: 9am – 7pm_
 
-- **SUPER U MUNSTER**  
+- **SUPER U Munster**  
 Zone industrielle 68140 MUNSTER  
-_Horaires : Du Lundi au jeudi: 08h00 - 19h30, Vendredi: 08h00 - 20h00, Samedi: 08h30 - 20h00_
+_Opening hours: Monday-Thursday: 8am – 7:30pm, Friday: 8am – 8pm, Saturday: 8:30am – 8pm_
 
 </details>
 
 <br />
 
 <details>
-<summary>Où faire le plein?</summary>
+<summary>Where to get gas?</summary>
 
 - **SIMPLY market**  
-1, Faubourg des Vosges 68920  
-_WINTZENHEIM UNIQUEMENT CB 24h/24_
+1, Faubourg des Vosges 68920
+WINTZENHEIM  
+_ONLY credit card 24/7_
 
 - **E.LECLERC**  
 12, rue Hertzog
@@ -55,44 +56,42 @@ _Horaires : Du Lundi au samedi: 08h30 -18h00 CB 24h/24h_
 <br />
 
 <details>
-<summary>Moyens de transport</summary>
+<summary>Public transports</summary>
 
-De nombreux moyens de transports sont à votre disposition dans la vicinité du gîte.
+Many kinds of transportation are at your disposal near the residence.
 
-- **Le bus Trace** dessert l’arrêt Tuileries, situé à 3min du gîte.  
-La ligne de bus 8 traverse Colmar, jusqu’en son centre, et dispose d’un bus toutes les heures.
-- **La gare de Turckheim** située au centre de Turckheim dispose aussi de nombreux trains qui desservent Colmar. Il est facile de rejoindre Strasbourg par exemple, ou d’autres villes notoires de la région.
+- **The Trace bus** gets to the Tuileries stop, located 3 minutes away from the lodge. Line 8 will take you through Colmar up until its centre, and provides a bus every hour.
+- **The Turckheim train station** is in the centre of Turckheim and provides many trains to Colmar. It is also easy to reach Strasbourg for example, as well as other notorious towns in the region.
  
 </details>
 
 <br />
 
 <details>
-<summary>Où se faire soigner</summary>
+<summary>Where to get medical help</summary>
 
-- **Médecin généraliste, Turckheim**  
-**Mr et Mme BUCHELIN**  
+- **General Practitioner in TURCKHEIM**  
+**Mr and Mme BUCHELIN**  
 5a place de la République 68230 TURCKHEIM  
-Consulte les nourrissons, les enfants et adultes. Consultations AVEC RDV le lundi matin, mercredi et vendredi après-midi.
-_Consultations SANS RDV Mardi 16-19h, Mercredi et Vendredi 8h30-12h, Samedi 8h30-10h en alternance._
+Infants, children, and adult consultations.   _WITH appointment: Monday morning, Wednesday, and Friday afternoon. WITHOUT appointment: Tuesday 4pm-7pm, Wednesday and Friday 8:30am-12pm, Saturday 8:30am-10am._
 
-- **Hôpital Pasteur de Colmar**  
+- **Colmar Pasteur Hospital**  
 39, avenue de la Liberté
 68000 COLMAR  
-_Urgence 24h/24h_
+_Emergency 24h/24h_
 
 </details>
 
 <br />
 
 <details>
-<summary>Numéros utiles</summary>
+<summary>Useful numbers</summary>
 
 - **15** : SAMU
 - **17** : Police Secours
-- **18** : Sapeurs Pompiers
-- **112** : Numéro d’appel d’urgence Européen
-- **114** : Numéro d'appel d'urgence pour les personnes sourdes et malentendantes
+- **18** : Fire Department
+- **112** : European Emergency Line
+- **114** : Deaf/Hard of hearing Emergency Line
 
 </details>
 
@@ -100,12 +99,12 @@ _Urgence 24h/24h_
 
 <details>
 
-<summary>Connexion à internet</summary>
+<summary>Internet Connection</summary>
 
-Les gîtes disposent d'une connexion internet très haut débit.
+The Gîtes have high-speed internet connection available.
 
-N'hésitez pas à nous demander pour y avoir accès.
+Do not hesitate to ask us for access.
 
-**La connexion internet doit être utilisée de façon responsable, et dans les limites de la légalité.**
+**The internet connection must be used responsibly, within legal boundaries.**
 
 </details>

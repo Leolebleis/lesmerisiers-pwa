@@ -38,8 +38,9 @@ _Horaires : Du Lundi au jeudi: 08h00 - 19h30, Vendredi: 08h00 - 20h00, Samedi: 0
 <summary>Où faire le plein?</summary>
 
 - **SIMPLY market**  
-1, Faubourg des Vosges 68920  
-_WINTZENHEIM UNIQUEMENT CB 24h/24_
+1, Faubourg des Vosges 68920
+WINTZENHEIM  
+_UNIQUEMENT CB 24h/24_
 
 - **E.LECLERC**  
 12, rue Hertzog
@@ -73,8 +74,8 @@ La ligne de bus 8 traverse Colmar, jusqu’en son centre, et dispose d’un bus 
 - **Médecin généraliste, Turckheim**  
 **Mr et Mme BUCHELIN**  
 5a place de la République 68230 TURCKHEIM  
-Consulte les nourrissons, les enfants et adultes. Consultations AVEC RDV le lundi matin, mercredi et vendredi après-midi.
-_Consultations SANS RDV Mardi 16-19h, Mercredi et Vendredi 8h30-12h, Samedi 8h30-10h en alternance._
+Consulte les nourrissons, les enfants et adultes. 
+_Consultations AVEC RDV le lundi matin, mercredi et vendredi après-midi. Consultations SANS RDV Mardi 16-19h, Mercredi et Vendredi 8h30-12h, Samedi 8h30-10h en alternance._
 
 - **Hôpital Pasteur de Colmar**  
 39, avenue de la Liberté

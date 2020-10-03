@@ -3,12 +3,12 @@
   "id": "spa",
   "content": [
     {
-      "title": "Utilisation du SPA",
+      "title": "Using the Spa",
       "key": "default",
       "content": "utilisation"
     },
     {
-      "title": "Consignes de sécurité",
+      "title": "Security guidelines",
       "key": "consignes",
       "content": "consignes"
     }

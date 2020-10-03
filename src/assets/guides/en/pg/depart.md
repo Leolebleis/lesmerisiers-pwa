@@ -1,18 +1,21 @@
-### Heure de départ
+### Checkout hours
 
-L’heure d’arrivée des prochains voyageurs est de 16h.
-_Le jour de votre départ nous vous demanderons de quitter le gîte au plus tard à 10h pour nous permettre de remettre le Gîte comme à votre arrivée._
+The next guests arrive at 4pm.
+_When checking out, we ask you to leave the lodge before 10am so that we can clean and prepare it._
 
-Un simple appel et nous viendrons à votre rencontre.
-Nous effectuerons ensemble un état des lieux lors de la remise des clefs de sortie.
+A simple call and we will come to you.
+We will carry out a quick inventory together when you give me the keys back.
 
-### Le ménage
+### Cleaning
 
-Le ménage et le linge de lit sont inclus dans le prix. Cependant merci de :
+The cleaning and bedding are included in the price.  
 
-- Rassembler le linge de lit ainsi que le linge de toilette dans le couloir en faisant une pile pour chaque.
-Les alèses restent sur les lits.
-- Sortir vos poubelles dans le local poubelle situé sur le parking. Deux bacs pour les déchets en verre et plastique sont également à votre disposition au même endroit.
-- Ranger la cuisine et la vaisselle.
+However, we ask you to:
+- Gather the bedding and bathroom linen in the hallway, making a pile for each. The draw sheets stay on the beds.
 
-Tous le matériel de nettoyage (balais, serpillière, aspirateur…) est à votre disposition dans le local lave-linge.
+- Take out the bins in the dustbin location on the car park.
+Two containers for glass and plastic waste are also at your disposal on the same spot.
+
+- Tidy the kitchen and the tableware.
+
+All the cleaning equipment (broom, mop, vacuum cleaner…) is at your disposal in the laundry room.

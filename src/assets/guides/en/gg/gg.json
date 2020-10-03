@@ -1,9 +1,9 @@
 {
-  "description": "Les informations relatives au séjour dans notre Gîte 8 à 10 personnes.",
+  "description": "Everything you need to know about staying in our 8 to 10 people Residence.",
   "id": "gg",
   "content": [
     {
-      "title": "La vie dans le logement",
+      "title": "Life in the residence",
       "key": "default",
       "content": "vie"
     },
@@ -13,12 +13,12 @@
       "content": "equipments"
     },
     {
-      "title": "Informations pratiques",
+      "title": "Practical information",
       "key": "infos",
       "content": "infos"
     },
     {
-      "title": "Votre départ",
+      "title": "Checking out",
       "key": "depart",
       "content": "depart"
     }

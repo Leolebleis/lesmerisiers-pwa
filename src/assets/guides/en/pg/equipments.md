@@ -1,174 +1,180 @@
-### Liste d'équipements
+### Appliance list
 
 <details>
-<summary>Cuisine</summary>
+<summary>Kitchen</summary>
 <ul>
-<li>Micro-onde</li>
-<li>Cafetière</li>
-<li>Grille-pain</li>
-<li>Bouilloire</li>
-<li>Four</li>
-<li>Lave-vaisselle</li>
-<li>Casseroles</li>
-<li>Petit électroménager</li>
-<li>Vaisselle</li>
+<li>Microwave</li>
+<li>Coffee machine</li>
+<li>Toaster</li>
+<li>Kettle</li>
+<li>Oven</li>
+<li>Dishwasher</li>
+<li>Pots</li>
+<li>Small appliances</li>
+<li>Dishes</li>
 </ul>
 </details>
 
 <br />
 
 <details>
-<summary>Salon</summary>
+<summary>Living room</summary>
 <ul>
-<li>Téléviseur</li>
-<li>Canapé-lit 140cm</li>
-<li>Poêle à bois</li>
+<li>Television</li>
+<li>Couch/140cm bed</li>
+<li>Wood burning stove</li>
 </ul>
 </details>
 
 <br />
 
 <details>
-<summary>Salle d'eau 1</summary>
+<summary>Bathroom 1</summary>
 <ul>
-<li>Sèche-cheveux</li>
-<li>Linge de toilette</li>
+<li>Hairdryer</li>
+<li>Bathroom linen</li>
 </ul>
 </details>
 
 <br />
 
 <details>
-<summary>Chambre 1</summary>
+<summary>Bedroom 1</summary>
 <ul>
-<li>Téléviseur</li>
-<li>Lit 160cm</li>
-<li>Oreillers</li>
-<li>Couette</li>
-<li>Cintres</li>
-<li>2 peignoirs</li>
+<li>Television</li>
+<li>160cm bed</li>
+<li>Pillows</li>
+<li>Duvet</li>
+<li>Coat hangers</li>
+<li>2 bathrobes</li>
 </ul>
 </details>
 
 <br/>
 
 <details>
-<summary>Chambre 2</summary>
+<summary>Bedroom 2</summary>
 <ul>
-<li>Téléviseur</li>
-<li>2 Lits 80cm</li>
-<li>Oreillers</li>
-<li>Couette</li>
-<li>Cintres</li>
-<li>2 peignoirs</li>
+<li>Television</li>
+<li>2 80cm beds</li>
+<li>Pillows</li>
+<li>Duvets</li>
+<li>Coat hangers</li>
+<li>2 bathrobes</li>
 </ul>
+</details>
+
+<br />
+<details>
+<summary>Laundry room</summary>
+
+<ul>
+<li>Washer dryer</li>
+<li>Vacuum cleaner</li>
+<li>Iron and ironing board</li>
+<li>Cleaning products</li>
+</ul>
+
 </details>
 
 <br />
 
 <details>
-<summary>Buanderie</summary>
+<summary>Exterior</summary>
 <ul>
-<li>Lavante/Séchante</li>
-<li>Aspirateur</li>
-<li>Fer et planche à repasser</li>
-<li>Produits de nettoyage</li>
-</ul>
-</details>
-
-<br />
-
-<details>
-<summary>Extérieur</summary>
-<ul>
-<li>Table et chaises de jardin</li>
-<li>Chaises longues</li>
+<li>Garden table and chairs</li>
+<li>Sunbeds</li>
 <li>Barbecue</li>
 <li>Parasol</li>
-</details>
-
-<br />
-
-<details>
-<summary>Disponible en option sur demande</summary>
-<ul>
-<li>Equipement bébé</li>
-<li>Chause-haute</li>
-<li>Lit parapluie</li>
-<li>Étendoir à linge</li>
 </ul>
 </details>
 
 <br />
 
-### Utilisation des équipements
 <details>
-<summary>Lave-vaisselle</summary>  
+<summary>Optional equipment available on request</summary>
+<ul>
+<li>Baby equipment</li>
+<li>High chair</li>
+<li>Baby bed</li>
+<li>Drying rack</li>
+</ul>
+</details>
+
+<br />
+
+### Using the appliances
+
+<details>
+<summary>Dishwasher</summary>  
 <ol>
-<li>Ouvrir la porte</li>
-<li>Allumer le lave-vaisselle</li>
-<li>Le programme ECO 50° clignote d’office</li>
-<li>Choisir un programme</li>
-<li>Placer la dosette</li>
-<li>Appuyer sur la touche START</li>
-<li>Fermer la porte</li>
-<li>Le déroulement du programme commence</li>
+<li>Open the door</li>
+<li>Turn on the dishwasher</li>
+<li>The ECO 50° programme flashes</li>
+<li>Choose a programme</li>
+<li>Place the pod</li>
+<li>Press START</li>
+<li>Close the door</li>
+<li>The programme begins</li>
 </ol>
 </details>
 
 <br />
 
 <details>
-<summary>Four</summary>  
+<summary>Oven</summary>  
 <ol>
-<li>Allumer le four</li>
-<li>Effleurer le champ X pour sélectionner le mode de cuisson</li>
-<li>Régler le mode de cuisson avec la bague de commande</li>
-<li>Effleurer le champ régler la température avec la bague de commande</li>
-<li>Démarrer à l’aide de la touche start/stop</li>
-<li>L’appareil commence à chauffer, une fois la température atteinte le four émet un signal</li>
+<li>Turn on the oven</li>
+<li>Touch the oven-shaped button to select a baking mode</li>
+<li>Choose a baking time with the switching ring</li>
+<li>Touch the thermometer-shaped button to choose the temperature with the switching ring</li>
+<li>Start with the Start/Stop button</li>
+<li>The oven will start heating up, making a sound once the desired temperature is reached.</li>
 </ol>
 
-**Le nettoyage du four se fait par pyrolyse, ne pas employer de produits récurants**
+**The cleaning of the oven is achieved with pyrolysis, do not use cleaning products.**
+
 </details>
 
 <br />
 
 <details>
-<summary>Table de cuisson</summary>
+<summary>Stove</summary>
 <ol>
-<li>Allumer la plaque</li>
-<li>Sélectionner le niveau de puissance de la zone de cuisson souhaité</li>
+<li>Turn on the stove</li>
+<li>Choose the level of heat for the desired cooking zone</li>
 </ol>
 
-**Sécurité enfants: Activer : Appuyer sur le symbole clef pendant 5 secondes environ (plaque éteinte). Désactiver : Appuyer sur le symbole clef pendant 5 secondes environ. Le blocage a été désactivé**
+**Child safety - Activate: press the key symbol for about 5 seconds (stove turned off). Deactivate: press the key symbol for about 5 seconds. The blocking has been deactivated.**
+
 </details>
 
 <br />
 
 <details>
-<summary>Lavante</summary>
+<summary>Washer</summary>
 <ol>
-<li>Ouvrir la porte et charger le linge</li>
-<li>Appuyer sur la touche Marche/Arrêt</li>
-<li>Sélectionner un programme</li>
-<li>Sélectionner les options (Température, vitesse d’essorage, etc.)</li>
-<li>Ajouter la lessive</li>
-<li>Appuyer sur Départ/Pause</li>
+<li>Open the door and put in the laundry</li>
+<li>Press the Start/Stop button</li>
+<li>Select a programme</li>
+<li>Select the options (temperature, spinning speed, etc.)</li>
+<li>Add the laundry detergent</li>
+<li>Press Start/Pause</li>
 </ol>
 </details>
 
 <br />
 
 <details>
-<summary>Séchante</summary>
+<summary>Dryer</summary>
 <ol>
-<li>Ouvrir la porte et charger le linge mouillé (pas plus de 5kg)</li>
-<li>Appuyer sur la touche Marche/Arrêt</li>
-<li>Ne pas toucher au bouton central de sélection des programmes</li>
-<li>Sélectionner le mode de séchage désiré dans les options</li>
-<li>Appuyer sur la touche Départ/Pause</li>
+<li>Open the door and put in the wet laundry (no more than 5kg)</li>
+<li>Press the Start/Stop button</li>
+<li>Do not touch the central programme selection button</li>
+<li>Select the desired drying mode in the options</li>
+<li>Press the Start/Pause button</li>
 </ol>
 
-**Il est normal que la diode « coton » reste allumée par défaut. Cela n’est pas lié au type de vêtement. Il se peut que la durée réelle de séchage diffère de la durée annoncée, selon le poids de la charge, l’humidité, etc.**
+**It is normal that the « coton » diode stays on by default. It is not linked to the type of clothing. The actual drying time might differ from the announced time, depending on the weight and dampness of the clothing.**
+
 </details>

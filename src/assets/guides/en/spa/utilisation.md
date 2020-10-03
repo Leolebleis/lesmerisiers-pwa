@@ -1,45 +1,45 @@
-### Utilisation du SPA
+### Usage of the Spa
 
-Le SPA est toujours prêt à l’utilisation avec une température réglée à 35°. Vous pouvez toujours si vous le souhaitez augmenter ou diminuer cette température (maximum 40°).
+The SPA is always ready for use with a pre-set temperature of 35°C. You can increase or decrease this temperature (maximum 40°C).
 
 <details>
-<summary>Réglage de la température</summary>
+<summary>Temperature settings</summary>
 <ul>
-<li>Pour régler la température, appuyez sur le bouton « Temp » pour ainsi afficher la température réglée.</li>
-<li>Pour changer la température préréglée, appuyez sur la touche une deuxième fois avant que l’affichage ne s’arrête de clignoter. À chaque pression de touche, la température continue de monter ou de baisser. Si la direction opposée est souhaitée, relâchez la touche et attendez que l’affichage revienne à la température courante de l’eau.</li>
-<li>Appuyez sur la touche pour afficher la température réglée, et à nouveau pour changer la température dans la direction souhaitée. Après 3 secondes, l’écran s’arrêtera de clignoter et affichera la température courante.</li>
+<li>To set the temperature, press button marked “Temp” to display the current temperature</li>
+<li>To change the temperature, press “Temp” a second time. Continue pressing the button to see the temperature increase or decrease.</li>
+<li>If you see the temperature increasing while you wanted it to decrease, wait for the display to stop flashing and restart the instructions</li>
 </ul>
 </details>
 
 <br />
 
 <details >
-<summary>Réglage des jets</summary>
-Certains jets d’eau du spa sont ajustables.
+<summary>Jet settings</summary>
+Some jets can be adjusted.
 <ul>
-
-<li>Tournez simplement la face du jet vers la gauche ou la droite, pour les ouvrir ou les fermer.</li>
-<li>Deux niveaux de vitesse des jets sont disponibles.
-Il vous suffit d’appuyer sur le bouton « jets » une ou deux fois pour régler cette vitesse.</li>
-<li>Les jets restent allumés le temps d’une séance de 15 minutes, ils se coupent automatiquement.</li>
+<li>Simply twist the jet right or left, to open or close them</li>
+<li>Two power levels are available and can be selected by pressing the “Jets” button.</li>
+<li>The jets slow down automatically after 15 minutes.</li>
 </ul>
 
-**Ne jamais fermer tous les jets en même temps. Cela pourrait endommager la pompe et le moteur du SPA.**
+**Do not close all the jets at the same time, as this could damage the pump and the engine of the Spa.**
 
 </details>
 
 <br />
 
 <details>
-<summary>Contrôles de l’air</summary>
-Le contrôle de l’air s’effectue en tournant les valves de contrôle de l’air. Ces valves servent à contrôler la quantité d’air mélangée à l’eau quand les jets fonctionnent avec la pompe en vitesse rapide
+<summary>Air control</summary>
+To control the amount of air in the spa, simply twist the air control valves.
 </details>
 
 <br />
 
 <details>
-<summary>Réglage de la lumière</summary>
-Appuyez sur « light » pour allumer ou éteindre l’éclairage du spa. Il s’éteindra automatiquement après 4 heures.
-Appuyez sur le bouton de lumière plusieurs fois consécutives pour changer la séquence de couleurs.
+<summary>Light settings</summary>
+Press the “light” button to switch the lights on or off. 
+They will automatically be switched off after 4 hours.
+Press the “light” button consecutively to change the colour scheme.
 
+**An automatic filtration program is selected. If you are using the spa without having switched the jets on, do not worry as this is simply the filtration program.**
 </details>
