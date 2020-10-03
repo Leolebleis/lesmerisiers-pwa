@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -27,10 +27,19 @@ const Button = styled.button`
 
 export default () => {
   const { t, i18n } = useTranslation("region");
-
   let language = i18n.language.substring(0, 2);
 
-  const data = require(`../../assets/places-${language}.json`);
+  let [data, setData] = useState(
+    require(`../../assets/places-${language}.json`)
+  );
+
+  useEffect(() => {
+    let data = require(`../../assets/places-${language}.json`);
+    setData(data);
+    setFilteredList(data);
+  }, [language]);
+
+  let [filteredList, setFilteredList] = useState(data);
 
   const categories = [
     {
@@ -54,8 +63,6 @@ export default () => {
       icon: TiBeer,
     },
   ];
-
-  let [filteredList, setFilteredList] = useState(data.places);
 
   let generateTableHeaders = () => {
     const headerItems = categories.map((element) => {
@@ -84,13 +91,13 @@ export default () => {
   };
 
   let handleClick = (event) => {
-    if (event.currentTarget.id === "any") {
-      setFilteredList(data.places);
+    if (!(event.currentTarget.id === "any")) {
+      let newList = data.filter(
+        (element) => element.category === event.currentTarget.id
+      );
+      setFilteredList(newList);
     } else {
-      let filteredList = data.places.filter((element) => {
-        return element.category === event.currentTarget.id;
-      });
-      setFilteredList(filteredList);
+      setFilteredList(data);
     }
   };
 
