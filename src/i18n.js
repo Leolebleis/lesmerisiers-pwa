@@ -9,7 +9,7 @@ i18n
   .use(Backend)
   .init({
     fallbackLng: "fr",
-    debug: true,
+    debug: false,
     detection: {
       order: ["querystring", "cookie", "localStorage", "sessionStorage", "navigator", "htmlTag", "path", "subdomain"],
       cache: ["cookie"]

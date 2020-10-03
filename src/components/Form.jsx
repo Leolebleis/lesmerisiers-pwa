@@ -46,7 +46,7 @@ export default (props) => {
               <TextField
                 fullWidth
                 className="mx-3 mt-2"
-                id="standard-basic"
+                id="name"
                 name="nom et prénom"
                 label={t("form.name")}
               />
@@ -55,7 +55,7 @@ export default (props) => {
               <TextField
                 fullWidth
                 className="mx-3 mt-2"
-                id="standard-basic"
+                id="email"
                 name="e-mail"
                 label={t("form.email")}
               />
@@ -64,7 +64,7 @@ export default (props) => {
               <TextField
                 fullWidth
                 className="mx-3 mt-2"
-                id="standard-basic"
+                id="subject"
                 name="sujet"
                 label={t("form.subject")}
               />
@@ -73,7 +73,7 @@ export default (props) => {
               <TextField
                 fullWidth
                 className="mx-3 mt-2"
-                id="standard-basic"
+                id="message"
                 name="message"
                 label={t("form.message")}
               />
