@@ -4,10 +4,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import "./i18n";
+import "./analytics"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div />}>
       <App />
     </Suspense>
   </React.StrictMode>,
