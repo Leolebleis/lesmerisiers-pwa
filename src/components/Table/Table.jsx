@@ -32,6 +32,8 @@ export default () => {
   let [data, setData] = useState(
     require(`../../assets/places-${language}.json`)
   );
+  let [filter, setFilter] = useState("any");
+  let [filteredList, setFilteredList] = useState(data);
 
   useEffect(() => {
     let data = require(`../../assets/places-${language}.json`);
@@ -39,7 +41,13 @@ export default () => {
     setFilteredList(data);
   }, [language]);
 
-  let [filteredList, setFilteredList] = useState(data);
+  useEffect(() => {
+    if (!(filter === "any")) {
+      setFilteredList(data.filter((element) => element.category === filter));
+    } else {
+      setFilteredList(data);
+    }
+  }, [filter, data]);
 
   const categories = [
     {
@@ -91,14 +99,7 @@ export default () => {
   };
 
   let handleClick = (event) => {
-    if (!(event.currentTarget.id === "any")) {
-      let newList = data.filter(
-        (element) => element.category === event.currentTarget.id
-      );
-      setFilteredList(newList);
-    } else {
-      setFilteredList(data);
-    }
+    setFilter(event.currentTarget.id);
   };
 
   return (
