@@ -4,16 +4,17 @@ import { useTranslation } from "react-i18next";
 
 export default (props) => {
   const { i18n } = useTranslation("guide");
+  let language = i18n.language.substring(0, 2);
 
   let [markdown, setMarkdown] = useState();
 
   useEffect(() => {
-    const contentPath = require(`../../assets/guides/${i18n.language}/${props.fileName}.md`);
+    const contentPath = require(`../../assets/guides/${language}/${props.fileName}.md`);
 
     fetch(contentPath)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
-  }, [props.fileName, i18n.language]);
+  }, [props.fileName, language]);
 
   return (
     <>

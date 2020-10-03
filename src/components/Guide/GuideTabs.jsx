@@ -12,13 +12,14 @@ export default (props) => {
   let [activeKey, setActiveKey] = useState();
 
   const { i18n } = useTranslation("guide");
+  let language = i18n.language.substring(0, 2)
 
   let data;
 
-  if (props.active === "gg") data = require(`../../assets/guides/${i18n.language}/gg/gg.json`);
-  if (props.active === "pg") data = require(`../../assets/guides/${i18n.language}/pg/pg.json`);
-  if (props.active === "spa") data = require(`../../assets/guides/${i18n.language}/spa/spa.json`);
-  if (props.active === "default") data = require(`../../assets/guides/${i18n.language}/default.json`);
+  if (props.active === "gg") data = require(`../../assets/guides/${language}/gg/gg.json`);
+  if (props.active === "pg") data = require(`../../assets/guides/${language}/pg/pg.json`);
+  if (props.active === "spa") data = require(`../../assets/guides/${language}/spa/spa.json`);
+  if (props.active === "default") data = require(`../../assets/guides/${language}/default.json`);
 
   useEffect(() => {
     setActiveKey("default");
