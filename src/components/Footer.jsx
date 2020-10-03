@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 
 export default () => {
   const { t, i18n } = useTranslation("utils");
+  let language = i18n.language.substring(0, 2);
 
   const changeLanguage = (event) => {
     i18n.changeLanguage(event.target.value);
@@ -22,7 +23,7 @@ export default () => {
         <Col className="col-6 col-md-3">{t("language")}</Col>
         <Col className="col-6 col-md-3">
           <Form.Control
-            defaultValue={i18n.language}
+            defaultValue={language}
             as="select"
             onChange={(event) => changeLanguage(event)}
             custom

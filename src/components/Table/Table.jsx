@@ -28,7 +28,9 @@ const Button = styled.button`
 export default () => {
   const { t, i18n } = useTranslation("region");
 
-  const data = require(`../../assets/places-${i18n.language}.json`);
+  let language = i18n.language.substring(0, 2);
+
+  const data = require(`../../assets/places-${language}.json`);
 
   const categories = [
     {
