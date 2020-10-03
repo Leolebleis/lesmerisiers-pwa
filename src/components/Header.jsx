@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import { useTranslation } from "react-i18next";
 
 // Image imports
 import GGExterieur from "../assets/photos/GG/GG-exterieur.jpg";
@@ -53,55 +54,49 @@ const Styles = styled.div`
   }
 `;
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <Styles>
-        <Jumbotron className="mb-4">
-          <div className="overlay" />
-          <div className="position-absolute h-100 w-100 d-flex align-items-center">
-            <img className="lesmerisiers" src={banner} alt="Les Merisiers" />
-          </div>
-          <Carousel interval="5000">
-            <Carousel.Item className="text-center">
-              <img
-                className="d-block w-100 banner"
-                src={GGExterieur}
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <p className="lead">
-                  Gîtes haut-de-gamme au cœur du vignoble Alsacien
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 banner"
-                src={GGSalon}
-                alt="Third slide"
-              />
-              <Carousel.Caption>
-                <p className="lead">
-                  Un intérieur d'exception dans un cadre d'exception
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 banner"
-                src={PGSalon}
-                alt="Third slide"
-              />
-              <Carousel.Caption>
-                <p className="lead">
-                  Offrez-vous les vacances que vous méritez
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </Jumbotron>
-      </Styles>
-    );
-  }
-}
+export default () => {
+  const { t } = useTranslation("header");
+
+  return (
+    <Styles>
+      <Jumbotron className="mb-4">
+        <div className="overlay" />
+        <div className="position-absolute h-100 w-100 d-flex align-items-center">
+          <img className="lesmerisiers" src={banner} alt="Les Merisiers" />
+        </div>
+        <Carousel interval="5000">
+          <Carousel.Item className="text-center">
+            <img
+              className="d-block w-100 banner"
+              src={GGExterieur}
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <p className="lead">{t("oneLiners.1")}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 banner"
+              src={GGSalon}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <p className="lead">{t("oneLiners.2")}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 banner"
+              src={PGSalon}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <p className="lead">{t("oneLiners.2")}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </Jumbotron>
+    </Styles>
+  );
+};

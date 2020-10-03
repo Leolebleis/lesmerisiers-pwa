@@ -1,96 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TextField from "@material-ui/core/TextField";
 import { IconContext } from "react-icons";
 import { FiSend } from "react-icons/fi";
+import { useTranslation } from "react-i18next";
 
-export default class MyForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.submitForm = this.submitForm.bind(this);
-    this.state = {
-      status: "",
-    };
-  }
+export default (props) => {
+  let [status, setStatus] = useState("");
 
-  render() {
-    const { status } = this.state;
-    return (
-      <form
-        className="border border-white rounded "
-        noValidate
-        autoComplete="off"
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mbjkpdwv"
-        method="POST"
-      >
-        <div className="md-form border-white border">
-          <Row className="d-flex justify-content-center">
-            <Col className="col-12">
-              <div className="input-group">
-                <TextField
-                  fullWidth
-                  className="mx-3 mt-2"
-                  id="standard-basic"
-                  name="nom et prénom"
-                  label="Nom et prénom"
-                />
-              </div>
-              <div className="input-group">
-                <TextField
-                  fullWidth
-                  className="mx-3 mt-2"
-                  id="standard-basic"
-                  name="e-mail"
-                  label="E-mail"
-                />
-              </div>
-              <div className="input-group">
-                <TextField
-                  fullWidth
-                  className="mx-3 mt-2"
-                  id="standard-basic"
-                  name="sujet"
-                  label="Sujet"
-                />
-              </div>
-              <div className="input-group">
-                <TextField
-                  fullWidth
-                  className="mx-3 mt-2"
-                  id="standard-basic"
-                  name="message"
-                  label="Message"
-                />
-              </div>
-            </Col>
-          </Row>
-        </div>
-        {status === "SUCCESS" ? (
-          <p>Merci!</p>
-        ) : (
-          <button className="btn btn-large btn-outline-info my-4">
-            <span className="align-middle">Envoyer</span>
-            <span className="pl-1">
-              <IconContext.Provider
-                value={{
-                  size: "1em",
-                }}
-              >
-                <FiSend />
-              </IconContext.Provider>
-            </span>
-          </button>
-        )}
-        {status === "ERROR" && (
-          <p className="text-center">Oups! Une erreur s'est produite.</p>
-        )}
-      </form>
-    );
-  }
+  const { t } = useTranslation("utils");
 
-  submitForm(ev) {
+  function submitForm(ev) {
     ev.preventDefault();
     const form = ev.target;
     const data = new FormData(form);
@@ -101,11 +22,82 @@ export default class MyForm extends React.Component {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        this.setState({ status: "SUCCESS" });
+        setStatus("SUCCESS");
       } else {
-        this.setState({ status: "ERROR" });
+        setStatus("ERROR");
       }
     };
     xhr.send(data);
   }
-}
+
+  return (
+    <form
+      className="border border-white rounded "
+      noValidate
+      autoComplete="off"
+      onSubmit={submitForm}
+      action="https://formspree.io/mbjkpdwv"
+      method="POST"
+    >
+      <div className="md-form border-white border">
+        <Row className="d-flex justify-content-center">
+          <Col className="col-12">
+            <div className="input-group">
+              <TextField
+                fullWidth
+                className="mx-3 mt-2"
+                id="standard-basic"
+                name="nom et prénom"
+                label={t("form.name")}
+              />
+            </div>
+            <div className="input-group">
+              <TextField
+                fullWidth
+                className="mx-3 mt-2"
+                id="standard-basic"
+                name="e-mail"
+                label={t("form.email")}
+              />
+            </div>
+            <div className="input-group">
+              <TextField
+                fullWidth
+                className="mx-3 mt-2"
+                id="standard-basic"
+                name="sujet"
+                label={t("form.subject")}
+              />
+            </div>
+            <div className="input-group">
+              <TextField
+                fullWidth
+                className="mx-3 mt-2"
+                id="standard-basic"
+                name="message"
+                label={t("form.message")}
+              />
+            </div>
+          </Col>
+        </Row>
+      </div>
+      {status === "SUCCESS" ? (
+        <p>Merci!</p>
+      ) : (
+        <button className="btn btn-large btn-outline-info my-4">
+          <span className="align-middle">{t("form.send")}</span>
+          <span className="pl-1">
+            <IconContext.Provider
+              value={{
+                size: "1em",
+              }}
+            >
+              <FiSend />
+            </IconContext.Provider>
+          </span>
+        </button>
+      )}
+      {status === "ERROR" && <p className="text-center">{t("form.error")}</p>}
+    </form>
+  );
+};

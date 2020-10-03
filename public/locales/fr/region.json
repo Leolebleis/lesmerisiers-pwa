@@ -1,0 +1,20 @@
+{
+  "intro": {
+    "1": "Envie de sortir mais vous ne savez pas où ? Pas de problème ! Voici une liste de nos coups de cœur et de nos suggestions de choses à faire dans la région : restaurants, bars, musées, ou une escapade dans un village local... Il y en a pour tous les goûts et tout au long de l'année !",
+    "2": "N'hésitez pas à parcourir d'autres ressources qui peuvent être utiles, telles que",
+    "3": "ce calendrier des événements dans la région",
+    "4": "cette liste des musées Haut-Rhinois",
+    "5": "cette liste des châteaux de la région",
+    "6": ", ou encore",
+    "7": "cette carte des parcours brassicoles en Alsace"
+  },
+  "links": {
+    "visitalsace": "https://www.visit.alsace/patrimoine-et-histoire/chateaux-alsace/"
+  },
+  "categories": {
+    "any": "Tout",
+    "places": "Lieux notoires",
+    "museums": "Musées",
+    "bars": "Bars & Restaurants"
+  }
+}

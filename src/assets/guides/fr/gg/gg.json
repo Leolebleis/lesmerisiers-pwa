@@ -1,0 +1,26 @@
+{
+  "description": "Les informations relatives au séjour dans notre Gîte 8 à 10 personnes.",
+  "id": "gg",
+  "content": [
+    {
+      "title": "La vie dans le logement",
+      "key": "default",
+      "content": "vie"
+    },
+    {
+      "title": "Equipements",
+      "key": "equipment",
+      "content": "equipments"
+    },
+    {
+      "title": "Informations pratiques",
+      "key": "infos",
+      "content": "infos"
+    },
+    {
+      "title": "Votre départ",
+      "key": "depart",
+      "content": "depart"
+    }
+  ]
+}

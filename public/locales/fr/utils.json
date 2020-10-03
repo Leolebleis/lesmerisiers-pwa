@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "region": "Que faire dans la région ?",
+    "guide": "Guide de séjour",
+    "construction": "La construction"
+  },
+  "petitFute": "Matériaux haut de gamme, mobilier design, chambres hyper cosy, équipements de cuisine et sanitaires flambant neufs, spa extérieur : la Résidence Les Merisiers tutoie l'exception sans aucune faute de goût !",
+  "followOnFb": "Suivez-nous sur Facebook",
+  "contactUs": "Contactez-nous directement",
+  "form": {
+    "name": "Nom et prénom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer",
+    "error": "Oups ! Une erreur s'est produite."
+  },
+  "copyright": "Les photos sont la propriété de la SCI Les Merisiers.",
+  "lbf": "En partenariat avec LBF Paysagisme.",
+  "language": "Langue"
+}

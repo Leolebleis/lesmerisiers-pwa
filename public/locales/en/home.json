@@ -1,3 +1,29 @@
 {
-  "gradient title": "Stay in an unforgettable and elegant residence and savor your holidays in the heart of Alsace"
+  "gradientTitle": "Stay in an unforgettable and elegant residence and savor your holidays in the heart of Alsace",
+  "introduction": "With <italic>three family lodgings suitable for all groups</italic>, we offer you a pleasant, peaceful and high-end setting, surrounded by vineyards, where <italic>you can enjoy the Alsatian heritage and its gastronomy</italic>. Located in Turckheim, near Colmar, our residences are fully equipped and ready to welcome you.",
+  "mg": {
+    "description": "The larger gîte is in fact a combination of the two previous gîtes, since they can be interconnected, and thus accommodate very large groups. The dimensions are combined, as well as the number of rooms and outdoor spaces. It is therefore 200m² of interior surface, as well as 240m² of private gardens and 50m² of terrace which will be at your disposal! Enough to make your vacation unforgettable.",
+    "title": "Residence 12 to 16 people"
+  },
+  "gg": {
+    "description": "A surface of 132m² with 2 Queen Size beds, 4 single beds, and a sofa bed, for a total capacity of 10 people. To this can be added 100m² of private garden at your disposal, and 36m² of terrace overlooking the Haut-Rhinois vineyards and the Vosges mountains that you will have the opportunity to contemplate from your outdoor spa!",
+    "title": "Residence 8 to 10 people"
+  },
+  "pg": {
+    "description": "A surface of 61m² with a Queen Size bed, 2 single beds, and a sofa bed, for a total capacity of 6 people. To this can be added 15m² of terrace at your disposal and 140m² of private garden with a view of the Haut-Rhinois vineyards that you will have the opportunity to contemplate during your barbecues!",
+    "title": "Residence 4 to 6 people"
+  },
+  "labels": {
+    "wifi": "Wifi 200mbps",
+    "tv": "Cabled TV",
+    "parking": "Private parking",
+    "washingMachine": "Washing machine",
+    "kitchen": "Fully-equipped kitchen"
+  },
+  "metrics": {
+    "bathrooms": "Ba",
+    "bedrooms": "Br",
+    "spa": "Spa"
+  },
+  "book": "Book"
 }

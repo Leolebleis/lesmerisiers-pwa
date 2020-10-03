@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "home": "Home",
+    "region": "What to do in Alsace?",
+    "guide": "Staying guide",
+    "construction": "Construction"
+  },
+  "petitFute": "Top-of-the-range materials, designer furniture, super cozy rooms, brand new kitchen and bathroom equipment, outdoor spa: the Residence Les Merisiers is the perfect place for spending exceptional holidays in a tasteful setting!",
+  "followOnFb": "Follow us on Facebook",
+  "contactUs": "Contact us directly",
+  "form": {
+    "name": "First and last name",
+    "email": "E-mail",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "error": "Oops! Something went wrong."
+  },
+  "copyright": "Photos used belong to the SCI Les Merisiers.",
+  "lbf": "In partnership with LBF Paysagistes.",
+  "language": "Language"
+}

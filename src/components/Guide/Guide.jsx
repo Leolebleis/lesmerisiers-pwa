@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -7,6 +7,7 @@ import { IconContext } from "react-icons";
 import { BiBuildings as GrandGite } from "react-icons/bi";
 import { BiBuilding as PetitGite } from "react-icons/bi";
 import { FaHotTub as Spa } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 import GuideTabs from "./GuideTabs";
 
@@ -21,66 +22,62 @@ const Button = styled.button`
   }
 `;
 
-const categories = [
-  {
-    name: "Petit Gîte",
-    id: "pg",
-    icon: PetitGite,
-  },
-  {
-    name: "Grand Gîte",
-    id: "gg",
-    icon: GrandGite,
-  },
-  {
-    name: "SPA",
-    id: "spa",
-    icon: Spa,
-  },
-];
+export default () => {
+  let { t } = useTranslation("guide");
 
-export default class Guide extends React.Component {
-  state = {
-    active: "default",
+  const categories = [
+    {
+      name: t("labels.pg"),
+      id: "pg",
+      icon: PetitGite,
+    },
+    {
+      name: t("labels.pg"),
+      id: "gg",
+      icon: GrandGite,
+    },
+    {
+      name: t("labels.spa"),
+      id: "spa",
+      icon: Spa,
+    },
+  ];
+
+  let [active, setActive] = useState("default");
+
+  let handleClick = (event) => {
+    setActive(event.currentTarget.id);
   };
 
-  handleClick = (event) => {
-    this.setState({
-      active: event.currentTarget.id,
-    });
-  };
+  return (
+    <Container>
+      {/* put the headers for GG/PG/SPA */}
+      <Row>
+        {categories.map((category) => {
+          const CustomIcon = category.icon;
+          return (
+            <Col className="h-100" key={category.id}>
+              <Button
+                key={category.id}
+                className="w-100 h-100 btn-outline-info"
+                onClick={handleClick}
+                id={category.id}
+              >
+                <div>
+                  {/* !!! Having icons in buttons can make them bug if you don't use event.currentTarget in the onClick function !!! */}
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <CustomIcon />
+                  </IconContext.Provider>
+                </div>
+                <p className="lead m-0">{category.name}</p>
+              </Button>
+            </Col>
+          );
+        })}
+      </Row>
+      <hr />
 
-  render() {
-    return (
-      <Container>
-        {/* put the headers for GG/PG/SPA */}
-        <Row>
-          {categories.map((category) => {
-            const CustomIcon = category.icon;
-            return (
-              <Col className="h-100" key={category.id}>
-                <Button
-                  key={category.id}
-                  className="w-100 h-100 btn-outline-info"
-                  onClick={this.handleClick}
-                  id={category.id}
-                >
-                  <div>
-                    {/* !!! Having icons in buttons can make them bug if you don't use event.currentTarget in the onClick function !!! */}
-                    <IconContext.Provider value={{ size: "2em" }}>
-                      <CustomIcon />
-                    </IconContext.Provider>
-                  </div>
-                  <p className="lead m-0">{category.name}</p>
-                </Button>
-              </Col>
-            );
-          })}
-        </Row>
-        <hr />
-
-        <GuideTabs active={this.state.active} />
-      </Container>
-    );
-  }
-}
+      <GuideTabs active={active} />
+    </Container>
+  );
+};

@@ -1,3 +1,29 @@
 {
-  "gradient title": "Passez un séjour inoubliable dans un gîte élégant et savourez vos vacances au cœur de l'Alsace"
+  "gradientTitle": "Passez un séjour inoubliable dans un gîte élégant et savourez vos vacances au cœur de l'Alsace",
+  "introduction": "Avec <italic>trois gîtes familiaux adaptés à tous les groupes</italic>, nous vous proposons un cadre agréable, tranquille, et haut de gamme, entouré du vignoble, où <italic>vous pourrez profiter du patrimoine Alsacien et de sa gastronomie.</italic> Situés à Turckheim, à côté de Colmar, nos gîtes sont tout-équipés et prêts à vous accueillir.",
+  "mg": {
+    "description": "Le gîte le plus grand est en fait une combinaison des deux gîtes précédents, puisqu'ils peuvent être communicants, et donc recevoir des groupes de taille très conséquente. Les dimensions sont donc combinées, ainsi que le nombre de pièces et les espaces extérieurs. C'est donc 200m² de surface intérieure, ainsi que 240m² de jardins privatifs et 50m² de terrasse qui seront à votre disposition ! De quoi rendre vos vacances inoubliables.",
+    "title": "Gîte 12 à 16 personnes"
+  },
+  "gg": {
+    "description": "Une surface de 132m² avec 2 lits Queen Size, 4 lits simples, et un canapé-lit, pour une capacité totale de 10 personnes. A cela s’ajoute 100m² de jardin privé à votre disposition, et 36m² de terrasse avec vue sur le vignoble Haut-Rhinois et le massif Vosgien que vous aurez le loisir de contempler depuis votre spa extérieur !",
+    "title": "Gîte 8 à 10 personnes"
+  },
+  "pg": {
+    "description": "Une surface de 61m² avec un lit Queen Size, 2 lits simples, et un canapé-lit, pour une capacité totale de 6 personnes. A cela s’ajoute 15m² de terrasse à votre disposition et 140m² de jardin privatif avec vue sur le vignoble Haut-Rhinois que vous aurez le loisir de contempler lors de vos barbecues !",
+    "title": "Gîte 4 à 6 personnes"
+  },
+  "labels": {
+    "wifi": "Wifi 200mb/s",
+    "tv": "Télévision câblée",
+    "parking": "Parking privé",
+    "washingMachine": "Machine à laver",
+    "kitchen": "Cuisine équipée"
+  },
+  "metrics": {
+    "bathrooms": "sdb",
+    "bedrooms": "chambres",
+    "spa": "Spa"
+  },
+  "book": "Book"
 }

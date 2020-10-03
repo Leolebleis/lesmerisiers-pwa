@@ -4,23 +4,21 @@ import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Line } from "../Layout";
+import { useTranslation } from "react-i18next";
 
 import MarkdownViewer from "./MarkdownViewer";
-
-import GrandGite from "../../assets/guides/gg/gg.json";
-import PetitGite from "../../assets/guides/pg/pg.json";
-import Spa from "../../assets/guides/spa/spa.json";
-import Default from "../../assets/guides/default.json";
 
 export default (props) => {
   let [activeKey, setActiveKey] = useState();
 
+  const { i18n } = useTranslation("guide");
+
   let data;
 
-  if (props.active === "gg") data = GrandGite;
-  if (props.active === "pg") data = PetitGite;
-  if (props.active === "spa") data = Spa;
-  if (props.active === "default") data = Default;
+  if (props.active === "gg") data = require(`../../assets/guides/${i18n.language}/gg/gg.json`);
+  if (props.active === "pg") data = require(`../../assets/guides/${i18n.language}/pg/pg.json`);
+  if (props.active === "spa") data = require(`../../assets/guides/${i18n.language}/spa/spa.json`);
+  if (props.active === "default") data = require(`../../assets/guides/${i18n.language}/default.json`);
 
   useEffect(() => {
     setActiveKey("default");

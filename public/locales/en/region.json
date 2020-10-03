@@ -1,0 +1,21 @@
+{
+  "intro": {
+    "1": "Feeling like going out but you don't know where? No problem! Here is a list of our most favourite places and things to do in the region : restaurants, bars, museums, or maybe a trip to a local village... There is something for all tastes and all year round!",
+    "2": "Don't hesitate to go through other resources that you might find useful, such as",
+    "3": "this calendar for regional events",
+    "4": "this list of Haut-Rhin museums",
+    "5": "this list of regional castles",
+    "6": ", or even",
+    "7": "this map of brewing routes in Alsace"
+  },
+  "links": {
+    "visitalsace": "https://www.visit.alsace/en/heritage-and-history/mythical-castles-in-alsace/"
+  },
+
+  "categories": {
+    "any": "Any",
+    "places": "Landmarks",
+    "museums": "Museums",
+    "bars": "Bars & Restaurants"
+  }
+}
