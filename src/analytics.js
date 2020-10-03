@@ -8,3 +8,5 @@ const analytics = Analytics({
     simpleAnalyticsPlugin(),
   ],
 });
+
+export default analytics
