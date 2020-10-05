@@ -11,7 +11,11 @@
 
 > React PWA for a short-term rental company, including guest handbook and general info.
 
+
 ### ✨ [Demo](https://lesmerisiers.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/21ed6fbf-84dc-451a-b5e8-29f6e221ef68/deploy-status)](https://app.netlify.com/sites/lesmerisiers/deploys)
+
 
 ## Dependencies
 TODO
