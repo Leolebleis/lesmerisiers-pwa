@@ -14,22 +14,22 @@ const Image = styled.img`
   }
 `;
 
-export default () => {
+export default (props) => {
   const { t } = useTranslation("home");
 
   let pictureData = "";
-  if (this.props.title === "Gîte 4 à 6 personnes") {
+  if (props.title === "Gîte 4 à 6 personnes") {
     pictureData = require("../../assets/pg-photos.json");
-  } else if (this.props.title === "Gîte 8 à 10 personnes") {
+  } else if (props.title === "Gîte 8 à 10 personnes") {
     pictureData = require("../../assets/gg-photos.json");
   } else {
     pictureData = require("../../assets/mg-photos.json");
   }
 
   return (
-    <React.Fragment>
+    <>
       <Modal.Header closeButton>
-        <Modal.Title>{this.props.title}</Modal.Title>
+        <Modal.Title>{props.title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         {pictureData.photos.map((photo) => {
@@ -49,10 +49,10 @@ export default () => {
         })}
       </Modal.Body>
       <Modal.Footer className="justify-content-center">
-        <a href={this.props.link} target="_blank" rel="noopener noreferrer">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           <div className="btn btn-large btn-outline-info my-4">{t("book")}</div>
         </a>
       </Modal.Footer>
-    </React.Fragment>
+    </>
   );
 };
