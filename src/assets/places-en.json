@@ -7,11 +7,11 @@
     "website": "https://www.tourisme-colmar.com/fr/sites-a-visiter-dans-le-grand-pays-de-colmar/F235008803_la-petite-venise-colmar"
   },
   {
-    "name": "Veilleur de Nuit",
-    "address": "Office de Tourisme, Turckheim",
-    "description": "From the 1st of May to the 31st of October, an authentic night watchman starts his patrol at 10pm from the Tourist Office. He will talk to you about the town along with numerous typical anecdotes from Alsace.",
-    "category": "Lieux notoires",
-    "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+    "name": "Cave de Turckheim",
+    "address": "16 rue des Tuileries, Turckheim",
+    "description": "You will be able to taste numerous kinds of wines, produced in the Turckheim vineyards of the Brand estate, such as Riesling or Gewurztraminer. Oenotouristic activities on Wednesdays.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.cave-turckheim.com/"
   },
   {
     "name": "Volerie des Aigles",
@@ -19,6 +19,13 @@
     "description": "Ornithological animal park with shows presenting birds of prey, training initiation and educational exhibitions.",
     "category": "Lieux notoires",
     "website": "https://www.voleriedesaigles.com"
+  },
+  {
+    "name": "Restaurant de la Tour",
+    "address": "1 place de la République, Turckheim",
+    "description": "Typical cuisine from Alsace, offering delicious tartes flambées and munster gratin. All the meals can also be taken away.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
   },
   {
     "name": "Hiking in Trois Epis",
@@ -84,6 +91,13 @@
     "website": "https://musee.turckheim-alsace.com/"
   },
   {
+    "name": "Veilleur de Nuit",
+    "address": "Office de Tourisme, Turckheim",
+    "description": "From the 1st of May to the 31st of October, an authentic night watchman starts his patrol at 10pm from the Tourist Office. He will talk to you about the town along with numerous typical anecdotes from Alsace.",
+    "category": "Lieux notoires",
+    "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+  },
+  {
     "name": "Cité de l’automobile",
     "address": "15 rue de l’Épée, Mulhouse",
     "description": "National museum of automobile containing the most important car collection in the world, with more than 500 cars collected by the Schlumpf borthers, with an impressive number of Bugatti cars.",
@@ -98,25 +112,11 @@
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d1833678-Reviews-L_Auberge_du_Veilleur-Turckheim_Haut_Rhin_Grand_Est.html"
   },
   {
-    "name": "Restaurant de la Tour",
-    "address": "1 place de la République, Turckheim",
-    "description": "Typical cuisine from Alsace, offering delicious tartes flambées and munster gratin. All the meals can also be taken away.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
-  },
-  {
     "name": "Restaurant le Silex",
     "address": "9 Route d’Ingersheim, Colmar",
     "description": "Traditional French cuisine, serving food until 1am.",
     "category": "Bars & Restaurants",
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g187073-d5860990-Reviews-Le_Silex-Colmar_Haut_Rhin_Grand_Est.html"
-  },
-  {
-    "name": "Cave de Turckheim",
-    "address": "16 rue des Tuileries, Turckheim",
-    "description": "You will be able to taste numerous kinds of wines, produced in the Turckheim vineyards of the Brand estate, such as Riesling or Gewurztraminer. Oenotouristic activities on Wednesdays.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.cave-turckheim.com/"
   },
   {
     "name": "Bar la Scud’",

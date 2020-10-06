@@ -7,11 +7,18 @@
     "website": "https://www.tourisme-colmar.com/fr/sites-a-visiter-dans-le-grand-pays-de-colmar/F235008803_la-petite-venise-colmar"
   },
   {
-    "name": "Veilleur de Nuit",
-    "address": "Office de Tourisme, Turckheim",
-    "description": "Du 1er Mai au 31 Octobre, un authentique veilleur de nuit commence sa ronde à 22h, partant de l’office de tourisme. Il vous présentera la ville de Turckheim avec de nombreuses anecdotes typiquement alsaciennes.",
-    "category": "Lieux notoires",
-    "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+    "name": "Cave de Turckheim",
+    "address": "16 rue des Tuileries, Turckheim",
+    "description": "Vous pourrez déguster de nombreux vins produits depuis les vignes Turckhemoises appartenant au domaine du Brand, notamment du Riesling ou encore du Gewurztraminer. Activités oenotouristiques le mercredi.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.cave-turckheim.com/"
+  },
+  {
+    "name": "Bar Les 3 Singes",
+    "address": "70 Grand Rue, Colmar",
+    "description": "Bar à bière situé au centre de Colmar, servant de nombreuses bières provenant de brasseries locales. Il se situe à côté de la Petite Venise.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.tripadvisor.co.uk/Attraction_Review-g187073-d13003427-Reviews-Les_3_Singes_Colmar-Colmar_Haut_Rhin_Grand_Est.html"
   },
   {
     "name": "Volerie des Aigles",
@@ -91,6 +98,13 @@
     "website": "https://www.citedelautomobile.com"
   },
   {
+    "name": "Veilleur de Nuit",
+    "address": "Office de Tourisme, Turckheim",
+    "description": "Du 1er Mai au 31 Octobre, un authentique veilleur de nuit commence sa ronde à 22h, partant de l’office de tourisme. Il vous présentera la ville de Turckheim avec de nombreuses anecdotes typiquement alsaciennes.",
+    "category": "Lieux notoires",
+    "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+  },
+  {
     "name": "L’Auberge du Veilleur",
     "address": "12 Place Turenne, Turckheim",
     "description": "Cuisine alsacienne avec ses produits du terroir, et de la viande de boeuf bio. Une ambiance très typique.",
@@ -112,24 +126,10 @@
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g187073-d5860990-Reviews-Le_Silex-Colmar_Haut_Rhin_Grand_Est.html"
   },
   {
-    "name": "Cave de Turckheim",
-    "address": "16 rue des Tuileries, Turckheim",
-    "description": "Vous pourrez déguster de nombreux vins produits depuis les vignes Turckhemoises appartenant au domaine du Brand, notamment du Riesling ou encore du Gewurztraminer. Activités oenotouristiques le mercredi.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.cave-turckheim.com/"
-  },
-  {
     "name": "Bar la Scud’",
     "address": "51 Grand’rue, Turckheim",
     "description": "Bar local situé au centre de Turckheim, possédant une large carte de bières et des activités régulières.",
     "category": "Bars & Restaurants",
     "website": "https://www.facebook.com/ludscud"
-  },
-  {
-    "name": "Bar Les 3 Singes",
-    "address": "70 Grand Rue, Colmar",
-    "description": "Bar à bière situé au centre de Colmar, servant de nombreuses bières provenant de brasseries locales. Il se situe à côté de la Petite Venise.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.tripadvisor.co.uk/Attraction_Review-g187073-d13003427-Reviews-Les_3_Singes_Colmar-Colmar_Haut_Rhin_Grand_Est.html"
   }
 ]
