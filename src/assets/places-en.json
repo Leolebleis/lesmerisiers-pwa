@@ -21,6 +21,13 @@
     "website": "https://www.voleriedesaigles.com"
   },
   {
+    "name": "Strasbourg",
+    "address": "Strasbourg",
+    "description": "The city of Strasbourg is a 40 minutes train ride away from the Colmar station, or 50 minutes by car. Many activities await in this historic city.",
+    "category": "Lieux notoires",
+    "website": "https://www.strasbourg.eu/"
+  },
+  {
     "name": "Restaurant de la Tour",
     "address": "1 place de la République, Turckheim",
     "description": "Typical cuisine from Alsace, offering delicious tartes flambées and munster gratin. All the meals can also be taken away.",
@@ -61,13 +68,6 @@
     "description": "The second most visited amusement park in Europe after Disneyland, only 1 hour away by car. With its 61 rides, it is the biggest European park.",
     "category": "Lieux notoires",
     "website": "https://www.europapark.de/"
-  },
-  {
-    "name": "Strasbourg",
-    "address": "Strasbourg",
-    "description": "The city of Strasbourg is a 40 minutes train ride away from the Colmar station, or 50 minutes by car. Many activities await in this historic city.",
-    "category": "Lieux notoires",
-    "website": "https://www.strasbourg.eu/"
   },
   {
     "name": "Unterlinden Museum",
