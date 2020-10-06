@@ -1,0 +1,26 @@
+{
+  "description": "Informationen zum Aufenthalt in unserer Unterkunft 8 bis 10 Personen.",
+  "id": "gg",
+  "content": [
+    {
+      "title": "Lebensregeln",
+      "key": "default",
+      "content": "vie"
+    },
+    {
+      "title": "Ausrüstungsliste",
+      "key": "equipment",
+      "content": "equipments"
+    },
+    {
+      "title": "Nützliche Informationen",
+      "key": "infos",
+      "content": "infos"
+    },
+    {
+      "title": "Abfahrtszeit",
+      "key": "depart",
+      "content": "depart"
+    }
+  ]
+}

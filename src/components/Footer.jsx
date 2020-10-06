@@ -30,6 +30,7 @@ export default () => {
           >
             <option value="fr">Français</option>
             <option value="en">English</option>
+            <option value="de">Deutsch</option>
           </Form.Control>
         </Col>
       </Row>

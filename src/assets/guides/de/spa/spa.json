@@ -1,0 +1,16 @@
+{
+  "description": "Informationen zur Nutzung des SPA.",
+  "id": "spa",
+  "content": [
+    {
+      "title": "Verwenden des SPA",
+      "key": "default",
+      "content": "utilisation"
+    },
+    {
+      "title": "Sicherheitshinweise",
+      "key": "consignes",
+      "content": "consignes"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Informationen zum Aufenthalt in unserer Unterkunft für 4 bis 6 Personen.",
+  "id": "pg",
+  "content": [
+    {
+      "title": "Lebensregeln",
+      "key": "default",
+      "content": "vie"
+    },
+    {
+      "title": "Ausrüstungsliste",
+      "key": "equipment",
+      "content": "equipments"
+    },
+    {
+      "title": "Nützliche Informationen",
+      "key": "infos",
+      "content": "infos"
+    },
+    {
+      "title": "Abfahrtszeit",
+      "key": "depart",
+      "content": "depart"
+    }
+  ]
+}

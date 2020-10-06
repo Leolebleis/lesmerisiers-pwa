@@ -1,0 +1,29 @@
+{
+  "gradientTitle": "Verbringen Sie einen unvergesslichen Aufenthalt in einer außergewöhnlichen Unterkunft und genießen Sie Ihren Urlaub im Herzen des Elsass",
+  "introduction": "Mit <italic> drei Familienunterkünften, die für alle Gruppen geeignet sind </italic>, bieten wir Ihnen eine angenehme, friedliche und gehobene Umgebung, umgeben vom Weinberg, wo Sie <italic> das elsässische Erbe und seine Gastronomie genießen können. </italic> Unsere Cottages befinden sich in Turckheim in der Nähe von Colmar und sind voll ausgestattet und bereit, Sie willkommen zu heißen.",
+  "mg": {
+    "description": "Die größere Unterkunft ist in der Tat eine Kombination der beiden vorherigen Ferienhäuser, da sie miteinander kommunizieren können und daher sehr große Gruppen aufnehmen können. Die Abmessungen werden daher kombiniert, ebenso wie die Anzahl der Räume und Außenräume. Es verfügt über eine Innenfläche von 200 m² sowie über 240 m² private Gärten und eine 50 m² große Terrasse, die Ihnen zur Verfügung stehen! Genug, um Ihren Urlaub unvergesslich zu machen.",
+    "title": "Ferienhaus 12 bis 16 Personen"
+  },
+  "gg": {
+    "description": "Eine Fläche von 132 m² mit 2 Queensize-Betten, 4 Einzelbetten und einem Schlafsofa für eine Gesamtkapazität von 10 Personen. Dazu kommen 100 m² privater Garten und 36 m² Terrasse mit Blick auf die Weinberge Haut-Rhinois und die Vogesen, die Sie von Ihrem Spa im Freien aus betrachten können!",
+    "title": "Ferienhaus 8 bis 10 Personen"
+  },
+  "pg": {
+    "description": "Eine Fläche von 61 m² mit einem Queensize-Bett, 2 Einzelbetten und einem Schlafsofa für eine Gesamtkapazität von 6 Personen. Hinzu kommen 15 m² Terrasse und 140 m² privater Garten mit Blick auf die Weinberge von Haut-Elsass, die Sie beim Grillen betrachten können!",
+    "title": "Ferienhaus 4 bis 6 Personen"
+  },
+  "labels": {
+    "wifi": "Wifi 200mb/s",
+    "tv": "Kabelfernsehen",
+    "parking": "Privater Parkplatz",
+    "washingMachine": "Waschmaschine",
+    "kitchen": "Ausgestattete Küche"
+  },
+  "metrics": {
+    "bathrooms": "Badezimmer",
+    "bedrooms": "Schlafzimmer",
+    "spa": "Spa"
+  },
+  "book": "Reservieren"
+}

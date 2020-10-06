@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "home": "Home",
+    "region": "Was kann man in der Region unternehmen?",
+    "guide": "Führer",
+    "construction": "Konstruktion"
+  },
+  "petitFute": "Hochwertige Materialien, Designermöbel, super gemütliche Zimmer, brandneue Küchen- und Badausstattung, Spa im Freien: Die Residence Les Merisiers ist die Ausnahme ohne Geschmacksfehler!",
+  "followOnFb": "Folge uns auf Facebook",
+  "contactUs": "Kontaktieren Sie uns direkt",
+  "form": {
+    "name": "Nachname und Vorname",
+    "email": "E-mail",
+    "subject": "Thema",
+    "message": "Nachricht",
+    "send": "Senden",
+    "error": "Hoppla! Ein Fehler ist aufgetreten."
+  },
+  "copyright": "Die Fotos sind Eigentum von SCI Les Merisiers.",
+  "lbf": "In Partnerschaft mit LBF Paysagisme.",
+  "language": "Sprache"
+}

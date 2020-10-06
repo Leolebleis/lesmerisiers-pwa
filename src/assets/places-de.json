@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Kleines Venedig",
+    "address": "Quai de la Poissonerie, Colmar",
+    "description": "Dieser bekannte Bezirk befindet sich im Bezirk Krutenau in Colmar und ist um seine Lauch-Kanäle herum organisiert, was ihm seinen Namen gibt. Hervorragend für Spaziergänge.",
+    "category": "Lieux notoires",
+    "website": "https://www.tourisme-colmar.com/fr/sites-a-visiter-dans-le-grand-pays-de-colmar/F235008803_la-petite-venise-colmar"
+  },
+  {
+    "name": "Weinkeller von Turckheim",
+    "address": "16 rue des Tuileries, Turckheim",
+    "description": "Sie können viele Weine probieren, die aus den Turckhemoises-Reben der Domaine du Brand hergestellt werden, darunter Riesling oder Gewürztraminer. Mittwochs Weintourismus.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.cave-turckheim.com/"
+  },
+  {
+    "name": "Bar Les 3 Singes",
+    "address": "70 Grand Rue, Colmar",
+    "description": "Die Bierbar im Zentrum von Colmar serviert viele Biere aus lokalen Brauereien. Es befindet sich neben Little Venice.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.tripadvisor.co.uk/Attraction_Review-g187073-d13003427-Reviews-Les_3_Singes_Colmar-Colmar_Haut_Rhin_Grand_Est.html"
+  },
+  {
+    "name": "Eagles Flug",
+    "address": "Château de Kintzheim, Kintzheim",
+    "description": "Vogelbeobachtungstierpark mit Raubvogelshows, Schulungs- und Bildungsausstellung.",
+    "category": "Lieux notoires",
+    "website": "https://www.voleriedesaigles.com"
+  },
+  {
+    "name": "Trekking bei Trois Epis",
+    "address": "Trois Épis",
+    "description": "Sie finden viele markierte Wanderwege, die von 30 Minuten bis über 2 Stunden variieren.",
+    "category": "Lieux notoires",
+    "website": "https://www.france-voyage.com/balades/trois-epis-commune-37183.htm"
+  },
+  {
+    "name": "Affenberg",
+    "address": "La Wick, Kintzheim",
+    "description": "200 Berberaffen leben in Freiheit auf 24 ha Wald, unter denen Sie spazieren gehen können.",
+    "category": "Lieux notoires",
+    "website": "https://www.montagnedessinges.com/"
+  },
+  {
+    "name": "Haut-Koenigsbourg",
+    "address": "Orschwiller",
+    "description": "Es handelt sich um eine befestigte Burg aus dem 12. Jahrhundert, eine der schönsten Burgen Frankreichs, ein deutsches kaiserliches Symbol nach der Renovierung durch Wilhelm II. Im 15. Jahrhundert.",
+    "category": "Lieux notoires",
+    "website": "https://www.haut-koenigsbourg.fr/"
+  },
+  {
+    "name": "Hohlandsbourg",
+    "address": "Route des Cinq Châteaux, Wintzenheim",
+    "description": "Sicht von der gîte, das Hohlandsburg wurde 1279 erbaut und ist von Ostern bis zum 11. November zu sehen.",
+    "category": "Lieux notoires",
+    "website": "http://www.chateau-hohlandsbourg.com/en/"
+  },
+  {
+    "name": "Europa-Park",
+    "address": "Europa-Park-Straße 2, Rust, Allemagne",
+    "description": "Der zweitgrößte Vergnügungspark Europas nach Disneyland, eine Autostunde entfernt. Mit seinen 61 Attraktionen ist es der größte Park in Europa.",
+    "category": "Lieux notoires",
+    "website": "https://www.europapark.de/"
+  },
+  {
+    "name": "Strasbourg",
+    "address": "Strasbourg",
+    "description": "Die Stadt Straßburg liegt 40 Minuten mit dem Zug vom Bahnhof Colmar oder 50 Minuten mit dem Auto entfernt. In dieser historischen Stadt gibt es viele Viertel und Aktivitäten zu entdecken.",
+    "category": "Lieux notoires",
+    "website": "https://www.strasbourg.eu/"
+  },
+  {
+    "name": "Unterlinden Museum",
+    "address": "1 rue des Unterlinden, Colmar",
+    "description": "Eines der meistbesuchten Kunstmuseen in Frankreich im Zentrum von Colmar. Mit insbesondere dem Issenheimer Altarbild, aber auch bestimmten Stücken von Monet, Picasso und sogar Otto Dix ist dieses Museum eines der beeindruckendsten der Region.",
+    "category": "Musées",
+    "website": "https://www.musee-unterlinden.com/"
+  },
+  {
+    "name": "Das Haus des Käses",
+    "address": "23 rue de Munster, Gunsbach",
+    "description": "Das weiter unten im Tal gelegene Maison du Fromage beherbergt nicht nur eine Käserei, sondern auch ein Geschäft und Ausstellungen.",
+    "category": "Musées",
+    "website": "https://www.maisondufromage-munster.com/"
+  },
+  {
+    "name": "Colmar Pocket Memorial Museum",
+    "address": "25 rue du Conseil, Turckheim",
+    "description": "Dieses Turckheim-Museum ist vom 1. April bis 31. Oktober und in der Regel nachmittags geöffnet und zeugt von den Schlachten, die während des Zweiten Weltkriegs in der Region und insbesondere in Turckheim stattfanden.",
+    "category": "Musées",
+    "website": "https://musee.turckheim-alsace.com/"
+  },
+  {
+    "name": "Cité de l’automobile",
+    "address": "15 rue de l’Épée, Mulhouse",
+    "description": "Das National Automobile Museum beherbergt mit mehr als 500 Autos die weltweit größte Sammlung von Autos und bildet die Sammlung der Brüder Schlumpf, einschließlich einer beeindruckenden Sammlung von Bugatti.",
+    "category": "Musées",
+    "website": "https://www.citedelautomobile.com"
+  },
+  {
+    "name": "Nachtwächter",
+    "address": "Office de Tourisme, Turckheim",
+    "description": "Vom 1. Mai bis 31. Oktober beginnt ein authentischer Nachtwächter seine Runde um 22 Uhr und verlässt das Tourismusbüro. Er wird Sie mit vielen typisch elsässischen Anekdoten in die Stadt Turckheim einführen.",
+    "category": "Lieux notoires",
+    "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+  },
+  {
+    "name": "L’Auberge du Veilleur",
+    "address": "12 Place Turenne, Turckheim",
+    "description": "Elsässische Küche mit lokalen Produkten und Bio-Rindfleisch. Eine sehr typische Atmosphäre.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d1833678-Reviews-L_Auberge_du_Veilleur-Turckheim_Haut_Rhin_Grand_Est.html"
+  },
+  {
+    "name": "Restaurant de la Tour",
+    "address": "1 place de la République, Turckheim",
+    "description": "Elsässische und typische Küche mit sehr guten Flambées sowie exzellenten Münster-Gratins. Alle Gerichte können auch herausgenommen werden.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
+  },
+  {
+    "name": "Restaurant le Silex",
+    "address": "9 Route d’Ingersheim, Colmar",
+    "description": "Traditionelle französische Küche mit der Besonderheit, bis 1 Uhr morgens zu servieren.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g187073-d5860990-Reviews-Le_Silex-Colmar_Haut_Rhin_Grand_Est.html"
+  },
+  {
+    "name": "Bar la Scud’",
+    "address": "51 Grand’rue, Turckheim",
+    "description": "Lokale Bar im Zentrum von Turckheim mit einer großen Auswahl an Bieren und regelmäßigen Aktivitäten.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.facebook.com/ludscud"
+  }
+]

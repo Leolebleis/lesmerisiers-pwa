@@ -1,0 +1,20 @@
+{
+  "intro": {
+    "1": "Willst du ausgehen, weißt aber nicht wo? Kein Problem ! Hier finden Sie eine Liste unserer Favoriten und Vorschläge für Aktivitäten in der Region: Restaurants, Bars, Museen oder ein Besuch in einem nahe gelegenen Dorf ... Es ist für jeden etwas dabei. das Jahr!",
+    "2": "Sie können auch andere Ressourcen durchsuchen, die hilfreich sein können, ",
+    "3": "dieser Veranstaltungskalender in der Region",
+    "4": "diese Liste der Haut-Rhinois-Museen",
+    "5": "diese Liste der Burgen in der Region",
+    "6": ", oder",
+    "7": "diese Karte der Braurouten im Elsass"
+  },
+  "links": {
+    "visitalsace": "https://www.visit.alsace/patrimoine-et-histoire/chateaux-alsace/"
+  },
+  "categories": {
+    "any": "Alles",
+    "places": "Notorische Orte",
+    "museums": "Museen",
+    "bars": "Bars & Restaurants"
+  }
+}
