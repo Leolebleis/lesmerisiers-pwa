@@ -15,15 +15,17 @@ const Image = styled.img`
 `;
 
 export default (props) => {
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
 
-  let pictureData = "";
+  const language = i18n.language.substring(0, 2);
+
+  let pictureData;
   if (props.title === "Gîte 4 à 6 personnes") {
-    pictureData = require("../../assets/pg-photos.json");
+    pictureData = require(`../../assets/guides/${language}/pg/pg-photos.json`);
   } else if (props.title === "Gîte 8 à 10 personnes") {
-    pictureData = require("../../assets/gg-photos.json");
+    pictureData = require(`../../assets/guides/${language}/gg/gg-photos.json`);
   } else {
-    pictureData = require("../../assets/mg-photos.json");
+    pictureData = require(`../../assets/guides/${language}/mg/mg-photos.json`);
   }
 
   return (

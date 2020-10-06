@@ -1,0 +1,40 @@
+{
+  "photos": [
+    {
+      "title": "Wohnzimmer",
+      "photo": "GG/GG-salon.jpg"
+    },
+    {
+      "title": "Wohnzimmer",
+      "photo": "GG/GG-salon-panorama-cropped.jpg"
+    },
+    {
+      "title": "Küche",
+      "photo": "GG/GG-cuisine.jpg"
+    },
+    {
+      "title": "Küche",
+      "photo": "GG/GG-cuisine-ferme.jpg"
+    },
+    {
+      "title": "Spa",
+      "photo": "GG/GG-jacuzzi-2.jpg"
+    },
+    {
+      "title": "Garten",
+      "photo": "GG/GG-exterieur.jpg"
+    },
+    {
+      "title": "Schlafzimmer mit Doppelbett",
+      "photo": "GG/GG-chambre-double-2.jpg"
+    },
+    {
+      "title": "Schlafzimmer mit Einzelbett",
+      "photo": "GG/GG-chambre-simple.jpg"
+    },
+    {
+      "title": "Badezimmer",
+      "photo": "GG/GG-sdb.jpg"
+    }
+  ]
+}

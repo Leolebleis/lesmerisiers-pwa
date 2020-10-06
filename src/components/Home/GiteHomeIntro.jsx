@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 import styled, { createGlobalStyle } from "styled-components";
-import GiteDetails from "./GiteDetails";
 import { IconContext } from "react-icons";
 import { AiOutlineFullscreen } from "react-icons/ai";
 import { FaSwimmingPool, FaBath, FaBed, FaTree, FaHome } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+
+const GiteDetails = React.lazy(() => import('./GiteDetails'));
+
 
 const Global = createGlobalStyle`
   .modal-90w {
@@ -146,7 +148,9 @@ export default (props) => {
                   show={show}
                   onHide={handleClose}
                 >
-                  <GiteDetails title={props.title} link={props.link} />
+                  <Suspense fallback={<div>Loading...</div>}>
+                    <GiteDetails title={props.title} link={props.link} />
+                  </Suspense>
                 </Modal>
               </div>
             </Card.Body>

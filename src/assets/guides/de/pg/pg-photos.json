@@ -1,0 +1,41 @@
+{
+  "photos": [
+    {
+      "title": "Wohnzimmer",
+      "photo": "PG/PG-salon.jpg"
+    },
+    {
+      "title": "Wohnzimmer und Terrasse",
+      "photo": "PG/PG-salon-panorama.jpg"
+    },
+    {
+      "title": "Küche",
+      "photo": "PG/PG-cuisine.jpg"
+    },
+    {
+      "title": "Schlafzimmer mit Doppelbett",
+      "photo": "PG/PG-chambre-double.jpg"
+    },
+    {
+      "title": "Schlafzimmer mit Einzelbett",
+      "photo": "PG/PG-chambre-simple.jpg"
+    },
+
+    {
+      "title": "Garten",
+      "photo": "PG/PG-jardin.jpg"
+    },
+    {
+      "title": "Garten",
+      "photo": "PG/PG-jardin-2.jpg"
+    },
+    {
+      "title": "Draußen",
+      "photo": "PG/PG-exterieur-large.jpg"
+    },
+    {
+      "title": "Badezimmer",
+      "photo": "PG/PG-sdb.jpg"
+    }
+  ]
+}

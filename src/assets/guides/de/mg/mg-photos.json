@@ -1,56 +1,55 @@
 {
   "photos": [
     {
-      "title": "Salon 1",
+      "title": "Wohnzimmer 1",
       "photo": "GG/GG-salon.jpg"
     },
     {
-      "title": "Salon 2",
+      "title": "Wohnzimmer 2",
       "photo": "PG/PG-salon.jpg"
     },
     {
-      "title": "Cuisine 1",
+      "title": "Küche 1",
       "photo": "GG/GG-cuisine.jpg"
     },
     {
-      "title": "Cuisine 2",
+      "title": "Küche 2",
       "photo": "PG/PG-cuisine.jpg"
     },
     {
-      "title": "Chambre double",
+      "title": "Schlafzimmer mit Doppelbett",
       "photo": "GG/GG-chambre-double-2.jpg"
     },
     {
-      "title": "Chambre simple",
+      "title": "Schlafzimmer mit Einzelbett",
       "photo": "GG/GG-chambre-simple.jpg"
     },
     {
-      "title": "Jacuzzi",
+      "title": "Spa",
       "photo": "GG/GG-jacuzzi-2.jpg"
     },
-
     {
-      "title": "Exterieur",
+      "title": "Draußen",
       "photo": "PG/PG-exterieur-large.jpg"
     },
     {
-      "title": "Jardin 1",
+      "title": "Garten 1",
       "photo": "GG/GG-exterieur.jpg"
     },
     {
-      "title": "Jardin 2",
+      "title": "Garten 2",
       "photo": "PG/PG-jardin.jpg"
     },
     {
-      "title": "Jardin 2",
+      "title": "Garten 2",
       "photo": "PG/PG-jardin-2.jpg"
     },
     {
-      "title": "Salle de bain 1",
+      "title": "Badezimmer 1",
       "photo": "PG/PG-sdb.jpg"
     },
     {
-      "title": "Salle de bain 2",
+      "title": "Badezimmer 2",
       "photo": "GG/GG-sdb.jpg"
     }
   ]

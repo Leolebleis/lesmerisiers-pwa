@@ -1,0 +1,41 @@
+{
+  "photos": [
+    {
+      "title": "Living room",
+      "photo": "PG/PG-salon.jpg"
+    },
+    {
+      "title": "Living room and terrace",
+      "photo": "PG/PG-salon-panorama.jpg"
+    },
+    {
+      "title": "Kitchen",
+      "photo": "PG/PG-cuisine.jpg"
+    },
+    {
+      "title": "Double bed bedroom",
+      "photo": "PG/PG-chambre-double.jpg"
+    },
+    {
+      "title": "Single bed bedroom",
+      "photo": "PG/PG-chambre-simple.jpg"
+    },
+
+    {
+      "title": "Garden",
+      "photo": "PG/PG-jardin.jpg"
+    },
+    {
+      "title": "Garden",
+      "photo": "PG/PG-jardin-2.jpg"
+    },
+    {
+      "title": "Exterior",
+      "photo": "PG/PG-exterieur-large.jpg"
+    },
+    {
+      "title": "Bathroom",
+      "photo": "PG/PG-sdb.jpg"
+    }
+  ]
+}
