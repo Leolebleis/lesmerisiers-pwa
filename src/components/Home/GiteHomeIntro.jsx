@@ -107,7 +107,7 @@ export default (props) => {
                   className={`${isLeft ? "rounded-left" : "rounded-right"}`}
                   image={props.image}
                 />
-                <button className="details-button btn-info">
+                <button className="details-button btn btn-info">
                   <IconContext.Provider value={{ size: "2em" }}>
                     <AiOutlineFullscreen />
                   </IconContext.Provider>

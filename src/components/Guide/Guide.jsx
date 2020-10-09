@@ -14,7 +14,6 @@ import GuideTabs from "./GuideTabs";
 const Button = styled.button`
   padding: 10px;
   border-radius: 5px;
-  background-color: transparent;
 
   @media (max-width: 576px) {
     padding: 2px;
@@ -59,7 +58,9 @@ export default () => {
             <Col className="h-100" key={category.id}>
               <Button
                 key={category.id}
-                className="w-100 h-100 btn-outline-info"
+                className={`w-100 h-100 btn ${
+                  category.id === active ? "btn-info" : "btn-outline-info"
+                }`}
                 onClick={handleClick}
                 id={category.id}
               >

@@ -21,7 +21,6 @@ const Button = styled.button`
     margin: 2px;
   }
 
-  background-color: transparent;
   border-radius: 5px;
 `;
 
@@ -79,7 +78,7 @@ export default () => {
         <Col className="col-6 col-md-3 h-100">
           <Button
             key={element.id}
-            className="btn-outline-info w-100 h-100"
+            className={`btn w-100 h-100 ${element.id === filter ? "btn-info" : "btn-outline-info"}`}
             onClick={handleClick}
             id={element.id}
           >
