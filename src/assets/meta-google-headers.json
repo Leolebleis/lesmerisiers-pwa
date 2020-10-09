@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Gîtes Les Merisiers",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Turckheim, France",
+    "addressRegion": "Alsace",
+    "postalCode": "68230",
+    "streetAddress": "3 rue des Merisiers"
+  },
+  "image": [
+    "https://i.imgur.com/jvxpd68.jpg",
+    "https://i.imgur.com/GqOsSRb.jpg",
+    "https://i.imgur.com/56Ngc41.jpg"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "73",
+    "ratingValue": "5"
+  },
+  "checkinTime": "16:00:00",
+  "checkoutTime": "10:00:00",
+  "priceRange": "$$",
+  "telephone": "+33 6 11 19 19 68",
+  "url": "https://lesmerisiers.com",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 48.0792723,
+    "longitude": 7.2611089
+  }
+}

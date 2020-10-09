@@ -9,8 +9,13 @@ import Layout from "./components/Layout"
 import Table from "./components/Table/Table";
 import SocialNetwork from "./components/SocialMedia";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next"
 
 export default function App() {
+  const structuredJSON = JSON.stringify(require("./assets/meta-google-headers.json"));
+
+  const { t } = useTranslation("utils");
   return (
     <Router>
       <Layout>
@@ -41,6 +46,17 @@ export default function App() {
         <Footer />
 
       </Layout>
+
+      <Helmet>
+        <title>Les Merisiers | </title>
+        <meta
+          name="description"
+          content={t("descriptions.home")}
+        />
+        <script className="structured-data-list" type="application/ld+json">
+          {structuredJSON}
+        </script>
+      </Helmet>
     </Router>
   );
 }

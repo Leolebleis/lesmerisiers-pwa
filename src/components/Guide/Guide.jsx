@@ -8,6 +8,7 @@ import { BiBuildings as GrandGite } from "react-icons/bi";
 import { BiBuilding as PetitGite } from "react-icons/bi";
 import { FaHotTub as Spa } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import MetaDecorator from "../MetaDecorator";
 
 import GuideTabs from "./GuideTabs";
 
@@ -22,7 +23,7 @@ const Button = styled.button`
 `;
 
 export default () => {
-  let { t } = useTranslation("guide");
+  let { t } = useTranslation(["guide", "utils"]);
 
   const categories = [
     {
@@ -79,6 +80,11 @@ export default () => {
       <hr />
 
       <GuideTabs active={active} />
+
+      <MetaDecorator
+        title={t("utils:titles.guide")}
+        description={t("utils:descriptions.guide")}
+      />
     </Container>
   );
 };

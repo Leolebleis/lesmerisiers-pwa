@@ -18,5 +18,17 @@
   },
   "copyright": "Photos used belong to the SCI Les Merisiers.",
   "lbf": "In partnership with LBF Paysagistes.",
-  "language": "Language"
+  "language": "Language",
+  "titles": {
+    "home": "Residences 4 to 16 people",
+    "region": "What to do in Alsace?",
+    "guide": "Staying guide",
+    "construction": "The Construction"
+  },
+  "descriptions": {
+    "home": "Gîtes Les Merisiers, 4 to 16 people. Treat yourself to a dream vacation in the heart of Alsace and its vineyards!",
+    "region": "Want to go out but you don't know where? No problem ! Here is a list of our favorites and our suggestions for things to do in Alsace.",
+    "guide": "Here, you will find all the information you need for your stay in Les Merisiers.",
+    "construction": "Les Merisiers are the result of two years of work, and you can admire below the progress of the work and the resulting transformation."
+  }
 }

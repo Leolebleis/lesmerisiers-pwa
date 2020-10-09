@@ -4,9 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ReactGoogleSlides from "react-google-slides";
 import { Trans, useTranslation } from "react-i18next";
+import MetaDecorator from "../MetaDecorator";
 
 export default () => {
-  const { t } = useTranslation("construction");
+  const { t } = useTranslation(["construction", "utils"]);
 
   return (
     <Container>
@@ -36,6 +37,8 @@ export default () => {
           />
         </Col>
       </Row>
+
+      <MetaDecorator title={t("utils:title.construction")} description={t("utils:description.construction")} />
     </Container>
   );
 };

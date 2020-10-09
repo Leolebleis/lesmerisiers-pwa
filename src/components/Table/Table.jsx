@@ -10,7 +10,7 @@ import { TiBeer } from "react-icons/ti";
 import styled from "styled-components";
 import PlaceItem from "./PlaceItem";
 import TableExplanation from "./TableExplanation";
-
+import MetaDecorator from "../MetaDecorator";
 import { useTranslation } from "react-i18next";
 
 const Button = styled.button`
@@ -25,7 +25,7 @@ const Button = styled.button`
 `;
 
 export default () => {
-  const { t, i18n } = useTranslation("region");
+  const { t, i18n } = useTranslation(["region", "utils"]);
   let language = i18n.language.substring(0, 2);
 
   let [data, setData] = useState(
@@ -78,7 +78,9 @@ export default () => {
         <Col className="col-6 col-md-3 h-100">
           <Button
             key={element.id}
-            className={`btn w-100 h-100 ${element.id === filter ? "btn-info" : "btn-outline-info"}`}
+            className={`btn w-100 h-100 ${
+              element.id === filter ? "btn-info" : "btn-outline-info"
+            }`}
             onClick={handleClick}
             id={element.id}
           >
@@ -109,6 +111,11 @@ export default () => {
       {filteredList.map((element) => {
         return <PlaceItem key={element.name} listItem={element} />;
       })}
+
+      <MetaDecorator
+        title={t("utils:titles.region")}
+        description={t("utils:descriptions.region")}
+      />
     </Container>
   );
 };

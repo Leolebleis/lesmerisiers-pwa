@@ -23,6 +23,7 @@
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-google-slides": "^3.0.1",
+    "react-helmet": "^6.1.0",
     "react-i18next": "^11.7.3",
     "react-icons": "^3.11.0",
     "react-markdown": "^4.3.1",

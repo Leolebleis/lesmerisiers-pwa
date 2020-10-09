@@ -18,5 +18,17 @@
   },
   "copyright": "Les photos sont la propriété de la SCI Les Merisiers.",
   "lbf": "En partenariat avec LBF Paysagisme.",
-  "language": "Langue"
+  "language": "Langue",
+  "titles": {
+    "home": "Gîtes 4 à 16 personnes",
+    "region": "Que faire dans la région ?",
+    "guide": "Guide de séjour",
+    "construction": "La Construction"
+  },
+  "descriptions": {
+    "home": "Gîtes Les Merisiers, 4 à 16 personnes. Offrez-vous des vacances de rêve au cœur de l'Alsace et de son vignoble !",
+    "region": "Envie de sortir mais vous ne savez pas où ? Pas de problème ! Voici une liste de nos coups de cœur et de nos suggestions de choses à faire dans la région : restaurants, bars, musées, ou une escapade dans un village local... Il y en a pour tous les goûts et tout au long de l'année !",
+    "guide": "Ici, vous trouverez toutes les informations nécessaires à votre séjour aux Merisiers.",
+    "construction": "Les Merisiers sont le résultat de deux années de travail, et vous pouvez admirer ci-dessous la progression des travaux et la transformation qui en a résulté."
+  }
 }

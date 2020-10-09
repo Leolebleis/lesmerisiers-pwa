@@ -18,5 +18,17 @@
   },
   "copyright": "Die Fotos sind Eigentum von SCI Les Merisiers.",
   "lbf": "In Partnerschaft mit LBF Paysagisme.",
-  "language": "Sprache"
+  "language": "Sprache",
+  "titles": {
+    "home": "Ferienhäuser 4 bis 16 Personen",
+    "region": "Was kann man in der Region unternehmen?",
+    "guide": "Lebensführer im Gîte",
+    "construction": "Das Konstruktion"
+  },
+  "descriptions": {
+    "home": "Ferienhäuser Les Merisiers, 4 bis 16 Personen. Gönnen Sie sich einen Traumurlaub im Herzen des Elsass und seiner Weinberge!",
+    "region": "Willst du ausgehen, aber du weißt nicht wo? Kein Problem ! Hier finden Sie eine Liste unserer Favoriten und Vorschläge für Aktivitäten im Elsass.",
+    "guide": "Hier finden Sie alle Informationen, die Sie für Ihren Aufenthalt in Les Merisiers benötigen.",
+    "construction": "Les Merisiers sind das Ergebnis von zweijähriger Arbeit, und Sie können unten den Fortschritt der Arbeit und die daraus resultierende Transformation bewundern."
+  }
 }
