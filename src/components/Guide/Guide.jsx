@@ -51,11 +51,11 @@ export default () => {
   return (
     <Container>
       {/* put the headers for GG/PG/SPA */}
-      <Row>
+      <Row className="h-100">
         {categories.map((category) => {
           const CustomIcon = category.icon;
           return (
-            <Col className="h-100" key={category.id}>
+            <Col className="h-auto" key={category.id}>
               <Button
                 key={category.id}
                 className={`w-100 h-100 btn ${
