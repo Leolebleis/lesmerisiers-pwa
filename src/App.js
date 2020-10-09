@@ -56,30 +56,6 @@ export default function App() {
           name="description"
           content={t("descriptions.home")}
         />
-        <meta
-          name="og:type"
-          content="website"
-        />
-        <meta
-          name="og:title"
-          content={`Les Merisiers | ${t("titles.home")}`}
-        />
-        <meta
-          name="og:description"
-          content={t("descriptions.home")}
-        />
-        <meta
-          name="fb:app_id"
-          content="1014602092227501"
-        />
-        <meta
-          name="og:image"
-          content="https://i.imgur.com/jvxpd68.jpg"
-        />
-        <meta
-          name="og:url"
-          content="https://lesmerisiers.com"
-        />
         <script className="structured-data-list" type="application/ld+json">
           {structuredJSON}
         </script>
