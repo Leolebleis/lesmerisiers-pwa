@@ -38,7 +38,7 @@ export default () => {
         </Col>
       </Row>
 
-      <MetaDecorator title={t("utils:title.construction")} description={t("utils:description.construction")} />
+      <MetaDecorator title={t("utils:titles.construction")} description={t("utils:descriptions.construction")} />
     </Container>
   );
 };

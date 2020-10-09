@@ -48,7 +48,7 @@ export default function App() {
       </Layout>
 
       <Helmet>
-        <title>Les Merisiers | </title>
+        <title>Les Merisiers | {t("titles.home")}</title>
         <meta
           name="description"
           content={t("descriptions.home")}
