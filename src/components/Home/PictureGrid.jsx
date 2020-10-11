@@ -82,45 +82,56 @@ export default class PictureGrid extends React.Component {
         <div className="card-container py-5">
           <Card className="photo-1">
             <FlipCard
+              timeout={10000}
               recto={GGCuisine}
               verso="https://images.unsplash.com/photo-1541851642110-681578e1b6d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
             />
           </Card>
           <Card className="photo-2">
-            <FlipCard recto={GGJacuzzi} verso={HautKoenigsbourg} />
+            <FlipCard
+              timeout={15000}
+              recto={GGJacuzzi}
+              verso={HautKoenigsbourg}
+            />
           </Card>
           <Card className="photo-3">
             <FlipCard
+              timeout={7500}
               recto={PGChambreDouble}
               verso="https://images.unsplash.com/photo-1584109504933-b350e47d44d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-4">
             <FlipCard
+              timeout={12500}
               recto={PGExterieur}
               verso="https://images.unsplash.com/photo-1563096080-761dbf0020b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-5 d-none d-md-block">
             <FlipCard
+              timeout={25000}
               recto={GGChambreDouble}
               verso="https://images.unsplash.com/flagged/photo-1557263256-5c1f869cfd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-6 d-none d-md-block">
             <FlipCard
+              timeout={30000}
               recto={PGJardin}
               verso="https://images.unsplash.com/photo-1584109035548-ae9606fa5322?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-7">
             <FlipCard
+              timeout={17500}
               recto={PGJardin2}
               verso="https://images.unsplash.com/photo-1550518624-10221cc3d34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
             />
           </Card>
           <Card className="photo-8">
             <FlipCard
+              timeout={16000}
               recto={PGPanorama}
               verso="https://images.unsplash.com/photo-1551224366-fe9797bde25d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
             />

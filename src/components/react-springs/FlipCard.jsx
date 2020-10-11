@@ -19,11 +19,15 @@ const Styles = styled.div`
   .back {
     background-size: cover;
   }
-
 `;
 
 function FlipCard(props) {
   const [flipped, set] = useState(false);
+
+  let time = props.timeout ? props.timeout : 10000;
+
+  setInterval(() => set(!flipped), time);
+
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
     transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
@@ -31,25 +35,24 @@ function FlipCard(props) {
   });
   return (
     <Styles>
-
-        <div onClick={() => set((state) => !state)}>
-          <a.div
-            className="c back"
-            style={{
-              opacity: opacity.interpolate((o) => 1 - o),
-              transform,
-              backgroundImage: `url(${props.recto})`,
-            }}
-          />
-          <a.div
-            className="c front"
-            style={{
-              opacity,
-              transform: transform.interpolate((t) => `${t} rotateX(180deg)`),
-              backgroundImage: `url(${props.verso})`,
-            }}
-          />
-        </div>
+      <div onClick={() => set((state) => !state)}>
+        <a.div
+          className="c back"
+          style={{
+            opacity: opacity.interpolate((o) => 1 - o),
+            transform,
+            backgroundImage: `url(${props.recto})`,
+          }}
+        />
+        <a.div
+          className="c front"
+          style={{
+            opacity,
+            transform: transform.interpolate((t) => `${t} rotateX(180deg)`),
+            backgroundImage: `url(${props.verso})`,
+          }}
+        />
+      </div>
     </Styles>
   );
 }
