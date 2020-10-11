@@ -31,7 +31,10 @@ function FlipCard(props) {
   });
   return (
     <Styles>
-      <div onClick={() => set((state) => !state)}>
+      <div
+        onMouseOver={() => set((state) => !state)}
+        onClick={() => set((state) => !state)}
+      >
         <a.div
           className="c back"
           style={{
