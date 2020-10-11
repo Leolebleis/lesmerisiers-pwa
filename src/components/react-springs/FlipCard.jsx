@@ -24,10 +24,6 @@ const Styles = styled.div`
 function FlipCard(props) {
   const [flipped, set] = useState(false);
 
-  let time = props.timeout ? props.timeout : 10000;
-
-  setInterval(() => set(!flipped), time);
-
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
     transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
