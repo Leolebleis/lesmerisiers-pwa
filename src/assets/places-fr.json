@@ -28,6 +28,13 @@
     "website": "https://www.voleriedesaigles.com"
   },
   {
+    "name": "Raisin d'Or",
+    "address": "1 Rue de l'Église, Zimmerbach",
+    "description": "Caveau cuisine traditionnelle et soirées à thème. Une envie de Presskopf, de bœuf gros sel ou de kougelhopf glacé ? C'est le restaurant qu'il vous faut !",
+    "category": "Bars & Restaurants",
+    "website": "https://www.raisindor.fr/"
+  },
+  {
     "name": "Randonnées aux Trois Epis",
     "address": "Trois Épis",
     "description": "Vous trouverez de nombreux sentiers balisés, variant de 30 min jusqu’à plus de 2 heures.",
@@ -42,11 +49,32 @@
     "website": "https://www.montagnedessinges.com/"
   },
   {
+    "name": "L'Atelier du Peintre",
+    "address": "1 Rue Schongauer, Colmar",
+    "description": "Avec son étoile au guide Michelin, l'Atelier du Peintre est l'occasion de déguster une cuisine française moderne, originale et riche en saveurs dans une maison du XVe siècle au cœur du centre ville historique de Colmar.",
+    "category": "Bars & Restaurants",
+    "website": "http://www.atelier-peintre.fr/"
+  },
+  {
     "name": "Haut-Koenigsbourg",
     "address": "Orschwiller",
     "description": "Château fort du 12ème siècle, il s’agit d’un des plus beaux châteaux de France, symbol impérial allemand suite à sa rénovation par Guillaume II pendant le 15ème siècle.",
     "category": "Lieux notoires",
     "website": "https://www.haut-koenigsbourg.fr/"
+  },
+  {
+    "name": "Japadeunon",
+    "address": "24 rue Stanislas, Colmar",
+    "description": "Bar à vins spécialisé dans la charcuterie et le fromage, dans un cadre conviviale et chaleureux. Planchettes de produits du terroir, bouteilles de vin d'exception, dans un cadre de caractère.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.facebook.com/Japadeunon-159870097905494/"
+  },
+  {
+    "name": "Le Zinc",
+    "address": "45 Grand Rue, Colmar",
+    "description": "Restaurant brasserie offrant une grande variété de choix de viandes : tartare de bœuf, entrecôte à l'os à moelle, côte de veau, magret de canard... Idéalement situé près de la petite Venise, l'endroit parfait pour une escale à Colmar !",
+    "category": "Bars & Restaurants",
+    "website": "https://www.lezinccolmar.fr/"
   },
   {
     "name": "Hohlandsbourg",
@@ -110,13 +138,6 @@
     "description": "Cuisine alsacienne avec ses produits du terroir, et de la viande de boeuf bio. Une ambiance très typique.",
     "category": "Bars & Restaurants",
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d1833678-Reviews-L_Auberge_du_Veilleur-Turckheim_Haut_Rhin_Grand_Est.html"
-  },
-  {
-    "name": "Restaurant de la Tour",
-    "address": "1 place de la République, Turckheim",
-    "description": "Cuisine alsacienne et typique, proposant de très bonnes tartes flambées ainsi que d’excellents gratins au munster. Tous les plats peuvent aussi être emportés.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
   },
   {
     "name": "Restaurant le Silex",

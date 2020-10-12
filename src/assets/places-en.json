@@ -21,6 +21,13 @@
     "website": "https://www.voleriedesaigles.com"
   },
   {
+    "name": "L'Atelier du Peintre",
+    "address": "1 Rue Schongauer, Colmar",
+    "description": "With its Michelin star, the Atelier du Peintre is an opportunity to taste modern French cuisine, original and rich in flavors in a 15th century house in the heart of the historic city center of Colmar.",
+    "category": "Bars & Restaurants",
+    "website": "http://www.atelier-peintre.fr/"
+  },
+  {
     "name": "Strasbourg",
     "address": "Strasbourg",
     "description": "The city of Strasbourg is a 40 minutes train ride away from the Colmar station, or 50 minutes by car. Many activities await in this historic city.",
@@ -28,18 +35,25 @@
     "website": "https://www.strasbourg.eu/"
   },
   {
-    "name": "Restaurant de la Tour",
-    "address": "1 place de la République, Turckheim",
-    "description": "Typical cuisine from Alsace, offering delicious tartes flambées and munster gratin. All the meals can also be taken away.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
-  },
-  {
     "name": "Hiking in Trois Epis",
     "address": "Trois Épis",
     "description": "You will find numerous marked trails, from 30mn to more than 2-hour walks.",
     "category": "Lieux notoires",
     "website": "https://www.france-voyage.com/balades/trois-epis-commune-37183.htm"
+  },
+  {
+    "name": "Japadeunon",
+    "address": "24 rue Stanislas, Colmar",
+    "description": "Wine bar specializing in cold meats and cheese, in a friendly and warm setting. Plates of local products, bottles of exceptional wine, in a setting of character.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.facebook.com/Japadeunon-159870097905494/"
+  },
+  {
+    "name": "Le Zinc",
+    "address": "45 Grand Rue, Colmar",
+    "description": "Brasserie restaurant offering a wide variety of choices of meat: beef tartare, marrow-bone steak, veal chop, duck breast ... Ideally located near Little Venice, the perfect place for a stopover in Colmar !",
+    "category": "Bars & Restaurants",
+    "website": "https://www.lezinccolmar.fr/"
   },
   {
     "name": "Montagne des Singes",
@@ -68,6 +82,13 @@
     "description": "The second most visited amusement park in Europe after Disneyland, only 1 hour away by car. With its 61 rides, it is the biggest European park.",
     "category": "Lieux notoires",
     "website": "https://www.europapark.de/"
+  },
+  {
+    "name": "Raisin d'Or",
+    "address": "1 Rue de l'Église, Zimmerbach",
+    "description": "Traditional cooking cellar and themed evenings. Are you feeling like eating presskopf, coarse salt beef or glazed kougelhopf? This is the restaurant for you!",
+    "category": "Bars & Restaurants",
+    "website": "https://www.raisindor.fr/"
   },
   {
     "name": "Unterlinden Museum",

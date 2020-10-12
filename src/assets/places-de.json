@@ -84,11 +84,25 @@
     "website": "https://www.maisondufromage-munster.com/"
   },
   {
+    "name": "Japadeunon",
+    "address": "24 rue Stanislas, Colmar",
+    "description": "Weinbar, spezialisiert auf Aufschnitt und Käse, in einer freundlichen und warmen Umgebung. Teller mit lokalen Produkten, Flaschen mit außergewöhnlichem Wein in einer Umgebung mit Charakter.",
+    "category": "Bars & Restaurants",
+    "website": "https://www.facebook.com/Japadeunon-159870097905494/"
+  },
+  {
     "name": "Colmar Pocket Memorial Museum",
     "address": "25 rue du Conseil, Turckheim",
     "description": "Dieses Turckheim-Museum ist vom 1. April bis 31. Oktober und in der Regel nachmittags geöffnet und zeugt von den Schlachten, die während des Zweiten Weltkriegs in der Region und insbesondere in Turckheim stattfanden.",
     "category": "Musées",
     "website": "https://musee.turckheim-alsace.com/"
+  },
+  {
+    "name": "Le Zinc",
+    "address": "45 Grand Rue, Colmar",
+    "description": "Brasserie-Restaurant mit einer großen Auswahl an Fleischsorten: Rindertartar, Markknochensteak, Kalbskotelett, Entenbrust ... Ideal gelegen in der Nähe von Little Venice, dem perfekten Ort für einen Zwischenstopp in Colmar !",
+    "category": "Bars & Restaurants",
+    "website": "https://www.lezinccolmar.fr/"
   },
   {
     "name": "Cité de l’automobile",
@@ -105,6 +119,13 @@
     "website": "https://www.turckheim.fr/patrimoine/#veilleur"
   },
   {
+    "name": "Raisin d'Or",
+    "address": "1 Rue de l'Église, Zimmerbach",
+    "description": "Traditioneller Kochkeller und Themenabende. Möchten Sie Presskopf, grobes Salzrindfleisch oder glasierten Kougelhopf? Dies ist das Restaurant für Sie!",
+    "category": "Bars & Restaurants",
+    "website": "https://www.raisindor.fr/"
+  },
+  {
     "name": "L’Auberge du Veilleur",
     "address": "12 Place Turenne, Turckheim",
     "description": "Elsässische Küche mit lokalen Produkten und Bio-Rindfleisch. Eine sehr typische Atmosphäre.",
@@ -112,18 +133,18 @@
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d1833678-Reviews-L_Auberge_du_Veilleur-Turckheim_Haut_Rhin_Grand_Est.html"
   },
   {
-    "name": "Restaurant de la Tour",
-    "address": "1 place de la République, Turckheim",
-    "description": "Elsässische und typische Küche mit sehr guten Flambées sowie exzellenten Münster-Gratins. Alle Gerichte können auch herausgenommen werden.",
-    "category": "Bars & Restaurants",
-    "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d2208344-Reviews-Restaurant_de_la_Tour-Turckheim_Haut_Rhin_Grand_Est.html"
-  },
-  {
     "name": "Restaurant le Silex",
     "address": "9 Route d’Ingersheim, Colmar",
     "description": "Traditionelle französische Küche mit der Besonderheit, bis 1 Uhr morgens zu servieren.",
     "category": "Bars & Restaurants",
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g187073-d5860990-Reviews-Le_Silex-Colmar_Haut_Rhin_Grand_Est.html"
+  },
+  {
+    "name": "L'Atelier du Peintre",
+    "address": "1 Rue Schongauer, Colmar",
+    "description": "Mit seinem Michelin-Stern bietet das Atelier du Peintre die Gelegenheit, in einem Haus aus dem 15. Jahrhundert im Herzen des historischen Stadtzentrums von Colmar moderne französische Küche zu probieren, die originell und reich an Aromen ist.",
+    "category": "Bars & Restaurants",
+    "website": "http://www.atelier-peintre.fr/"
   },
   {
     "name": "Bar la Scud’",
