@@ -119,6 +119,20 @@
     "website": "https://www.turckheim.fr/patrimoine/#veilleur"
   },
   {
+    "name": "Riquewihr",
+    "address": "Riquewihr",
+    "description": "Medieval village with rich architecture and history, it is also known for the quality of its wine. A must!",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/en/229001752-riquewihr/"
+  },
+  {
+    "name": "Eguisheim",
+    "address": "Eguisheim",
+    "description": "Located a mere 10 minutes drive away, the village of Eguisheim has a unique architecture, in the heart of the vineyards. It has also been named the favorite village of the French in the past, enough to spend a beautiful afternoon!",
+    "category": "Lieux notoires",
+    "website": "https://www.tourisme-eguisheim-rouffach.com/"
+  },
+  {
     "name": "Cité de l’automobile",
     "address": "15 rue de l’Épée, Mulhouse",
     "description": "National museum of automobile containing the most important car collection in the world, with more than 500 cars collected by the Schlumpf borthers, with an impressive number of Bugatti cars.",
@@ -131,6 +145,20 @@
     "description": "Cuisine from Alsace with its local products and organic beef meat. Very traditional atmosphere.",
     "category": "Bars & Restaurants",
     "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g424987-d1833678-Reviews-L_Auberge_du_Veilleur-Turckheim_Haut_Rhin_Grand_Est.html"
+  },
+  {
+    "name": "Ribeauvillé",
+    "address": "Ribeauvillé",
+    "description": "Dominated by the ruins of fortified castles, the flowered town of Ribeauvillé is rich in history. Ideal for a walk on the wine route, in the middle of the half-timbering.",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/en/229001751-ribeauville/"
+  },
+  {
+    "name": "Kaysersberg",
+    "address": "Kaysersberg",
+    "description": "Located only fifteen minutes by car, the fortified village of Kaysersberg, it is still one of the favorite elected villages of the French: and who can blame them?",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/en/230106256-kaysersberg/"
   },
   {
     "name": "Restaurant le Silex",

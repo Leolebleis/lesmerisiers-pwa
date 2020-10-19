@@ -70,11 +70,25 @@
     "website": "https://www.facebook.com/Japadeunon-159870097905494/"
   },
   {
+    "name": "Eguisheim",
+    "address": "Eguisheim",
+    "description": "À 10 minutes de voiture, le village d'Eguisheim est doté d'une architecture unique, au cœur du vignoble. Il a d'ailleurs été nommé village préféré des Français par le passé, de quoi passer une belle après-midi !",
+    "category": "Lieux notoires",
+    "website": "https://www.tourisme-eguisheim-rouffach.com/"
+  },
+  {
     "name": "Le Zinc",
     "address": "45 Grand Rue, Colmar",
     "description": "Restaurant brasserie offrant une grande variété de choix de viandes : tartare de bœuf, entrecôte à l'os à moelle, côte de veau, magret de canard... Idéalement situé près de la petite Venise, l'endroit parfait pour une escale à Colmar !",
     "category": "Bars & Restaurants",
     "website": "https://www.lezinccolmar.fr/"
+  },
+  {
+    "name": "Kaysersberg",
+    "address": "Kaysersberg",
+    "description": "Situé à une quizaine minutes de voiture seulement, le village fortifié de Kaysersberg, il s'agit encore d'un des villages élus préférés des Français : et comment leur en vouloir ?",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/230106256-kaysersberg/"
   },
   {
     "name": "Hohlandsbourg",
@@ -112,6 +126,13 @@
     "website": "https://www.maisondufromage-munster.com/"
   },
   {
+    "name": "Riquewihr",
+    "address": "Riquewihr",
+    "description": "Village médiéval à l'architecture et l'histoire riche, il est aussi connu pour la qualité de son vin. Un incontournable !",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/229001752-riquewihr/"
+  },
+  {
     "name": "Musée mémorial des combats de la Poche de Colmar",
     "address": "25 rue du Conseil, Turckheim",
     "description": "Ouvert du 1er avril au 31 octobre et généralement l’après-midi, ce musée Turckheimois témoigne des combats ayant eu lieu dans la région et notamment à Turckheim, durant la 2ème guerre mondiale.",
@@ -131,6 +152,13 @@
     "description": "Du 1er Mai au 31 Octobre, un authentique veilleur de nuit commence sa ronde à 22h, partant de l’office de tourisme. Il vous présentera la ville de Turckheim avec de nombreuses anecdotes typiquement alsaciennes.",
     "category": "Lieux notoires",
     "website": "https://www.turckheim.fr/patrimoine/#veilleur"
+  },
+  {
+    "name": "Ribeauvillé",
+    "address": "Ribeauvillé",
+    "description": "Dominée par des ruines de châteaux forts, la ville fleurie de Ribeauvillé est riche par son histoire. Idéal pour une ballade sur la route des vins, au milieu des colombages.",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/229001751-ribeauville/"
   },
   {
     "name": "L’Auberge du Veilleur",

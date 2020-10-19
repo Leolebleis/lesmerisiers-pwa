@@ -14,6 +14,13 @@
     "website": "https://www.cave-turckheim.com/"
   },
   {
+    "name": "Eguisheim",
+    "address": "Eguisheim",
+    "description": "10 Minuten mit dem Auto entfernt, hat das Dorf Eguisheim eine einzigartige Architektur im Herzen des Weinbergs. Es wurde in der Vergangenheit auch als das französische Lieblingsdorf bezeichnet, genug, um einen schönen Nachmittag zu verbringen!",
+    "category": "Lieux notoires",
+    "website": "https://www.tourisme-eguisheim-rouffach.com/"
+  },
+  {
     "name": "Bar Les 3 Singes",
     "address": "70 Grand Rue, Colmar",
     "description": "Die Bierbar im Zentrum von Colmar serviert viele Biere aus lokalen Brauereien. Es befindet sich neben Little Venice.",
@@ -26,6 +33,13 @@
     "description": "Vogelbeobachtungstierpark mit Raubvogelshows, Schulungs- und Bildungsausstellung.",
     "category": "Lieux notoires",
     "website": "https://www.voleriedesaigles.com"
+  },
+  {
+    "name": "Kaysersberg",
+    "address": "Kaysersberg",
+    "description": "Das befestigte Dorf Kaysersberg liegt nur fünfzehn Autominuten entfernt und ist immer noch eines der beliebtesten gewählten Dörfer der Franzosen. Und wie können wir ihnen die Schuld geben?",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/de/230106256-kaysersberg/"
   },
   {
     "name": "Trekking bei Trois Epis",
@@ -70,6 +84,13 @@
     "website": "https://www.strasbourg.eu/"
   },
   {
+    "name": "Riquewihr",
+    "address": "Riquewihr",
+    "description": "Mittelalterliches Dorf mit reicher Architektur und Geschichte, es ist auch bekannt für die Qualität seines Weins. Ein Muss!",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/de/229001752-riquewihr/"
+  },
+  {
     "name": "Unterlinden Museum",
     "address": "1 rue des Unterlinden, Colmar",
     "description": "Eines der meistbesuchten Kunstmuseen in Frankreich im Zentrum von Colmar. Mit insbesondere dem Issenheimer Altarbild, aber auch bestimmten Stücken von Monet, Picasso und sogar Otto Dix ist dieses Museum eines der beeindruckendsten der Region.",
@@ -89,6 +110,13 @@
     "description": "Weinbar, spezialisiert auf Aufschnitt und Käse, in einer freundlichen und warmen Umgebung. Teller mit lokalen Produkten, Flaschen mit außergewöhnlichem Wein in einer Umgebung mit Charakter.",
     "category": "Bars & Restaurants",
     "website": "https://www.facebook.com/Japadeunon-159870097905494/"
+  },
+  {
+    "name": "Ribeauvillé",
+    "address": "Ribeauvillé",
+    "description": "Die blühende Stadt Ribeauvillé ist reich an geschichtsträchtigen Burgen und reich an Geschichte. Ideal für einen Spaziergang auf der Weinstraße mitten im Fachwerk.",
+    "category": "Lieux notoires",
+    "website": "https://www.visit.alsace/de/229001751-ribeauville/"
   },
   {
     "name": "Colmar Pocket Memorial Museum",
