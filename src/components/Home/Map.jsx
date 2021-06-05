@@ -1,6 +1,8 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
+
 
 const Styles = styled.div`
   .map-container {
@@ -18,25 +20,26 @@ const position = {
   lng: 7.2592367,
 };
 
-export default class Map extends React.Component {
+export default (props) => {
+  const { i18n } = useTranslation();
 
-  render() {
-    return (
-      <Styles height={this.props.height}>
-        <LoadScript
-          googleMapsApiKey={`${process.env.REACT_APP_GOOGLE_API_KEY}`}
-          language="fr"
+  let language = i18n.language.substring(0, 2);
+
+  return (
+    <Styles height={props.height}>
+      <LoadScript
+        googleMapsApiKey={`${process.env.REACT_APP_GOOGLE_API_KEY}`}
+        language={`${language}`}
+      >
+        <GoogleMap
+          id="circle-example"
+          mapContainerClassName="map-container rounded"
+          zoom={11}
+          center={position}
         >
-          <GoogleMap
-            id="circle-example"
-            mapContainerClassName="map-container rounded"
-            zoom={11}
-            center={position}
-          >
-            <Marker position={position} />
-          </GoogleMap>
-        </LoadScript>
-      </Styles>
-    );
-  }
-}
+          <Marker position={position} />
+        </GoogleMap>
+      </LoadScript>
+    </Styles>
+  );
+};
