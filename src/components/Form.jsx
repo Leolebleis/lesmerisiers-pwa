@@ -36,7 +36,7 @@ export default (props) => {
       noValidate
       autoComplete="off"
       onSubmit={submitForm}
-      action="https://formspree.io/mbjkpdwv"
+      action="https://formspree.io/f/xzbanjaj"
       method="POST"
     >
       <div className="md-form border-white border">
