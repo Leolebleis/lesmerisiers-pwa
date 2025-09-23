@@ -38,7 +38,7 @@ function FlipCard(props) {
         <a.div
           className="c back"
           style={{
-            opacity: opacity.interpolate((o) => 1 - o),
+            opacity: opacity.to((o) => 1 - o),
             transform,
             backgroundImage: `url(${props.recto})`,
           }}
@@ -47,7 +47,7 @@ function FlipCard(props) {
           className="c front"
           style={{
             opacity,
-            transform: transform.interpolate((t) => `${t} rotateX(180deg)`),
+            transform: transform.to((t) => `${t} rotateX(180deg)`),
             backgroundImage: `url(${props.verso})`,
           }}
         />

@@ -38,7 +38,7 @@ export default (props) => {
           return (
             <Row className="mb-3">
               <Col className="col-12 col-md-5">
-                <p className="text-right lead pt-3 sticky-top">{photo.title}</p>
+                <p className="text-end lead pt-3 sticky-top">{photo.title}</p>
               </Col>
               <Col className="col-12 col-md-7">
                 <Image

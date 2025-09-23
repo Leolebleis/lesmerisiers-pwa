@@ -22,23 +22,21 @@ export default () => {
       <Row className="d-flex justify-content-end align-items-center">
         <Col className="col-6 col-md-3">{t("language")}</Col>
         <Col className="col-6 col-md-3">
-          <Form.Control
+          <Form.Select
             defaultValue={language}
-            as="select"
             onChange={(event) => changeLanguage(event)}
-            custom
           >
             <option value="fr">Français</option>
             <option value="en">English</option>
             <option value="de">Deutsch</option>
-          </Form.Control>
+          </Form.Select>
         </Col>
       </Row>
 
       <hr />
 
       <Row>
-        <div className="w-50 pl-3">
+        <div className="w-50 ps-3">
           <p className="m-0">&copy; {t("copyright")}</p>
           <div>
             <a
@@ -48,7 +46,7 @@ export default () => {
               className="text-info"
             >
               <span>{t("lbf")}</span>
-              <span className="ml-2">
+              <span className="ms-2">
                 <IconContext.Provider value={{ size: "1em" }}>
                   <FiExternalLink />
                 </IconContext.Provider>
@@ -67,7 +65,7 @@ export default () => {
                 <AiFillHeart />
               </IconContext.Provider>
               <span> by Leo Le Bleis.</span>
-              <span className="ml-2">
+              <span className="ms-2">
                 <IconContext.Provider value={{ size: "1em" }}>
                   <FiExternalLink />
                 </IconContext.Provider>
@@ -76,7 +74,7 @@ export default () => {
           </div>
         </div>
 
-        <div className="w-50 pr-3 text-right">
+        <div className="w-50 pe-3 text-end">
           <div className="pb-2">
             <a
               href="https://www.facebook.com/lesmerisiers"

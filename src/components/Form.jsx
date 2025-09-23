@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import TextField from "@material-ui/core/TextField";
+import Form from "react-bootstrap/Form";
 import { IconContext } from "react-icons";
 import { FiSend } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
@@ -42,42 +42,22 @@ export default (props) => {
       <div className="md-form border-white border">
         <Row className="d-flex justify-content-center">
           <Col className="col-12">
-            <div className="input-group">
-              <TextField
-                fullWidth
-                className="mx-3 mt-2"
-                id="name"
-                name="nom et prénom"
-                label={t("form.name")}
-              />
-            </div>
-            <div className="input-group">
-              <TextField
-                fullWidth
-                className="mx-3 mt-2"
-                id="email"
-                name="e-mail"
-                label={t("form.email")}
-              />
-            </div>
-            <div className="input-group">
-              <TextField
-                fullWidth
-                className="mx-3 mt-2"
-                id="subject"
-                name="sujet"
-                label={t("form.subject")}
-              />
-            </div>
-            <div className="input-group">
-              <TextField
-                fullWidth
-                className="mx-3 mt-2"
-                id="message"
-                name="message"
-                label={t("form.message")}
-              />
-            </div>
+            <Form.Group className="mx-3 mt-2" controlId="name">
+              <Form.Label>{t("form.name")}</Form.Label>
+              <Form.Control name="nom et prénom" type="text" />
+            </Form.Group>
+            <Form.Group className="mx-3 mt-2" controlId="email">
+              <Form.Label>{t("form.email")}</Form.Label>
+              <Form.Control name="e-mail" type="email" />
+            </Form.Group>
+            <Form.Group className="mx-3 mt-2" controlId="subject">
+              <Form.Label>{t("form.subject")}</Form.Label>
+              <Form.Control name="sujet" type="text" />
+            </Form.Group>
+            <Form.Group className="mx-3 mt-2" controlId="message">
+              <Form.Label>{t("form.message")}</Form.Label>
+              <Form.Control as="textarea" name="message" rows={3} />
+            </Form.Group>
           </Col>
         </Row>
       </div>
@@ -86,7 +66,7 @@ export default (props) => {
       ) : (
         <button className="btn btn-large btn-outline-info my-4">
           <span className="align-middle">{t("form.send")}</span>
-          <span className="pl-1">
+          <span className="ps-1">
             <IconContext.Provider
               value={{
                 size: "1em",

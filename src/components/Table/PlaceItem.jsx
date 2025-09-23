@@ -12,9 +12,9 @@ export default class PlaceItem extends React.Component {
     return (
       <React.Fragment>
         <hr />
-        <Card body className="pl-0 shadow-on-hover">
+        <Card body className="ps-0 shadow-on-hover">
           <Row className="no-gutters h-100">
-            <Col className="col-12 col-md-10 pr-5">
+            <Col className="col-12 col-md-10 pe-5">
               <div className="d-flex font-weight-bold">
                 <a
                   href={this.props.listItem.website}
@@ -23,7 +23,7 @@ export default class PlaceItem extends React.Component {
                   className="text-info"
                 >
                   {this.props.listItem.name}
-                  <span className="ml-2">
+                  <span className="ms-2">
                     <IconContext.Provider value={{ size: "1em" }}>
                       <FiExternalLink />
                     </IconContext.Provider>

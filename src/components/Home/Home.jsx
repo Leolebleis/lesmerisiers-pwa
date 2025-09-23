@@ -67,7 +67,7 @@ export default () => {
                       <IconContext.Provider value={{ size: "2em" }}>
                         <CustomIcon />
                       </IconContext.Provider>
-                      <span className="pl-2">{metric.label}</span>
+                      <span className="ps-2">{metric.label}</span>
                     </div>
                   </Col>
                 );

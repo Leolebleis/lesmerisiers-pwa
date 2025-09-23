@@ -104,7 +104,7 @@ export default (props) => {
             >
               <div className="w-100 h-100 image" onClick={handleOpen}>
                 <Image
-                  className={`${isLeft ? "rounded-left" : "rounded-right"}`}
+                  className={`${isLeft ? "rounded-start" : "rounded-end"}`}
                   image={props.image}
                 />
                 <button className="details-button btn btn-info">
@@ -116,7 +116,7 @@ export default (props) => {
             </Col>
             <Card.Body
               className={`col-12 col-md-8 px-5 ${
-                isLeft ? "order-md-2 pl-md-3" : "order-md-1 pr-md-3"
+                isLeft ? "order-md-2 ps-md-3" : "order-md-1 pe-md-3"
               }`}
             >
               <h2 className="gradient-multiline mt-2">{props.title}</h2>
@@ -130,7 +130,7 @@ export default (props) => {
                         <IconContext.Provider value={{ size: "1.5em" }}>
                           <CustomIcon />
                         </IconContext.Provider>
-                        <span className="pl-2">{metric.label}</span>
+                        <span className="ps-2">{metric.label}</span>
                       </div>
                     </Col>
                   );

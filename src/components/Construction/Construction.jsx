@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ReactGoogleSlides from "react-google-slides";
 import { Trans, useTranslation } from "react-i18next";
 import MetaDecorator from "../MetaDecorator";
 
@@ -28,13 +27,26 @@ export default () => {
       </Row>
       <Row>
         <Col className="col-10 text-center m-auto">
-          <ReactGoogleSlides
-            width="100%"
-            slidesLink="https://docs.google.com/presentation/d/1JCkiFGOHxMvyP-iN_a6rf9Q1W7DCmqa3CL1wViZfQKg"
-            slideDuration={5}
-            showControls
-            loop
-          />
+          <div
+            className="w-100"
+            style={{ position: "relative", paddingTop: "56.25%" }}
+          >
+            <iframe
+              title="Les Merisiers Construction"
+              src="https://docs.google.com/presentation/d/1JCkiFGOHxMvyP-iN_a6rf9Q1W7DCmqa3CL1wViZfQKg/embed?start=true&loop=true&delayms=5000"
+              frameBorder="0"
+              allow="autoplay"
+              allowFullScreen
+              style={{
+                border: 0,
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </div>
         </Col>
       </Row>
 

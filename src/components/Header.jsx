@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import { useTranslation } from "react-i18next";
 
 // Image imports
@@ -59,7 +58,7 @@ export default () => {
 
   return (
     <Styles>
-      <Jumbotron className="mb-4">
+      <div className="jumbotron mb-4">
         <div className="overlay" />
         <div className="position-absolute h-100 w-100 d-flex align-items-center">
           <img className="lesmerisiers" src={banner} alt="Les Merisiers" />
@@ -94,9 +93,9 @@ export default () => {
             <Carousel.Caption>
               <p className="lead">{t("oneLiners.2")}</p>
             </Carousel.Caption>
-          </Carousel.Item>
+         </Carousel.Item>
         </Carousel>
-      </Jumbotron>
+      </div>
     </Styles>
   );
 };

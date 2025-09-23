@@ -49,7 +49,7 @@ export default () => {
                 <footer className="blockquote-footer pt-4 mt-4 border-top">
                   <img
                     src={petitFuteImage}
-                    className="pl-3"
+                    className="ps-3"
                     alt="Petit Futé"
                     width="100"
                   />

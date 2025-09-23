@@ -1,5 +1,4 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
@@ -13,7 +12,7 @@ import { useTranslation } from "react-i18next";
 export default () => {
   const { t } = useTranslation("utils");
   return (
-    <Jumbotron>
+    <section className="py-5">
       <Container>
         <Row className="justify-content-center">
           <Col className="col-12 col-md-9 p-0 shadow-on-hover">
@@ -49,6 +48,6 @@ export default () => {
           </Col>
         </Row>
       </Container>
-    </Jumbotron>
+    </section>
   );
 };

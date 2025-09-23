@@ -64,38 +64,38 @@ export default () => {
         <Navbar.Collapse
           id="responsive-navbar-nav"
           style={{ backgroundColor: `${collapseColor}` }}
-          className="pl-3 text-xs-right"
+          className="ps-3 text-end"
         >
-          <Nav className="ml-auto">
-            <Nav.Link
-              className="navbar-link"
-              eventKey="1"
-              href="/"
-              style={{ color: `${textColor}` }}
-            >
-              {t("navbar.home")}
-            </Nav.Link>
-            <Nav.Link
-              eventKey="2"
-              href="region"
-              style={{ color: `${textColor}` }}
-            >
-              {t("navbar.region")}
-            </Nav.Link>
-            <Nav.Link
-              eventKey="3"
-              href="guide"
-              style={{ color: `${textColor}` }}
-            >
-              {t("navbar.guide")}
-            </Nav.Link>
-            <Nav.Link
-              eventKey="4"
-              href="construction"
-              style={{ color: `${textColor}` }}
-            >
-              {t("navbar.construction")}
-            </Nav.Link>
+            <Nav className="ms-auto">
+              <Nav.Link
+                className="navbar-link"
+                eventKey="1"
+                href="/"
+                style={{ color: `${textColor}` }}
+              >
+                {t("navbar.home")}
+              </Nav.Link>
+              <Nav.Link
+                eventKey="2"
+                href="/region"
+                style={{ color: `${textColor}` }}
+              >
+                {t("navbar.region")}
+              </Nav.Link>
+              <Nav.Link
+                eventKey="3"
+                href="/guide"
+                style={{ color: `${textColor}` }}
+              >
+                {t("navbar.guide")}
+              </Nav.Link>
+              <Nav.Link
+                eventKey="4"
+                href="/construction"
+                style={{ color: `${textColor}` }}
+              >
+                {t("navbar.construction")}
+              </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

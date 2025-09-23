@@ -19,7 +19,7 @@ export default () => {
         >
           {" "}
           {t("intro.3")}
-          <span className="ml-2">
+          <span className="ms-2">
             <IconContext.Provider value={{ size: "1em" }}>
               <FiExternalLink />
             </IconContext.Provider>
@@ -34,7 +34,7 @@ export default () => {
         >
           {" "}
           {t("intro.4")}
-          <span className="ml-2">
+          <span className="ms-2">
             <IconContext.Provider value={{ size: "1em" }}>
               <FiExternalLink />
             </IconContext.Provider>
@@ -49,7 +49,7 @@ export default () => {
         >
           {" "}
           {t("intro.5")}
-          <span className="ml-2">
+          <span className="ms-2">
             <IconContext.Provider value={{ size: "1em" }}>
               <FiExternalLink />
             </IconContext.Provider>
@@ -64,7 +64,7 @@ export default () => {
         >
           {" "}
           {t("intro.7")}
-          <span className="ml-2">
+          <span className="ms-2">
             <IconContext.Provider value={{ size: "1em" }}>
               <FiExternalLink />
             </IconContext.Provider>

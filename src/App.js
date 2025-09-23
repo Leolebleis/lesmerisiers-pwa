@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Layout from "./components/Layout"
 import Table from "./components/Table/Table";
 import SocialNetwork from "./components/SocialMedia";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next"
 
@@ -23,25 +23,12 @@ export default function App() {
         <NavBar />
         <Header />
 
-        <Switch>
-
-          <Route exact path="/">
-            <Home />
-          </Route>
-
-          <Route path="/region">
-            <Table />
-          </Route >
-
-          <Route path="/guide">
-            <Guide />
-          </Route>
-
-          <Route path="/construction">
-            <Construction />
-          </Route>
-
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/region" element={<Table />} />
+          <Route path="/guide" element={<Guide />} />
+          <Route path="/construction" element={<Construction />} />
+        </Routes>
 
         <SocialNetwork />
         <Footer />
